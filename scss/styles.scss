@@ -1,0 +1,82 @@
+/*Prima ry color*/
+$primary-color: #F5F5F5;
+
+$yellow: #FFD052;
+$active:#CE2553; 
+$font-size-nav: 1.375rem;
+
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: 'Avenir';
+  color: #000;
+  height: auto;
+  background-color: $primary-color; 
+
+}
+
+.nav-header{
+  width: 100%;
+  display: flex;
+  justify-content:space-around;
+  align-items:center;
+  background-color: $primary-color;
+  padding: 25px;
+  font-size: $font-size-nav;
+  font-weight: 600;
+  box-shadow: 0px -2px 6px 0px;
+
+  .logo-nav{
+    display: none;
+  }
+
+  
+}
+
+.listul-cartConnect{
+  margin-left: 20%;
+  //Ul nav
+  .list-nav, .popBtn{
+    display: flex;
+    li{
+      list-style-type: none;
+      margin-left: 25px;
+
+      a{
+        color: #000;
+        text-decoration: none;
+      }
+      a.active{
+        color: $active;
+      }
+      a:hover{
+        color: $yellow;
+      }
+    }
+
+  }
+  //Cart & Connexion
+  display: flex;
+  .fas{
+    margin: 0 25px;
+  }
+  
+
+}
+
+//TOGGLE NAV
+.toggle-nav{
+  display: none;
+}
+  
+
+
+
+
