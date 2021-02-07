@@ -20,12 +20,11 @@ body {
   color: #000;
   height: auto;
   background-color: #F5F5F5;
-  height: 100vh;
 }
 
 .header_imagine {
   min-width: 100%;
-  height: 100%;
+  height: auto;
 }
 .header_imagine .nav-header {
   width: 100%;
@@ -83,7 +82,7 @@ body {
 }
 .header_imagine .header-titleImg .header-title h1 {
   padding: 160px 0 0 155px;
-  font-size: 2.75rem;
+  font-size: 3.75rem;
   font-weight: 900;
   color: #011F45;
   width: 100%;
@@ -143,6 +142,65 @@ body {
 .header_imagine .header-titleImg .header-imgs .header-secondImg img {
   width: 330.01px;
   height: 327.01px;
+}
+
+.about {
+  background-color: #fff;
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+}
+.about .picture-section {
+  max-width: 616px;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  position: relative;
+}
+.about .picture-section .purple-image {
+  background-color: #8B1F93;
+  width: 160px;
+  height: 80%;
+  border-top-right-radius: 53px;
+  opacity: 0.9;
+}
+.about .picture-section .purple-image img {
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+  border-top-right-radius: 53px;
+}
+.about .picture-section .yellow-div {
+  width: 105px;
+  height: 70%;
+  background-color: #FFD052;
+  border-top-right-radius: 53px;
+}
+.about .picture-section .about-image {
+  width: 350px;
+  height: 350px;
+  background-color: lightseagreen;
+  position: absolute;
+  top: 330px;
+  left: 60px;
+  border-top-left-radius: 380px;
+  border-top-right-radius: 120px;
+  border-bottom-left-radius: 280px;
+  border-bottom-right-radius: 420px;
+}
+.about .ab-title-parag {
+  margin-top: 161px;
+  width: 668px;
+}
+.about .ab-title-parag h1 {
+  font-size: 3.75rem;
+  margin-bottom: 60px;
+  color: #FFD052;
+}
+.about .ab-title-parag p {
+  line-height: 1.9;
+  font-size: 1.563rem;
 }
 
 /*# sourceMappingURL=styles.css.map */
