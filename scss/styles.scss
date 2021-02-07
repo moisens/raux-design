@@ -3,7 +3,15 @@ $primary-color: #F5F5F5;
 
 $yellow: #FFD052;
 $active:#CE2553; 
+$title_h1: #011F45;
 $font-size-nav: 1.375rem;
+
+//Btns
+$purpleBtn: #8E2091;
+$redBtn: #CB2350;
+$box-shadows: 0px -2px 6px 0px;
+
+
 
 
 *,
@@ -12,6 +20,15 @@ $font-size-nav: 1.375rem;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  
+}
+
+li{
+  list-style-type: none;
+}
+
+a{
+  text-decoration: none;
 }
 
 body{
@@ -19,9 +36,18 @@ body{
   color: #000;
   height: auto;
   background-color: $primary-color; 
-
+  height: 100vh;
+  
 }
 
+.header_imagine{
+  //background-color: lightgreen;
+  min-width: 100%;
+  height: 100%;
+  
+
+
+//NAVIGATION
 .nav-header{
   width: 100%;
   display: flex;
@@ -31,7 +57,8 @@ body{
   padding: 25px;
   font-size: $font-size-nav;
   font-weight: 600;
-  box-shadow: 0px -2px 6px 0px;
+  box-shadow: $box-shadows;
+  position: fixed;
 
   .logo-nav{
     display: none;
@@ -46,12 +73,10 @@ body{
   .list-nav, .popBtn{
     display: flex;
     li{
-      list-style-type: none;
       margin-left: 25px;
 
       a{
         color: #000;
-        text-decoration: none;
       }
       a.active{
         color: $active;
@@ -67,6 +92,8 @@ body{
   .fas{
     margin: 0 25px;
   }
+
+  
   
 
 }
@@ -75,7 +102,115 @@ body{
 .toggle-nav{
   display: none;
 }
-  
+
+//END //NAVIGATION
+
+//SECTION HEADER-TITLE AND IMAGES
+.header-titleImg{
+  width: 100%;
+  height: 100vh;
+  padding-top: 75px;
+  display: flex;
+  //display: grid;
+  //grid-template-columns: 1fr 1fr;
+  //background-color: mediumturquoise;
+
+  //header-title
+  .header-title{
+    width: 60%;
+    //background-color: red;
+    .logo-head{
+      padding: 40px 110px;
+      max-width: 109px;
+      min-height: 89px;
+    }
+
+    h1{
+      padding: 160px 0 0 155px;
+      font-size: 2.75rem;
+      font-weight: 900;
+      color: $title_h1;
+      width: 100%;
+    }
+    h2{
+      padding: 20px 0 0 155px;
+      color: $title_h1;
+      font-size: 29.5px;
+      width: 78%;
+    }
+
+    //BTNS
+    .header-booking{
+      width: 220px;
+      font-size: 22px;
+      font-weight: 600;
+      background-color: #fff;
+      padding: 15px;
+      margin: 45px 0 0 155px;
+      border: none;
+      border-radius: 40px;
+      cursor: pointer;
+      box-shadow: $box-shadows;
+
+      a{
+        color: $purpleBtn;
+      }
+    }
+
+    .header-training{
+      width: 220px;
+      font-size: 22px;
+      font-weight: 600;
+      background-color: #fff;
+      padding: 15px;
+      margin-left: 20px;
+      border: none;
+      border-radius: 40px;
+      cursor: pointer;
+      box-shadow: $box-shadows;
+
+      a{
+        color: $redBtn;
+      }
+      
+    }
+  }
+  //Header-imgs
+  .header-imgs{
+    width: 40%;
+    //background-color: mediumseagreen;
+    //image One
+    .header-firstImg{
+      width: 288.51px;
+      height: 285.88px;
+      margin-top: 10px;
+
+      img{
+        width:285.88px;
+        height:285.88px;
+      }
+    }
+    //image two
+    .header-secondImg{
+      width: 330.01px;
+      height: 327.01px;
+
+      img{
+        width: 330.01px;
+        height: 327.01px;
+      }
+      
+    }
+  }
+}
+
+
+
+
+
+}
+
+
 
 
 
