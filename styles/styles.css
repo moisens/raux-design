@@ -20,6 +20,7 @@ body {
   color: #000;
   height: auto;
   background-color: #F5F5F5;
+  align-items: center;
 }
 
 .header_imagine {
@@ -37,6 +38,7 @@ body {
   font-weight: 600;
   box-shadow: 0px -2px 6px 0px;
   position: fixed;
+  z-index: 1000;
 }
 .header_imagine .nav-header .logo-nav {
   display: none;
@@ -201,6 +203,120 @@ body {
 .about .ab-title-parag p {
   line-height: 1.9;
   font-size: 1.563rem;
+  color: #011F45;
+}
+
+.speakers {
+  width: 100%;
+  height: 100vh;
+}
+.speakers .speaker-title {
+  font-size: 3.75rem;
+  padding: 100px 0 100px 160px;
+}
+.speakers .speaker-one, .speakers .speaker-three {
+  display: flex;
+  padding: 0 0 160px 240px;
+}
+.speakers .speaker-one .speakers-images, .speakers .speaker-three .speakers-images {
+  width: 400px;
+  height: 400px;
+}
+.speakers .speaker-one .speakers-images img, .speakers .speaker-three .speakers-images img {
+  width: 400px;
+  height: 400px;
+  background-size: cover;
+  object-fit: cover;
+}
+.speakers .speaker-one .speaker-description, .speakers .speaker-three .speaker-description {
+  padding: 0 0 0 50px;
+}
+.speakers .speaker-one .speaker-description h1, .speakers .speaker-three .speaker-description h1 {
+  color: #FFD052;
+  font-size: 2.5rem;
+}
+.speakers .speaker-one .speaker-description h3, .speakers .speaker-three .speaker-description h3 {
+  padding: 10px 0 40px 0;
+  font-size: 1.375rem;
+  color: #011F45;
+}
+.speakers .speaker-one .speaker-description p, .speakers .speaker-three .speaker-description p {
+  font-size: 1.563rem;
+  line-height: 1.9;
+  max-width: 500px;
+  padding-bottom: 70px;
+  color: #011F45;
+}
+.speakers .speaker-one .speaker-description button, .speakers .speaker-three .speaker-description button {
+  width: 220px;
+  font-size: 22px;
+  font-weight: 600;
+  background-color: #fff;
+  color: #CE2553;
+  padding: 15px;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+}
+.speakers .speaker-two {
+  display: flex;
+  padding: 0 0 160px 240px;
+}
+.speakers .speaker-two .speakers-images {
+  width: 400px;
+  height: 350px;
+}
+.speakers .speaker-two .speakers-images img {
+  width: 400px;
+  height: 400px;
+  background-size: cover;
+  object-fit: cover;
+}
+.speakers .speaker-two .speaker-description {
+  padding: 0 50px 0 0;
+}
+.speakers .speaker-two .speaker-description h1 {
+  color: #FFD052;
+  font-size: 2.5rem;
+}
+.speakers .speaker-two .speaker-description h3 {
+  padding: 10px 0 40px 0;
+  font-size: 1.375rem;
+  color: #011F45;
+}
+.speakers .speaker-two .speaker-description p {
+  font-size: 1.563rem;
+  line-height: 1.9;
+  max-width: 500px;
+  padding-bottom: 70px;
+  color: #011F45;
+}
+.speakers .speaker-two .speaker-description button {
+  width: 220px;
+  font-size: 22px;
+  font-weight: 600;
+  background-color: #fff;
+  color: #CE2553;
+  padding: 15px;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+}
+.speakers .pagination {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+.speakers .pagination .prev, .speakers .pagination .next {
+  color: #011F45;
+  font-size: 40px;
+  cursor: pointer;
+  padding: 20px;
+}
+.speakers .pagination .circ1, .speakers .pagination .circ2, .speakers .pagination .circ3 {
+  font-size: 50px;
+  cursor: pointer;
+  padding: 20px;
 }
 
 /*# sourceMappingURL=styles.css.map */
