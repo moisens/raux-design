@@ -492,10 +492,10 @@ body {
 .each-partner {
   display: flex;
   justify-content: center;
-  grid-template-columns: repeat(autofill, minmax(350px, 1fr));
+  align-items: center;
   gap: 40px;
   background-color: #F5F5F5;
-  padding: 80px;
+  padding: 80px 0 160px;
 }
 .each-partner .partner-one {
   width: 150px;
@@ -528,6 +528,80 @@ body {
 .each-partner .partner-four img {
   width: 100px;
   height: 100px;
+}
+
+.contact {
+  height: auto;
+  background-color: #fff;
+  display: flex;
+}
+
+.contact-one {
+  width: 100%;
+  height: 400px;
+  background-color: lightgreen;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding-left: 5%;
+}
+.contact-one .newletter-form h6 {
+  font-size: 30px;
+  font-weight: 500;
+  color: #011F45;
+  padding-bottom: 50px;
+}
+.contact-one .newletter-form form {
+  display: flex;
+  justify-content: center;
+}
+.contact-one .newletter-form form input {
+  width: 300px;
+  height: 55px;
+  border: solid 1px #8E2091;
+  border-top-left-radius: 120px;
+  border-bottom-left-radius: 120px;
+  font-size: 22px;
+}
+.contact-one .newletter-form form button {
+  width: 160px;
+  height: 55px;
+  border: none;
+  border-radius: 80px;
+  margin-left: -60px;
+  background-color: #8E2091;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+.contact-one .newletter-form .social-medias {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+  padding: 40px 0 80px;
+}
+.contact-one .newletter-form .social-medias .linked-in {
+  width: 40px;
+  height: 40px;
+  background-color: #088ac6;
+}
+.contact-one .newletter-form .social-medias .twitter {
+  width: 40px;
+  height: 40px;
+  background-color: #4fbbed;
+}
+.contact-one .newletter-form .social-medias .facebook {
+  width: 40px;
+  height: 40px;
+  background-color: #054ca9;
+}
+
+.contact-two {
+  width: 20%;
+  height: 400px;
+  background-color: purple;
 }
 
 /*# sourceMappingURL=styles.css.map */
