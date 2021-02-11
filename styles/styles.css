@@ -538,12 +538,12 @@ body {
 
 .contact-one {
   width: 100%;
-  height: 400px;
+  height: auto;
   background-color: lightgreen;
   display: flex;
-  align-items: center;
-  gap: 30px;
-  padding-left: 5%;
+  grid-template-columns: repeat(autofill, minmax(350px, 1fr));
+  gap: 90px;
+  padding: 100px 100px;
 }
 .contact-one .newletter-form h6 {
   font-size: 30px;
@@ -556,8 +556,9 @@ body {
   justify-content: center;
 }
 .contact-one .newletter-form form input {
-  width: 300px;
+  width: 350px;
   height: 55px;
+  padding-left: 15px;
   border: solid 1px #8E2091;
   border-top-left-radius: 120px;
   border-bottom-left-radius: 120px;
@@ -585,22 +586,51 @@ body {
 .contact-one .newletter-form .social-medias .linked-in {
   width: 40px;
   height: 40px;
-  background-color: #088ac6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #8E2091;
+  cursor: pointer;
+}
+.contact-one .newletter-form .social-medias .linked-in :hover {
+  color: #088ac6;
+  transition: ease-in-out 1s;
 }
 .contact-one .newletter-form .social-medias .twitter {
   width: 40px;
   height: 40px;
-  background-color: #4fbbed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #8E2091;
+  cursor: pointer;
+}
+.contact-one .newletter-form .social-medias .twitter :hover {
+  color: #4fbbed;
+  transition: ease-in-out 1s;
 }
 .contact-one .newletter-form .social-medias .facebook {
   width: 40px;
   height: 40px;
-  background-color: #054ca9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #8E2091;
+  cursor: pointer;
+}
+.contact-one .newletter-form .social-medias .facebook :hover {
+  color: #054ca9;
+  transition: ease-in-out 1s;
+}
+.contact-one .address p {
+  width: 300px;
+  font-size: 30px;
+  line-height: 1.5;
 }
 
 .contact-two {
   width: 20%;
-  height: 400px;
+  height: auto;
   background-color: purple;
 }
 
