@@ -637,10 +637,10 @@ body{
 .each-partner{
   display: flex;
   justify-content: center;
-  grid-template-columns: repeat(autofill, minmax(350px, 1fr));
+  align-items: center;
   gap: 40px;
   background-color: #F5F5F5;
-  padding: 80px;
+  padding: 80px 0 160px;
 
   .partner-one{
     width: 150px;
@@ -682,7 +682,134 @@ body{
 }
 
 
-//
+//CONTACT
+.contact{
+  //width: 100%;
+  height: auto;
+  background-color: #fff;
+  display: flex;
+
+
+}
+
+.contact-one{
+  width: 100%;
+  height: auto;
+  background-color: lightgreen;
+  display: flex;
+  grid-template-columns: repeat(autofill, minmax(350px, 1fr));
+  gap: 90px;
+  padding: 100px 100px;
+
+  .newletter-form{
+    h6{
+      font-size: 30px;
+      font-weight: 500;
+      color: $title_h1;
+      padding-bottom: 50px;
+
+    }
+
+    form{
+      display: flex;
+      justify-content: center;
+      input{
+        width: 350px;
+        height: 55px;
+        padding-left: 15px;
+        border: solid 1px $purpleBtn;
+        border-top-left-radius: 120px;
+        border-bottom-left-radius: 120px;
+        font-size: 22px;
+
+      }
+
+      button{
+        width: 160px;
+        height: 55px;
+        border: none;
+        border-radius: 80px;
+        margin-left: -60px;
+        background-color: $purpleBtn;
+        color: #fff;
+        font-size: 1.2rem;
+        font-weight: 500;
+        cursor: pointer;
+        
+      }
+    }
+    //SOCIAL MEDIA
+    .social-medias{
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      align-items: center;
+      padding: 40px 0 80px;
+
+      .linked-in{
+        width: 40px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: $purpleBtn;
+        cursor: pointer;
+        
+        :hover{
+          color: rgb(8, 138, 198);
+          transition: ease-in-out 1s;
+        }
+      }
+      .twitter{
+        width: 40px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: $purpleBtn;
+        cursor: pointer;
+        
+        :hover{
+          color:rgb(79, 187, 237);
+          transition: ease-in-out 1s;
+        }
+        
+      }
+      .facebook{
+        width: 40px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: $purpleBtn;
+        cursor: pointer;
+        
+        :hover{
+          color:rgb(5, 76, 169);
+          transition: ease-in-out 1s
+        }
+      }
+
+    }
+  }
+
+  .address{
+    p{
+      width: 300px;
+      font-size: 30px;
+      line-height: 1.5;
+    }
+  }
+  
+
+}
+.contact-two{
+  width: 20%;
+  height: auto;
+  background-color: purple;
+
+
+}
 
 
 
