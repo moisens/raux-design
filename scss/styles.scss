@@ -884,7 +884,7 @@ footer{
     padding: 100px 80px 200px 90px;
     width: 60%;
     h1{
-      width: auto;
+      width: 80%;
       font-size: 2.5rem;
       font-weight: 900;
       color: #011F45;
@@ -986,3 +986,101 @@ footer{
   height: 71px;
   background-color: $purpleBtn;
 }
+
+
+//BOOKING
+.booking{
+  background-color: #fff;
+  width: 100%;
+  height: auto;
+  padding-top: 76px;
+}
+
+.book-text-img{
+  display: flex;
+  height: auto;
+
+  .booking-text{
+    //background-color: steelblue;
+    width: 70%;
+    padding: 80px 100px 80px 100px;
+
+    h1{
+      font-size: 2.5rem;
+      font-weight: 900;
+      color: $title_h1;
+      width: 70%;
+      padding-bottom: 40px;
+    }
+    p{
+      font-size: 25px;
+    }
+
+  }
+
+  //pass booking
+  .booking-pass{
+     display: grid;
+     grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+     gap: 20px;
+     padding-top: 100px;
+
+     .text{
+       display: flex;
+
+       .text-descript{
+         width: 80%;
+         padding: 20px;
+         background-color: #335E95;
+         border-top-left-radius: 9px;
+
+         h3{
+           font-size: 20px;
+           font-weight: 900;
+           color: #fff;
+         }
+         p{
+           color: #fff;
+           line-height: 1.2;
+           padding: 20px 0 12px;
+         }
+       }
+       .buy{
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         width: 20%;
+         font-size: 22px;
+         font-weight: 900;
+         background-color: #223C5D;
+         color: #fff;
+         border-top-right-radius: 9px;
+         cursor: pointer;
+       }
+     }
+     .colour{
+       background-color: #8B1F93;
+       height: 25.38px;
+       display: flex;
+       justify-content: flex-end;
+       border-bottom-left-radius: 9px;
+       border-bottom-right-radius: 9px;
+
+       p{
+         color: #fff;
+         margin-top: -27px;
+         margin-right: 43px;
+         font-size: 30px;
+         font-weight: 900;
+         text-shadow: 0 3px 2px #000;
+       }
+     }
+  }
+
+  .booking-image{
+    background-color: tan;
+    width: 30%;
+  }
+
+}
+
