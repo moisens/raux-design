@@ -83,7 +83,7 @@ body{
         color: $active;
       }
       a:hover{
-        color: $yellow;
+        color: $redBtn;
       }
     }
 
@@ -859,10 +859,15 @@ footer{
 
 
 //SCHEDULE
+.schedule-all{
+  background-color: #F5F5F5;
+  height: auto;
+  padding-bottom: 90px;
+}
 .schedule{
   width: 100%;
   height: auto;
-  padding: 75px 0 90px;
+  padding: 75px 0 0;
   background-color: #fff;
 
 
@@ -904,18 +909,18 @@ footer{
 
     .schedule-img-bck{
       width: 300px;
-      height: 100%;
+      height: 80%;
       background-color: rgb(194, 9, 9);
       border-bottom-left-radius: 53px;
       background-image: url('/images/illustarted-purple-forms.jpg');
     }
 
     .schedule-ux-img{
-      width: 450px;
-      height: 450px;
+      width: 400px;
+      height: 400px;
       background-color: #8E2091;
-      margin-left: -260px;
-      margin-top: 80px;
+      margin-left: -160px;
+      margin-top: 50px;
       border: solid 8px #fff;
 
     }
@@ -930,7 +935,8 @@ footer{
   gap: 20px;
   justify-content: center;
   align-items: center;
-  padding: 170px;
+  padding: 80px 170px 200px;
+  margin-top: -90px;
 
   
 
@@ -964,7 +970,19 @@ footer{
   }
   
 
-
-
 }
 
+
+//SCHEDULE HR SEPARATION
+.schedule-separation{
+  width: 50%;
+  border: solid 3px #CE2553;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.curved-illu{
+  width: 100%;
+  height: 71px;
+  background-color: $purpleBtn;
+}
