@@ -4,10 +4,154 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>raux-design | Booking</title>
-  <link rel="stylesheet" href="../scss/styles.scss">
+  <link rel="stylesheet" href="../styles/styles.css">
+  <script src="https://kit.fontawesome.com/c4376bcd8b.js" crossorigin="anonymous"></script>
 </head>
 <body>
-  <h1>Booking page</h1>
+  <!--Navigation-->
+  <nav class="nav-header nav-bck">
+    <!--logo-->
+    <div class="logo-nav logo-head">
+      <a href="index.html"><img src="/images/logo.png" alt="logo" width="46" height="46" title="Raux-design"></a>
+    </div>
+    <!--End logo-->
+    <!--div ul list & cart & connexion-->
+    <div class="listul-cartConnect">
+      <!--ul navigation-->
+      <ul class="list-nav">
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="schedule.html">SCHEDULE</a></li>
+        <li><a href="booking.html" class="active">BOOKING</a></li>
+        <li><a href="training.html">TRAINING</a></li>
+      </ul>
+      <!--End ul navigation-->
+
+      <!--End Div logo & ul list-->
+
+      <!--Cart-->
+      <i class="fas fa-shopping-cart"></i>
+      
+      <!--End Cart-->
+      <!--Btn connexion-->
+      <div>
+        <li class="popBtn">CONNEXION</li>
+      </div>
+      <!--End Btn connexion-->
+    </div>
+    <!--End div ul list & cart & connexion-->
+    <!--BTN HAMBOURGER-->
+    <div class="toggle-nav">
+        <i class="fas fa-bars"></i>
+    </div>
+    <!--END BTN HAMBOURGER-->
+  </nav>
+  <!--End Navigation-->
+
+  <!--BOOKING-->
+  <section class="booking">
+    <!--Booking text img-->
+    <div class="book-text-img">
+      <div class="booking-text">
+        <h1>Want to learn more about Research & Ux design?</h1>
+        <p class="choose-pass">Choose your pass…</p>
+        <div class="booking-pass">
+          <!--pass one day-->
+          <div class="oneday">
+            <div class="text">
+              <div class="text-descript">
+                <h3>One day pass</h3>
+                <p>Rerum nihil illum quaerat accusamus.</p>
+              </div>
+              <div class="buy">Buy</div>
+            </div>
+            <div class="colour">
+              <p>45€</p>
+            </div>
+          </div>
+          <!--End pass one day-->
+          <div class="twodays">
+            <div class="text">
+              <div class="text-descript">
+                <h3>Two days pass</h3>
+                <p>Rerum nihil illum quaerat accusamus.</p>
+              </div>
+              <div class="buy">Buy</div>
+            </div>
+            <div class="colour">
+              <p>90€</p>
+            </div>
+          </div>
+          <div class="threedays">
+            <div class="text">
+              <div class="text-descript">
+                <h3>Three days pass</h3>
+                <p>Rerum nihil illum quaerat accusamus.</p>
+              </div>
+              <div class="buy">Buy</div>
+            </div>
+            <div class="colour">
+              <p>135€</p>
+            </div>
+          </div>
+          <div class="fourdays">
+            <div class="text">
+              <div class="text-descript">
+                <h3>Four days pass</h3>
+                <p>Rerum nihil illum quaerat accusamus.</p>
+              </div>
+              <div class="buy">Buy</div>
+            </div>
+            <div class="colour">
+              <p>180€</p>
+            </div>
+          </div>
+          <div class="fivedays">
+            <div class="text">
+              <div class="text-descript">
+                <h3>Five days pass</h3>
+                <p>Rerum nihil illum quaerat accusamus.</p>
+              </div>
+              <div class="buy">Buy</div>
+            </div>
+            <div class="colour">
+              <p>225€</p>
+            </div>
+          </div>
+          <div class="sixdays">
+            <div class="text">
+              <div class="text-descript">
+                <h3>Six days pass</h3>
+                <p>Rerum nihil illum quaerat accusamus.</p>
+              </div>
+              <div class="buy">Buy</div>
+            </div>
+            <div class="colour">
+              <p>270€</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="booking-image">2</div>
+    </div>
+    <!--EndBooking text img-->
+
+    <!--Form booking-->
+    <div class="form-book">
+      <p class="choose-day">Schedule a day, come and visit us</p>
+      <p class="appointment">From Jan 13 to Jan 18</p>
+      <div class="book">
+        <form>
+          <input type="text" name="firstname" placeholder="First name">
+          <input type="text" name="lastname" placeholder="Last name">
+          <input type="email" name="email" placeholder="Your email" id="">
+          <input type="date" name="date" id="">
+        </form>
+      </div>
+      <div class="seat-left">80 Seats left</div>
+    </div>
+    <!--End Form booking-->
+  </section>
+  <!--END BOOKING-->
   
   <script type="module" src="../src/app.js"></script>
 </body>
