@@ -26,7 +26,8 @@ body {
   min-width: 100%;
   height: auto;
 }
-.header_imagine .nav-header {
+
+.nav-header {
   width: 100%;
   display: flex;
   justify-content: space-around;
@@ -39,62 +40,65 @@ body {
   position: fixed;
   z-index: 1000;
 }
-.header_imagine .nav-header .logo-nav {
+.nav-header .logo-nav {
   display: none;
 }
-.header_imagine .listul-cartConnect {
+
+.listul-cartConnect {
   margin-left: 20%;
   display: flex;
 }
-.header_imagine .listul-cartConnect .list-nav, .header_imagine .listul-cartConnect .popBtn {
+.listul-cartConnect .list-nav, .listul-cartConnect .popBtn {
   display: flex;
 }
-.header_imagine .listul-cartConnect .list-nav li, .header_imagine .listul-cartConnect .popBtn li {
+.listul-cartConnect .list-nav li, .listul-cartConnect .popBtn li {
   margin-left: 25px;
 }
-.header_imagine .listul-cartConnect .list-nav li a, .header_imagine .listul-cartConnect .popBtn li a {
+.listul-cartConnect .list-nav li a, .listul-cartConnect .popBtn li a {
   color: #000;
 }
-.header_imagine .listul-cartConnect .list-nav li a.active, .header_imagine .listul-cartConnect .popBtn li a.active {
+.listul-cartConnect .list-nav li a.active, .listul-cartConnect .popBtn li a.active {
   color: #CE2553;
 }
-.header_imagine .listul-cartConnect .list-nav li a:hover, .header_imagine .listul-cartConnect .popBtn li a:hover {
+.listul-cartConnect .list-nav li a:hover, .listul-cartConnect .popBtn li a:hover {
   color: #FFD052;
 }
-.header_imagine .listul-cartConnect .fas {
+.listul-cartConnect .fas {
   margin: 0 25px;
 }
-.header_imagine .toggle-nav {
+
+.toggle-nav {
   display: none;
 }
-.header_imagine .header-titleImg {
+
+.header-titleImg {
   width: 100%;
   height: 100vh;
   padding-top: 75px;
   display: flex;
 }
-.header_imagine .header-titleImg .header-title {
+.header-titleImg .header-title {
   width: 60%;
 }
-.header_imagine .header-titleImg .header-title .logo-head {
+.header-titleImg .header-title .logo-head {
   padding: 40px 110px;
   max-width: 109px;
   min-height: 89px;
 }
-.header_imagine .header-titleImg .header-title h1 {
+.header-titleImg .header-title h1 {
   padding: 160px 0 0 155px;
   font-size: 3.75rem;
   font-weight: 900;
   color: #011F45;
   width: 100%;
 }
-.header_imagine .header-titleImg .header-title h2 {
+.header-titleImg .header-title h2 {
   padding: 20px 0 0 155px;
   color: #011F45;
   font-size: 29.5px;
   width: 78%;
 }
-.header_imagine .header-titleImg .header-title .header-booking {
+.header-titleImg .header-title .header-booking {
   width: 220px;
   font-size: 22px;
   font-weight: 600;
@@ -106,10 +110,10 @@ body {
   cursor: pointer;
   box-shadow: 0px -2px 6px 0px;
 }
-.header_imagine .header-titleImg .header-title .header-booking a {
+.header-titleImg .header-title .header-booking a {
   color: #8E2091;
 }
-.header_imagine .header-titleImg .header-title .header-training {
+.header-titleImg .header-title .header-training {
   width: 220px;
   font-size: 22px;
   font-weight: 600;
@@ -121,26 +125,26 @@ body {
   cursor: pointer;
   box-shadow: 0px -2px 6px 0px;
 }
-.header_imagine .header-titleImg .header-title .header-training a {
+.header-titleImg .header-title .header-training a {
   color: #CB2350;
 }
-.header_imagine .header-titleImg .header-imgs {
+.header-titleImg .header-imgs {
   width: 40%;
 }
-.header_imagine .header-titleImg .header-imgs .header-firstImg {
+.header-titleImg .header-imgs .header-firstImg {
   width: 288.51px;
   height: 285.88px;
   margin-top: 10px;
 }
-.header_imagine .header-titleImg .header-imgs .header-firstImg img {
+.header-titleImg .header-imgs .header-firstImg img {
   width: 285.88px;
   height: 285.88px;
 }
-.header_imagine .header-titleImg .header-imgs .header-secondImg {
+.header-titleImg .header-imgs .header-secondImg {
   width: 330.01px;
   height: 327.01px;
 }
-.header_imagine .header-titleImg .header-imgs .header-secondImg img {
+.header-titleImg .header-imgs .header-secondImg img {
   width: 330.01px;
   height: 327.01px;
 }
@@ -670,6 +674,89 @@ footer {
   color: #fff;
   font-size: 25px;
   padding: 50px;
+}
+
+.schedule {
+  width: 100%;
+  height: auto;
+  padding: 75px 0 90px;
+  background-color: #fff;
+}
+
+.schedule-description {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.schedule-description .schedule-text {
+  padding: 100px 80px 200px 90px;
+  width: 60%;
+}
+.schedule-description .schedule-text h1 {
+  width: auto;
+  font-size: 2.5rem;
+  font-weight: 900;
+  color: #011F45;
+  line-height: 1.3;
+}
+.schedule-description .schedule-text p {
+  font-size: 25px;
+  line-height: 1.5;
+  color: #223C5D;
+  padding-top: 40px;
+}
+.schedule-description .schedule-img {
+  width: 40%;
+  display: flex;
+  justify-content: flex-end;
+  padding-left: 140px;
+}
+.schedule-description .schedule-img .schedule-img-bck {
+  width: 300px;
+  height: 100%;
+  background-color: #c20909;
+  border-bottom-left-radius: 53px;
+  background-image: url("/images/illustarted-purple-forms.jpg");
+}
+.schedule-description .schedule-img .schedule-ux-img {
+  width: 450px;
+  height: 450px;
+  background-color: #8E2091;
+  margin-left: -260px;
+  margin-top: 80px;
+  border: solid 8px #fff;
+}
+
+.schedule-days {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  padding: 170px;
+}
+.schedule-days .monday, .schedule-days .tuesday, .schedule-days .wednesday, .schedule-days .thursday, .schedule-days .friday, .schedule-days .second-monday {
+  background-color: #a2c5f1;
+  padding: 40px;
+  border-radius: 9px;
+}
+.schedule-days .monday .d-day, .schedule-days .tuesday .d-day, .schedule-days .wednesday .d-day, .schedule-days .thursday .d-day, .schedule-days .friday .d-day, .schedule-days .second-monday .d-day {
+  font-size: 25px;
+  font-weight: 400;
+  padding-bottom: 10px;
+  color: #000;
+}
+.schedule-days .monday .d-day-title, .schedule-days .tuesday .d-day-title, .schedule-days .wednesday .d-day-title, .schedule-days .thursday .d-day-title, .schedule-days .friday .d-day-title, .schedule-days .second-monday .d-day-title {
+  font-size: 25px;
+  font-weight: 800;
+  padding-bottom: 40px;
+  color: #000;
+}
+.schedule-days .monday p, .schedule-days .tuesday p, .schedule-days .wednesday p, .schedule-days .thursday p, .schedule-days .friday p, .schedule-days .second-monday p {
+  font-size: 25px;
+  line-height: 1.5;
+  color: #000;
 }
 
 /*# sourceMappingURL=styles.css.map */
