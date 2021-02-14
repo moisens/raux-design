@@ -983,8 +983,16 @@ footer{
 
 .curved-illu{
   width: 100%;
-  height: 71px;
-  background-color: $purpleBtn;
+  height: auto;
+  //background-color: $purpleBtn;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+
+  svg{
+    width: 100%;
+    height: 100%;
+  }
 }
 
 
