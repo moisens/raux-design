@@ -799,7 +799,7 @@ footer {
   font-weight: 900;
   color: #011F45;
   width: 70%;
-  padding-bottom: 40px;
+  padding-bottom: 80px;
 }
 .book-text-img .booking-text p {
   font-size: 25px;
@@ -858,8 +858,27 @@ footer {
   text-shadow: 0 3px 2px #000;
 }
 .book-text-img .booking-image {
-  background-color: tan;
   width: 30%;
+  height: 91vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding-left: 80px;
+}
+.book-text-img .booking-bck-img {
+  width: 300px;
+  height: 80%;
+  background-color: aliceblue;
+  border-top-left-radius: 53px;
+  background-image: url("/images/illustarted-purple-forms.jpg");
+}
+.book-text-img .booking-bck-img .book-image {
+  width: 350px;
+  height: 350px;
+  background-color: purple;
+  margin-left: -100px;
+  margin-top: 120px;
+  border: solid 8px #fff;
 }
 
 /*# sourceMappingURL=styles.css.map */
