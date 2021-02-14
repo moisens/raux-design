@@ -1023,7 +1023,7 @@ footer{
      display: grid;
      grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
      gap: 20px;
-     padding-top: 100px;
+     padding: 100px 0 60px;
 
      .text{
        display: flex;
@@ -1105,4 +1105,79 @@ footer{
   }
 
 }
+
+
+//form
+.form-book{
+  //background-color: aquamarine;
+  padding: 20px 0 30px 100px;
+  p{
+    font-size: 25px;
+    color: #011F45;
+    line-height: 1.5;
+    
+  }
+  .appointment{
+    font-weight: 800;
+  }
+}
+
+.book{
+  //background-color: #a2c5f1;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 20px;
+  padding: 80px 0 200px 15%;
+
+  form{
+    display: flex;
+    flex-direction: column;
+    //background-color: #CB2350;
+
+    input{
+      height: 63.25px;
+      margin-bottom: 20px;
+      border-radius: 9px;
+      border: solid 2px #8B1F93;
+      font-size: 20px;
+      padding-left: 15px;
+    }
+
+    button{
+      //width: 366px;
+      height: 66.19px;
+      border: none;
+      border-radius: 50px;
+      background-color: #8B1F93;
+      color: #fff;
+      font-size: 25px;
+      font-weight: 600;
+      cursor: pointer;
+    }
+  }
+
+  .seat-left{
+    //background-color: #FFD052;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    p{
+      width: 300px;
+      height: 300px;
+      font-size: 30px;
+      font-weight: 900;
+      color: #fff;
+      background-color: #CE2553;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
+}
+
+
+
+
 
