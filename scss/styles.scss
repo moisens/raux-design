@@ -1010,7 +1010,7 @@ footer{
       font-weight: 900;
       color: $title_h1;
       width: 70%;
-      padding-bottom: 40px;
+      padding-bottom: 80px;
     }
     p{
       font-size: 25px;
@@ -1078,8 +1078,30 @@ footer{
   }
 
   .booking-image{
-    background-color: tan;
+    //background-color: tan;
     width: 30%;
+    height: 91vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-left: 80px;
+  }
+
+  .booking-bck-img{
+    width: 300px;
+    height: 80%;
+    background-color: aliceblue;
+    border-top-left-radius: 53px;
+    background-image: url('/images/illustarted-purple-forms.jpg');
+
+    .book-image{
+      width: 350px;
+      height: 350px;
+      background-color: purple;
+      margin-left: -100px;
+      margin-top: 120px;
+      border: solid 8px #fff;
+    }
   }
 
 }
