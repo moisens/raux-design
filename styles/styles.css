@@ -808,7 +808,7 @@ footer {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
   gap: 20px;
-  padding-top: 100px;
+  padding: 100px 0 60px;
 }
 .book-text-img .booking-pass .text {
   display: flex;
@@ -879,6 +879,63 @@ footer {
   margin-left: -100px;
   margin-top: 120px;
   border: solid 8px #fff;
+}
+
+.form-book {
+  padding: 20px 0 30px 100px;
+}
+.form-book p {
+  font-size: 25px;
+  color: #011F45;
+  line-height: 1.5;
+}
+.form-book .appointment {
+  font-weight: 800;
+}
+
+.book {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 20px;
+  padding: 80px 0 200px 15%;
+}
+.book form {
+  display: flex;
+  flex-direction: column;
+}
+.book form input {
+  height: 63.25px;
+  margin-bottom: 20px;
+  border-radius: 9px;
+  border: solid 2px #8B1F93;
+  font-size: 20px;
+  padding-left: 15px;
+}
+.book form button {
+  height: 66.19px;
+  border: none;
+  border-radius: 50px;
+  background-color: #8B1F93;
+  color: #fff;
+  font-size: 25px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.book .seat-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.book .seat-left p {
+  width: 300px;
+  height: 300px;
+  font-size: 30px;
+  font-weight: 900;
+  color: #fff;
+  background-color: #CE2553;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /*# sourceMappingURL=styles.css.map */
