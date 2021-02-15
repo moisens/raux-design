@@ -944,4 +944,57 @@ footer {
   align-items: center;
 }
 
+.training {
+  background-color: #F5F5F5;
+  width: 100%;
+  height: 100vh;
+  padding-top: 75px;
+  display: flex;
+}
+
+.training-image-section {
+  width: auto;
+  z-index: 10;
+}
+.training-image-section .training-image-bck {
+  width: 300px;
+  height: 70%;
+  background-color: #fff;
+  background-image: url("/images/illustarted-purple-forms.jpg");
+  border-bottom-right-radius: 53px;
+  padding: 60px;
+}
+.training-image-section .training-image-bck .trainin-img {
+  width: 350px;
+  height: 350px;
+  background-color: #8E2091;
+  border: solid 8px #fff;
+}
+
+.training-description {
+  width: auto;
+  padding: 100px 0 20px 200px;
+}
+.training-description h1 {
+  font-size: 2.5rem;
+  font-weight: 900;
+  color: #011F45;
+}
+.training-description p {
+  font-size: 25px;
+  line-height: 1.5;
+  color: #223C5D;
+  padding: 40px 160px 60px 0;
+}
+.training-description button {
+  width: 220px;
+  font-size: 22px;
+  font-weight: 600;
+  background-color: #fff;
+  padding: 20px;
+  border: none;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
 /*# sourceMappingURL=styles.css.map */
