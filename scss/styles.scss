@@ -53,11 +53,11 @@ body{
   display: flex;
   justify-content:space-around;
   align-items:center;
-  background-color: $primary-color;
+  //background-color: $primary-color;
   padding: 25px;
   font-size: $font-size-nav;
   font-weight: 600;
-  box-shadow: $box-shadows;
+  //box-shadow: $box-shadows;
   position: fixed;
   z-index: 1000;
 
@@ -110,100 +110,67 @@ body{
 .header-titleImg{
   width: 100%;
   height: 100vh;
-  padding-top: 75px;
+  //padding-top: 75px;
+  background-color: #FFD052;
   display: flex;
-  //display: grid;
-  //grid-template-columns: 1fr 1fr;
-  //background-color: mediumturquoise;
+  justify-content: space-between;
+  align-content: center;
+  margin: auto;
 
-  //header-title
-  .header-title{
-    width: 60%;
-    //background-color: red;
-    .logo-head{
-      padding: 40px 110px;
-      max-width: 109px;
-      min-height: 89px;
-    }
 
-    h1{
-      padding: 160px 0 0 155px;
-      font-size: 3.75rem;
-      font-weight: 900;
-      color: $title_h1;
-      width: 100%;
-    }
-    h2{
-      padding: 20px 0 0 155px;
-      color: $title_h1;
-      font-size: 29.5px;
-      width: 78%;
-    }
-
-    //BTNS
-    .header-booking{
-      width: 220px;
-      font-size: 22px;
-      font-weight: 600;
-      background-color: #fff;
-      padding: 15px;
-      margin: 45px 0 0 155px;
-      border: none;
-      border-radius: 40px;
-      cursor: pointer;
-      box-shadow: $box-shadows;
-
-      a{
-        color: $purpleBtn;
-      }
-    }
-
-    .header-training{
-      width: 220px;
-      font-size: 22px;
-      font-weight: 600;
-      background-color: #fff;
-      padding: 15px;
-      margin-left: 20px;
-      border: none;
-      border-radius: 40px;
-      cursor: pointer;
-      box-shadow: $box-shadows;
-
-      a{
-        color: $redBtn;
-      }
-      
-    }
-  }
-  //Header-imgs
-  .header-imgs{
-    width: 40%;
-    //background-color: mediumseagreen;
-    //image One
-    .header-firstImg{
-      width: 288.51px;
-      height: 285.88px;
-      margin-top: 10px;
-
-      img{
-        width:285.88px;
-        height:285.88px;
-      }
-    }
-    //image two
-    .header-secondImg{
-      width: 330.01px;
-      height: 327.01px;
-
-      img{
-        width: 330.01px;
-        height: 327.01px;
-      }
-      
-    }
-  }
 }
+
+.header-title{
+  width: 50%;
+  background-color: #F5F5F5;
+  padding: 340px 0 40px 100px;
+  color: #011F45;
+  
+  h1{
+    font-size: 3.125rem;
+    width: 90%;
+    text-shadow: 3px 2px 3px #0000005e;
+  }
+  h4{
+    font-size: 25px;
+    font-weight: 800;
+    padding: 20px 0 80px;
+  }
+
+  .btns{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+
+    button{
+      justify-content: center;
+      align-items: center;
+      width: 220px;
+      padding: 15px;
+      background-color: #fff;
+      border: none;
+      border-radius: 100px;
+      box-shadow: 3px 3px 2px 0px #0000001c;
+      font-size: 25px;
+      font-weight: 600;
+      cursor: pointer;
+    }
+
+    .booking{
+      color: #8E2091;
+    }
+    .training{
+      color: #CB2350;
+    }
+    
+  }
+  
+}
+
+
+
+
 
 
 
