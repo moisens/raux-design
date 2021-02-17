@@ -307,7 +307,7 @@ body{
 .speakers{
   width: 100%;
   height: auto;
-  background-color: lightblue;
+  background-color: #F5F5F5;
   display: flex;
   justify-content: center;
   padding: 200px;
@@ -323,30 +323,38 @@ body{
 }
 
 .article-page{
-  background-color: lightgreen;
+  //background-color: lightgreen;
+  padding-bottom: 60px;
   
   h2{
     color: #011F45;
     font-size: 3.5rem;
-    padding-bottom: 60px;
+    padding-bottom: 120px;
   }
 
   article{
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
-    gap: 20px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 140px;
+    gap: 40px;
 
     .speaker-article-img{
-      width: 350px;
-      height: 300px;
+      min-width: 350px;
+      height: 350px;
       background-color: #8B1F93;
+
+      img{
+        min-width: 350px;
+        height: 350px;
+        object-fit: cover;
+      }
       
     }
     .speaker-description{
+      width: 60%;
       color: #011F45;
       font-size: 25px;
-      margin-left: -100px;
-      background-color: #F5F5F5;::-ms-clear
+      //background-color: #F5F5F5;
 
       h3{
         font-weight: 900;
@@ -354,8 +362,31 @@ body{
         
       }
       h4{
-        font-weight: 600;
+        font-weight: 500;
         padding-bottom: 40px;
+        color: #CE2553;
+      }
+      p{
+        line-height: 1.9;
+      }
+      .btn{
+        display: flex;
+        padding-top: 60px;
+        gap: 20px;
+        
+
+        button{
+          width: 180px;
+          color: #CB2350;
+          background-color: #fff;
+          box-shadow: 3px 3px 2px 0px #0000001c;
+          font-size: 25px;
+          font-weight: 600;
+          padding: 20px;
+          border: none;
+          border-radius: 50px;
+          cursor: pointer;
+        }
       }
       
     }
@@ -363,8 +394,37 @@ body{
 }
 
 .number-page{
-  background-color: #FFD052;
+  //background-color: #FFD052;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+
+  button{
+    color: #CE2553;
+    font-size: 25px;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+  }
+
+  p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    color: #8E2091;
+    font-size: 25px;
+    padding: 10px;
+    border: solid 1px #8E2091;
+    border-radius: 100px;
+    cursor: pointer;
+  }
+
 }
+
+
 
 //THEMES
 .themes{
