@@ -200,6 +200,7 @@ body {
   height: 70%;
   background-color: #FFD052;
   border-top-right-radius: 53px;
+  padding-bottom: 30px;
 }
 .about article {
   width: 70%;
@@ -234,114 +235,53 @@ body {
 .speakers {
   width: 100%;
   height: auto;
-}
-.speakers .speaker-title {
-  font-size: 3.75rem;
-  padding: 100px 0 100px 160px;
-}
-.speakers .speaker-one, .speakers .speaker-three {
-  display: flex;
-  padding: 0 0 160px 240px;
-}
-.speakers .speaker-one .speakers-images, .speakers .speaker-three .speakers-images {
-  width: 400px;
-  height: 400px;
-}
-.speakers .speaker-one .speakers-images img, .speakers .speaker-three .speakers-images img {
-  width: 400px;
-  height: 400px;
-  background-size: cover;
-  object-fit: cover;
-}
-.speakers .speaker-one .speaker-description, .speakers .speaker-three .speaker-description {
-  padding: 0 0 0 50px;
-}
-.speakers .speaker-one .speaker-description h1, .speakers .speaker-three .speaker-description h1 {
-  color: #FFD052;
-  font-size: 2.5rem;
-}
-.speakers .speaker-one .speaker-description h3, .speakers .speaker-three .speaker-description h3 {
-  padding: 10px 0 40px 0;
-  font-size: 1.375rem;
-  color: #011F45;
-}
-.speakers .speaker-one .speaker-description p, .speakers .speaker-three .speaker-description p {
-  font-size: 1.563rem;
-  line-height: 1.9;
-  max-width: 500px;
-  padding-bottom: 70px;
-  color: #011F45;
-}
-.speakers .speaker-one .speaker-description button, .speakers .speaker-three .speaker-description button {
-  width: 220px;
-  font-size: 22px;
-  font-weight: 600;
-  background-color: #fff;
-  color: #CE2553;
-  padding: 15px;
-  border: none;
-  border-radius: 40px;
-  cursor: pointer;
-}
-.speakers .speaker-two {
-  display: flex;
-  padding: 0 0 160px 240px;
-}
-.speakers .speaker-two .speakers-images {
-  width: 400px;
-  height: 350px;
-}
-.speakers .speaker-two .speakers-images img {
-  width: 400px;
-  height: 400px;
-  background-size: cover;
-  object-fit: cover;
-}
-.speakers .speaker-two .speaker-description {
-  padding: 0 50px 0 0;
-}
-.speakers .speaker-two .speaker-description h1 {
-  color: #FFD052;
-  font-size: 2.5rem;
-}
-.speakers .speaker-two .speaker-description h3 {
-  padding: 10px 0 40px 0;
-  font-size: 1.375rem;
-  color: #011F45;
-}
-.speakers .speaker-two .speaker-description p {
-  font-size: 1.563rem;
-  line-height: 1.9;
-  max-width: 500px;
-  padding-bottom: 70px;
-  color: #011F45;
-}
-.speakers .speaker-two .speaker-description button {
-  width: 220px;
-  font-size: 22px;
-  font-weight: 600;
-  background-color: #fff;
-  color: #CE2553;
-  padding: 15px;
-  border: none;
-  border-radius: 40px;
-  cursor: pointer;
-}
-.speakers .pagination {
+  background-color: lightblue;
   display: flex;
   justify-content: center;
-  padding-bottom: 50px;
+  padding: 200px;
 }
-.speakers .pagination .prev, .speakers .pagination .next {
+
+.speakers-guest-page {
+  width: 100%;
+  height: auto;
+  background-color: #F5F5F5;
+}
+
+.article-page {
+  background-color: lightgreen;
+}
+.article-page h2 {
   color: #011F45;
-  font-size: 40px;
-  cursor: pointer;
-  padding: 20px;
+  font-size: 3.5rem;
+  padding-bottom: 60px;
 }
-.speakers .pagination .circ1, .speakers .pagination .circ2, .speakers .pagination .circ3 {
-  font-size: 50px;
-  cursor: pointer;
-  padding: 20px;
+.article-page article {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+  gap: 20px;
+}
+.article-page article .speaker-article-img {
+  width: 350px;
+  height: 300px;
+  background-color: #8B1F93;
+}
+.article-page article .speaker-description {
+  color: #011F45;
+  font-size: 25px;
+  margin-left: -100px;
+  background-color: #F5F5F5;
+}
+.article-page article .speaker-description ::-ms-clear h3 {
+  font-weight: 900;
+  padding-bottom: 10px;
+}
+.article-page article .speaker-description h4 {
+  font-weight: 600;
+  padding-bottom: 40px;
+}
+
+.number-page {
+  background-color: #FFD052;
 }
 
 .themes {
