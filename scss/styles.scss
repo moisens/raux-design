@@ -1219,7 +1219,7 @@ hr{
 .cart{
   width: 100%;
   height: 100vh;
-  background-color: lightgreen;
+  background-color: #fff;
   display: flex;
 }
 
@@ -1341,6 +1341,7 @@ hr{
           background-color: $yellow;
           font-size: 1.375rem;
           font-weight: 900;
+          cursor: pointer;
   
         }
       }
@@ -1351,8 +1352,32 @@ hr{
   
 }
 
-.bck-illu-img{
+.section-illu-img{
   width: 20%;
   height: 100%;
-  background-color: lightsteelblue;
+  //background-color: lightsteelblue;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+
+}
+
+.illu-img-bck{
+  width: 70%;
+  height: 70%;
+  background-image: url('/images/illustarted-purple-forms.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  border-bottom-left-radius: 53px;
+
+  .image-cart{
+    width: 250px;
+    height: 250px;
+    border: solid 8px #fff;
+    margin-top: 160px;
+    margin-left: -80px;
+    background-color: $purpleBtn;
+
+  }
 }
