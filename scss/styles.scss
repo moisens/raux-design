@@ -1214,3 +1214,145 @@ hr{
   margin-bottom: 200px;
 }
 
+
+//CART
+.cart{
+  width: 100%;
+  height: 100vh;
+  background-color: lightgreen;
+  display: flex;
+}
+
+.cart-item-price{
+  width: 80%;
+  height: 100vh;
+  padding: 60px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  .container{
+    width: 1500px;
+    height: auto;
+    //background-color: #fff;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 20px;
+  }
+
+  .cart-container{
+    background-color: #fff;
+    padding: 60px 20px 30px;
+    border: solid 1px #8E2091;
+    border-radius: 9px;
+    box-shadow: 2px 2px 4px #00000052;
+
+    article{
+      width: 100%;
+      height: auto;
+      background-color: #fff;
+      border: solid 1px #8E2091;
+      border-top-left-radius: 9px;
+      border-bottom-left-radius: 9px;
+      border-left-width: 10px;
+      margin-bottom: 20px;
+      display: flex;
+
+      &:hover{
+        box-shadow: 2px 2px 4px #00000052;
+        border-left-color: #8E2091;
+        border-left-width: 10px;
+      }
+
+      img{
+        width: 150px;
+        height: auto;
+        object-fit: cover;
+        margin-left: 2px;
+      }
+      .article-description{
+        padding: 10px;
+
+        h4{
+          color: #011F45;
+          font-size: 1.375rem;
+          font-weight: 900;
+        }
+        p{
+          font-size: 1.375rem;
+          padding-top: 10px;
+        }
+
+        .price-num-items{
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding-top: 15px;
+
+          .price, .fas, .increase, .decrease{
+            color: #CE2553;
+          }
+          .fas, .increase, .decrease{
+            cursor: pointer;
+            font-weight: 900;// /!\Won't change class fas!!!
+          }
+        }
+
+      }
+      
+    }
+  }
+
+  .price-container{
+    //background-color: darkgray;
+
+    .total-price{
+      width: 70%;
+      height: 300px;
+      background-color: #fff;
+      border: solid 1px #8E2091;
+      border-radius: 9px;
+      box-shadow: 2px 2px 4px #00000052;
+      padding: 50px;
+
+      h4{
+        color: #011F45;
+        font-size: 1.5625rem;
+
+      }
+      p{
+        color: #CE2553;
+        font-size: 3.125rem;
+        font-weight: 900;
+        padding: 15px 0 30px;
+      }
+      .btn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        button{
+          padding: 15px;
+          width: 200px;
+          border: none;
+          border-radius: 100px;
+          box-shadow: 2px 2px 4px #00000052;
+          background-color: $yellow;
+          font-size: 1.375rem;
+          font-weight: 900;
+  
+        }
+      }
+      
+    }
+  
+  }
+  
+}
+
+.bck-illu-img{
+  width: 20%;
+  height: 100%;
+  background-color: lightsteelblue;
+}
