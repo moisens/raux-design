@@ -565,165 +565,107 @@ body{
 
 //CONTACT
 .contact{
+  background-color: #fff;
   width: 100%;
   height: auto;
-  background-color: #fff;
-  
-
-
+  //padding: 20px;
 }
 
-.two-contacs{
+.contact-container{
   display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-
-  .map{
-    width: 470px;
-    height: 350px;
-    background-color:gray;
-    border-radius: 9px;
-    position: absolute;
-    top: 25px;
-    right: 40px;
-    z-index: 20;
-  }
+  background-color: #fff;
 }
-
-.contact-one{
+.contact-newsletter{
   width: 80%;
-  height: 400px;
-  //background-color: lightgreen;
+  //background-color: #FFD052;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
   
+  .letter-form{
+    padding-top: 115px;
+    //background-color: lightgrey;
 
-  .newletter-form{
-    //background-color: $redBtn;
-    height: 400px;
-    padding: 100px 0 0 16px;
-    h6{
-      font-size: 25px;
-      font-weight: 500;
-      color: $title_h1;
-      padding-left: 20px;
-      padding-bottom: 50px;
-
-    }
-
-    form{
-      display: flex;
-      justify-content: center;
-      input{
-        width: 400px;
-        height: 55px;
-        padding-left: 15px;
-        border: solid 1px $purpleBtn;
-        border-top-left-radius: 120px;
-        border-bottom-left-radius: 120px;
-        font-size: 20px;
-
-      }
-
-      button{
-        min-width: 160px;
-        height: 55px;
-        border: none;
-        border-radius: 80px;
-        margin-left: -60px;
-        background-color: $purpleBtn;
-        color: #fff;
-        font-size: 1.2rem;
-        font-weight: 500;
-        cursor: pointer;
-        
-      }
-    }
-    //SOCIAL MEDIA
-    .social-medias{
-      display: flex;
-      justify-content: center;
-      gap: 20px;
-      align-items: center;
-      padding: 40px 0 80px;
-
-      .linked-in{
-        width: 40px;
-        height: 40px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        color: $purpleBtn;
-        cursor: pointer;
-        
-        :hover{
-          color: rgb(8, 138, 198);
-          transition: ease-in-out 1s;
-        }
-      }
-      .twitter{
-        width: 40px;
-        height: 40px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        color: $purpleBtn;
-        cursor: pointer;
-        
-        :hover{
-          color:rgb(79, 187, 237);
-          transition: ease-in-out 1s;
-        }
-        
-      }
-      .facebook{
-        width: 40px;
-        height: 40px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        color: $purpleBtn;
-        cursor: pointer;
-        
-        :hover{
-          color:rgb(5, 76, 169);
-          transition: ease-in-out 1s
-        }
-      }
-
-    }
-  }
-
-  .address{
-    background-color: #fff;
-    height: 400px;
-    padding: 100px 0 0 50px;
     p{
-      font-size: 25px;
-      line-height: 1.5;
-      //background-color: rgb(243, 107, 107);
+      color: #011F45;
+      font-size: 1.375rem;
+      font-weight: 600;
+      padding: 0 0 20px 50px;
+
     }
+    form{
+      .input-btn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      padding-bottom: 20px;
+      input{
+        width: 70%;
+        padding: 19px;
+        border: solid 1px #8E2091;
+        border-radius: 50px;
+        font-size: 1.1875rem;
+        color: #011F45;
+      }
+      button{
+        width: 30%;
+        border: none;
+        border-radius: 50px;
+        padding: 20px;
+        margin-left: -80px;
+        background-color: #8E2091;
+        color: #fff;
+        font-size: 1.1875rem;
+        cursor: pointer;
+        
+      }
+      .social{
+        padding-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        color: #8E2091;
+        cursor: pointer;
+
+      }
+    }
+
   }
-  
+  .adress{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 60px;
+    font-size: 1.375rem;
+    color: #011F45;
+    line-height: 1.9;
+    //background-color: lightseagreen;
+  }
 
 }
+.contact-map{
+  width: 300px;
+  padding: 40px;
+  background-image: url('/images/illustarted-purple-forms.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  background-color: #8E2091;
 
 
+  .contact-map-img{
+    width: 400px;
+    height: 300px;
+    margin-left: -180px;
+    border-radius: 9px;
 
-.contact-two{
-  width: 20%;
-  height: 400px;
-  background-color: purple;
-
-  img{
-    width: 100%;
-    height: 400px;
-    background-size: cover;
-    object-fit: cover;
+    iframe{
+      width: 400px;
+      height: 300px;
+      border-radius: 9px;
+    }
   }
-
-
 }
 
 
