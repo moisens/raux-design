@@ -440,136 +440,95 @@ body {
 }
 
 .contact {
+  background-color: #fff;
   width: 100%;
   height: auto;
+}
+
+.contact-container {
+  display: flex;
   background-color: #fff;
 }
 
-.two-contacs {
+.contact-newsletter {
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+}
+.contact-newsletter .letter-form {
+  padding-top: 115px;
+}
+.contact-newsletter .letter-form p {
+  color: #011F45;
+  font-size: 1.375rem;
+  font-weight: 600;
+  padding: 0 0 20px 50px;
+}
+.contact-newsletter .letter-form form {
+  padding-bottom: 20px;
+}
+.contact-newsletter .letter-form form .input-btn {
   display: flex;
   justify-content: center;
   align-items: center;
-  position: relative;
 }
-.two-contacs .map {
-  width: 470px;
-  height: 350px;
-  background-color: gray;
-  border-radius: 9px;
-  position: absolute;
-  top: 25px;
-  right: 40px;
-  z-index: 20;
-}
-
-.contact-one {
-  width: 80%;
-  height: 400px;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-}
-.contact-one .newletter-form {
-  height: 400px;
-  padding: 100px 0 0 16px;
-}
-.contact-one .newletter-form h6 {
-  font-size: 25px;
-  font-weight: 500;
-  color: #011F45;
-  padding-left: 20px;
-  padding-bottom: 50px;
-}
-.contact-one .newletter-form form {
-  display: flex;
-  justify-content: center;
-}
-.contact-one .newletter-form form input {
-  width: 400px;
-  height: 55px;
-  padding-left: 15px;
+.contact-newsletter .letter-form form input {
+  width: 70%;
+  padding: 19px;
   border: solid 1px #8E2091;
-  border-top-left-radius: 120px;
-  border-bottom-left-radius: 120px;
-  font-size: 20px;
+  border-radius: 50px;
+  font-size: 1.1875rem;
+  color: #011F45;
 }
-.contact-one .newletter-form form button {
-  min-width: 160px;
-  height: 55px;
+.contact-newsletter .letter-form form button {
+  width: 30%;
   border: none;
-  border-radius: 80px;
-  margin-left: -60px;
+  border-radius: 50px;
+  padding: 20px;
+  margin-left: -80px;
   background-color: #8E2091;
   color: #fff;
-  font-size: 1.2rem;
-  font-weight: 500;
+  font-size: 1.1875rem;
   cursor: pointer;
 }
-.contact-one .newletter-form .social-medias {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  align-items: center;
-  padding: 40px 0 80px;
-}
-.contact-one .newletter-form .social-medias .linked-in {
-  width: 40px;
-  height: 40px;
+.contact-newsletter .letter-form form .social {
+  padding-top: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 10px;
   color: #8E2091;
   cursor: pointer;
 }
-.contact-one .newletter-form .social-medias .linked-in :hover {
-  color: #088ac6;
-  transition: ease-in-out 1s;
-}
-.contact-one .newletter-form .social-medias .twitter {
-  width: 40px;
-  height: 40px;
+.contact-newsletter .adress {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
-  color: #8E2091;
-  cursor: pointer;
-}
-.contact-one .newletter-form .social-medias .twitter :hover {
-  color: #4fbbed;
-  transition: ease-in-out 1s;
-}
-.contact-one .newletter-form .social-medias .facebook {
-  width: 40px;
-  height: 40px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #8E2091;
-  cursor: pointer;
-}
-.contact-one .newletter-form .social-medias .facebook :hover {
-  color: #054ca9;
-  transition: ease-in-out 1s;
-}
-.contact-one .address {
-  background-color: #fff;
-  height: 400px;
-  padding: 100px 0 0 50px;
-}
-.contact-one .address p {
-  font-size: 25px;
-  line-height: 1.5;
+  padding-left: 60px;
+  font-size: 1.375rem;
+  color: #011F45;
+  line-height: 1.9;
 }
 
-.contact-two {
-  width: 20%;
-  height: 400px;
-  background-color: purple;
-}
-.contact-two img {
-  width: 100%;
-  height: 400px;
+.contact-map {
+  width: 300px;
+  padding: 40px;
+  background-image: url("/images/illustarted-purple-forms.jpg");
+  background-repeat: no-repeat;
   background-size: cover;
   object-fit: cover;
+  background-color: #8E2091;
+}
+.contact-map .contact-map-img {
+  width: 400px;
+  height: 300px;
+  margin-left: -180px;
+  border-radius: 9px;
+}
+.contact-map .contact-map-img iframe {
+  width: 400px;
+  height: 300px;
+  border-radius: 9px;
 }
 
 footer {
