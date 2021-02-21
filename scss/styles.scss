@@ -34,6 +34,8 @@ a{
 }
 
 body{
+  max-width: 1440px;
+  margin: 0 auto;
   font-family: 'Avenir';
   color: #000;
   height: auto;
@@ -43,7 +45,7 @@ body{
 //HOME
 .header_imagine{
   //background-color: lightgreen;
-  min-width: 100%;
+  width: 100%;
   height: auto;
 }
   
@@ -806,16 +808,13 @@ footer{
 
 .curved-illu{
   width: 100%;
-  height: auto;
-  //background-color: $purpleBtn;
+  height: 90px;
+  background-color: $purpleBtn;
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
 
-  svg{
-    width: 100%;
-    height: 100%;
-  }
+  
 }
 
 
@@ -1473,12 +1472,139 @@ hr{
 }
 
 
+//DETAILS PAGE
+.details{
+  height: auto;
+  background-color: #fff;
+  padding-top: 75px;
+  padding-bottom: 160px;
+  
 
+  h2{
+    color: #011F45;
+    font-size: 2.5rem;
+    font-weight: 900;
+    padding: 100px 0 60px 110px;
+  }
 
+  .image-details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 
+    img{
+      width: 85%;
+      height: 250px;
+      background-size: cover;
+      object-fit: cover;
+      border-radius: 9px;
+    }
+  }
 
+  .details-decription{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 60px;
 
+    p{
+      font-size: 1.375rem;
+      color: #CE2553;
+    }
 
+    .details-rating{
+      display: flex;
+      justify-content: center;
+      align-content: flex-start;
+      gap: 15px;
 
+      .fas{
+        color: #FFD052;
+      }
+    }
+  }
 
+  //article 1
+  .detail-text{
+    padding: 60px 100px 100px;
+    p{
+      color: #011F45;
+      font-size: 1.375rem;
+      line-height: 1.9;
+    }
+  }
+
+  .courses-content{
+    margin: 60px 100px 0 100px;
+    box-shadow: 0px 2px 2px 0px #0000004d;
+    border-radius: 9px;
+
+    .content-title{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #fff;
+      padding: 25px;
+      border-radius: 9px;
+      box-shadow: 0px 2px 2px 0px #0000004d;
+
+      p{
+        font-size: 25px;
+        font-weight: 500;
+        color: #011F45;
+      }
+      button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: none;
+        background-color: #fff;
+        cursor: pointer;
+
+        .plus-icon, .minus-icon{
+          
+          color: $purpleBtn;
+          
+        }
+        .minus-icon{
+          display: none;
+        }
+      }
+    }
+
+  }
+
+  .courses-text{
+    padding-top: 30px;
+    padding: 25px;
+    display: none;
+    p{
+      color: #011F45;
+      font-size: 1.375rem;
+      line-height: 1.9;
+    }
+  }
+
+  .details-btn{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 100px 0 60px 100px;
+
+    button{
+      width: 250px;
+      padding: 20px;
+      background-color: #FFD052;
+      color: #fff;
+      border: none;
+      border-radius: 100px;
+      font-size: 1.5625rem;
+      font-weight: 600;
+      cursor: pointer;
+    }
+  }
+  
+  
+}
 
