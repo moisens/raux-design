@@ -71,5 +71,277 @@
       "body": "Quisque vel felis varius, volutpat quam sed, venenatis metus.Maecenas vel semper magna. Duis placerat lectus vel aliquet mollis. Donec eros lorem, fermentum id maximus et, condimentum et elit. Curabitur tortor.",
       "image": "../../images/speaker-1.jpg"
     }
+  ],
+  "themes": [
+    {
+      "id": 1,
+      "image": "../../images/conference.jpg",
+      "title" : "Usability testing",
+      "body" : "Integer porttitor accumsan dignissim. Mauris risus tellus, sodales ut lacus in, semper gravida lectus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec efficitur lectus quam, mollis finibus diam tempus quis. In in sem et velit accumsan fermentum. In hac habitasse platea dictumst. Vivamus eget iaculis quam."
+
+    },
+    {
+      "id": 2,
+      "image": "../../images/conference.jpg",
+      "title" : "Design Thinking",
+      "body" : "Integer porttitor accumsan dignissim. Mauris risus tellus, sodales ut lacus in, semper gravida lectus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec efficitur lectus quam, mollis finibus diam tempus quis. In in sem et velit accumsan fermentum. In hac habitasse platea dictumst. Vivamus eget iaculis quam."
+
+    },
+    {
+      "id": 3,
+      "image": "../../images/conference.jpg",
+      "title" : "Information visualisation",
+      "body" : "Integer porttitor accumsan dignissim. Mauris risus tellus, sodales ut lacus in, semper gravida lectus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec efficitur lectus quam, mollis finibus diam tempus quis. In in sem et velit accumsan fermentum. In hac habitasse platea dictumst. Vivamus eget iaculis quam."
+
+    },
+    {
+      "id": 4,
+      "image": "../../images/conference.jpg",
+      "title" : "Design better",
+      "body" : "Integer porttitor accumsan dignissim. Mauris risus tellus, sodales ut lacus in, semper gravida lectus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec efficitur lectus quam, mollis finibus diam tempus quis. In in sem et velit accumsan fermentum. In hac habitasse platea dictumst. Vivamus eget iaculis quam."
+
+    },
+    {
+      "id": 5,
+      "image": "../../images/conference.jpg",
+      "title" : "HCI",
+      "body" : "Integer porttitor accumsan dignissim. Mauris risus tellus, sodales ut lacus in, semper gravida lectus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec efficitur lectus quam, mollis finibus diam tempus quis. In in sem et velit accumsan fermentum. In hac habitasse platea dictumst. Vivamus eget iaculis quam."
+
+    },
+    {
+      "id": 6,
+      "image": "../../images/conference.jpg",
+      "title" : "Sprint design",
+      "body" : "Integer porttitor accumsan dignissim. Mauris risus tellus, sodales ut lacus in, semper gravida lectus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec efficitur lectus quam, mollis finibus diam tempus quis. In in sem et velit accumsan fermentum. In hac habitasse platea dictumst. Vivamus eget iaculis quam."
+
+    },
+    {
+      "id": 7,
+      "image": "../../images/conference.jpg",
+      "title" : "Interaction Design for Usability",
+      "body" : "Integer porttitor accumsan dignissim. Mauris risus tellus, sodales ut lacus in, semper gravida lectus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec efficitur lectus quam, mollis finibus diam tempus quis. In in sem et velit accumsan fermentum. In hac habitasse platea dictumst. Vivamus eget iaculis quam."
+
+    },
+    {
+      "id": 8,
+      "image": "../../images/conference.jpg",
+      "title" : "UX Management: Strategy and Tactics",
+      "body" : "Integer porttitor accumsan dignissim. Mauris risus tellus, sodales ut lacus in, semper gravida lectus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec efficitur lectus quam, mollis finibus diam tempus quis. In in sem et velit accumsan fermentum. In hac habitasse platea dictumst. Vivamus eget iaculis quam."
+
+    },
+    {
+      "id": 9,
+      "image": "../../images/conference.jpg",
+      "title" : "Mobile User Experience (UX) Design",
+      "body" : "Integer porttitor accumsan dignissim. Mauris risus tellus, sodales ut lacus in, semper gravida lectus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec efficitur lectus quam, mollis finibus diam tempus quis. In in sem et velit accumsan fermentum. In hac habitasse platea dictumst. Vivamus eget iaculis quam."
+
+    }
+
+  ],
+  "schedule": [
+    {
+      "id": 1,
+      "title": "Six days of User Research And Ux Design.",
+      "body": "In egestas dignissim consequat. Praesent quis velit et lectus cursus elementum. Cras pellentesque, justo laoreet efficitur malesuada, tellus magna tincidunt dui, eu malesuada ligula neque at diam. Sed gravida faucibus ex at aliquet. Integer ac pharetra risus. Sed sit amet est felis. Nam sit amet lacus lectus. "
+    },
+    {
+      "id": 2,
+      "title": "Mon 03 Jan Usability testing",
+      "body": "Nam pulvinar mi in ligula lacinia suscipit. Maecenas libero turpis, luctus rhoncus nunc sit amet, molestie varius lectus. Morbi pulvinar ex odio, at elementum odio ornare eu. Cras quis aliquam erat. Vivamus aliquam nibh ut volutpat dapibus. Cras maximus convallis odio, eget fringilla risus laoreet id."
+    },
+    {
+      "id": 3,
+      "title": "Tue 04 Jan Design thinking",
+      "body": "Nam pulvinar mi in ligula lacinia suscipit. Maecenas libero turpis, luctus rhoncus nunc sit amet, molestie varius lectus. Morbi pulvinar ex odio, at elementum odio ornare eu. Cras quis aliquam erat. Vivamus aliquam nibh ut volutpat dapibus. Cras maximus convallis odio, eget fringilla risus laoreet id."
+    },
+    {
+      "id": 4,
+      "title": "Wed 05 Jan Information visualisation",
+      "body": "Nam pulvinar mi in ligula lacinia suscipit. Maecenas libero turpis, luctus rhoncus nunc sit amet, molestie varius lectus. Morbi pulvinar ex odio, at elementum odio ornare eu. Cras quis aliquam erat. Vivamus aliquam nibh ut volutpat dapibus. Cras maximus convallis odio, eget fringilla risus laoreet id."
+    },
+    {
+      "id": 5,
+      "title": "Thu 06 Jan Design better UX Management: Strategy and Tactics",
+      "body": "Nam pulvinar mi in ligula lacinia suscipit. Maecenas libero turpis, luctus rhoncus nunc sit amet, molestie varius lectus. Morbi pulvinar ex odio, at elementum odio ornare eu. Cras quis aliquam erat. Vivamus aliquam nibh ut volutpat dapibus. Cras maximus convallis odio, eget fringilla risus laoreet id."
+    },
+    {
+      "id": 6,
+      "title": "Fri 07 Jan HCI Sprint design",
+      "body": "Nam pulvinar mi in ligula lacinia suscipit. Maecenas libero turpis, luctus rhoncus nunc sit amet, molestie varius lectus. Morbi pulvinar ex odio, at elementum odio ornare eu. Cras quis aliquam erat. Vivamus aliquam nibh ut volutpat dapibus. Cras maximus convallis odio, eget fringilla risus laoreet id."
+    },
+    {
+      "id":7,
+      "title": "Lundi 10 Design for Usability Mobile User Experience (UX) Design",
+      "body": "Nam pulvinar mi in ligula lacinia suscipit. Maecenas libero turpis, luctus rhoncus nunc sit amet, molestie varius lectus. Morbi pulvinar ex odio, at elementum odio ornare eu. Cras quis aliquam erat. Vivamus aliquam nibh ut volutpat dapibus. Cras maximus convallis odio, eget fringilla risus laoreet id."
+    }
+  ],
+  "booking": [
+    {
+      "id": 1,
+      "title": "Want to learn more about Research & Ux design?",
+      "sub-title": "Choose your pass…",
+      "image": "../../images/conference.jpg"
+    },
+    {
+      "id": 2,
+      "title": "One day pass",
+      "sub-title": "Choose your pass…",
+      "price": "€45",
+      "buy": "Buy"
+    },
+    {
+      "id": 3,
+      "title": "Two days pass",
+      "sub-title": "Choose your pass…",
+      "price": "€90",
+      "buy": "Buy"
+    },
+    {
+      "id": 4,
+      "title": "Three days pass",
+      "sub-title": "Choose your pass…",
+      "price": "€135",
+      "buy": "Buy"
+    },
+    {
+      "id": 5,
+      "title": "Four days pass",
+      "sub-title": "Choose your pass…",
+      "price": "€180",
+      "buy": "Buy"
+    },
+    {
+      "id": 6,
+      "title": "Five days pass",
+      "sub-title": "Choose your pass…",
+      "price": "€225",
+      "buy": "Buy"
+    },
+    {
+      "id": 7,
+      "title": "One day pass",
+      "sub-title": "Choose your pass…",
+      "price": "€270",
+      "buy": "Buy"
+    }
+  ],
+  "training": [
+    {
+      "title": "The training",
+      "body": "At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+      "image": "../../images/conference.jpg"
+    },
+    {
+      "course": [
+        {
+          "id": 1,
+          "title": "Usability testing",
+          "image": "../../images/conference.jpg",
+          "sous-title": "Content: 35hours",
+          "rating": "4.7",
+          "price": "Price: 130€",
+          "body": "Aenean molestie consectetur purus eget viverra. Morbi sodales mattis fermentum. Maecenas rutrum dapibus odio, id viverra mi. Sed scelerisque lobortis magna, sit amet ultricies velit volutpat et. Quisque auctor, nunc non ultrices molestie, felis tortor facilisis risus, eu euismod eros urna sed urna. Vivamus ut elementum ex. Maecenas viverra et erat vel malesuada. Nulla commodo consectetur vestibulum. Vivamus at ligula aliquet, ultricies metus ac, ullamcorper velit. Morbi felis orci, aliquet ut sem quis, maximus imperdiet lacus. Duis porttitor, velit vel congue pulvinar, nisl tortor tincidunt erat, ac consectetur massa sem non urna. In iaculis magna eget ex venenatis, auctor consequat eros suscipit. Sed et porttitor neque. Vestibulum rhoncus lacus nec urna semper, ac rhoncus augue fermentum."
+        },
+        {
+          "id": 2,
+          "title": "Human-Computer Interaction - HCI",
+          "image": "../../../images/hci.jpg",
+          "sous-title": "Content: 48hours",
+          "rating": "4.9",
+          "price": "Price: 130€",
+          "body": "Aenean molestie consectetur purus eget viverra. Morbi sodales mattis fermentum. Maecenas rutrum dapibus odio, id viverra mi. Sed scelerisque lobortis magna, sit amet ultricies velit volutpat et. Quisque auctor, nunc non ultrices molestie, felis tortor facilisis risus, eu euismod eros urna sed urna. Vivamus ut elementum ex. Maecenas viverra et erat vel malesuada. Nulla commodo consectetur vestibulum. Vivamus at ligula aliquet, ultricies metus ac, ullamcorper velit. Morbi felis orci, aliquet ut sem quis, maximus imperdiet lacus. Duis porttitor, velit vel congue pulvinar, nisl tortor tincidunt erat, ac consectetur massa sem non urna. In iaculis magna eget ex venenatis, auctor consequat eros suscipit. Sed et porttitor neque. Vestibulum rhoncus lacus nec urna semper, ac rhoncus augue fermentum."
+        },
+        {
+          "id": 3,
+          "title": "Design Thinking",
+          "image": "../../images/conference.jpg",
+          "sous-title": "Content: 30hours",
+          "rating": "4.6",
+          "price": "Price: 130€",
+          "body": "Aenean molestie consectetur purus eget viverra. Morbi sodales mattis fermentum. Maecenas rutrum dapibus odio, id viverra mi. Sed scelerisque lobortis magna, sit amet ultricies velit volutpat et. Quisque auctor, nunc non ultrices molestie, felis tortor facilisis risus, eu euismod eros urna sed urna. Vivamus ut elementum ex. Maecenas viverra et erat vel malesuada. Nulla commodo consectetur vestibulum. Vivamus at ligula aliquet, ultricies metus ac, ullamcorper velit. Morbi felis orci, aliquet ut sem quis, maximus imperdiet lacus. Duis porttitor, velit vel congue pulvinar, nisl tortor tincidunt erat, ac consectetur massa sem non urna. In iaculis magna eget ex venenatis, auctor consequat eros suscipit. Sed et porttitor neque. Vestibulum rhoncus lacus nec urna semper, ac rhoncus augue fermentum."
+        },
+        {
+          "id": 4,
+          "title": "Interaction Design for Usability",
+          "image": "../../images/conference.jpg",
+          "sous-title": "Content: 40hours",
+          "rating": "4.7",
+          "price": "Price: 130€",
+          "body": "Aenean molestie consectetur purus eget viverra. Morbi sodales mattis fermentum. Maecenas rutrum dapibus odio, id viverra mi. Sed scelerisque lobortis magna, sit amet ultricies velit volutpat et. Quisque auctor, nunc non ultrices molestie, felis tortor facilisis risus, eu euismod eros urna sed urna. Vivamus ut elementum ex. Maecenas viverra et erat vel malesuada. Nulla commodo consectetur vestibulum. Vivamus at ligula aliquet, ultricies metus ac, ullamcorper velit. Morbi felis orci, aliquet ut sem quis, maximus imperdiet lacus. Duis porttitor, velit vel congue pulvinar, nisl tortor tincidunt erat, ac consectetur massa sem non urna. In iaculis magna eget ex venenatis, auctor consequat eros suscipit. Sed et porttitor neque. Vestibulum rhoncus lacus nec urna semper, ac rhoncus augue fermentum."
+        },
+        {
+          "id": 5,
+          "title": "Gestalt Psychology",
+          "image": "../../images/conference.jpg",
+          "sous-title": "Content: 20hours",
+          "rating": "4.8",
+          "price": "Price: 130€",
+          "body": "Aenean molestie consectetur purus eget viverra. Morbi sodales mattis fermentum. Maecenas rutrum dapibus odio, id viverra mi. Sed scelerisque lobortis magna, sit amet ultricies velit volutpat et. Quisque auctor, nunc non ultrices molestie, felis tortor facilisis risus, eu euismod eros urna sed urna. Vivamus ut elementum ex. Maecenas viverra et erat vel malesuada. Nulla commodo consectetur vestibulum. Vivamus at ligula aliquet, ultricies metus ac, ullamcorper velit. Morbi felis orci, aliquet ut sem quis, maximus imperdiet lacus. Duis porttitor, velit vel congue pulvinar, nisl tortor tincidunt erat, ac consectetur massa sem non urna. In iaculis magna eget ex venenatis, auctor consequat eros suscipit. Sed et porttitor neque. Vestibulum rhoncus lacus nec urna semper, ac rhoncus augue fermentum."
+        },
+        {
+          "id": 6,
+          "title": "Information Visualization",
+          "image": "../../images/conference.jpg",
+          "sous-title": "Content: 15hours",
+          "rating": "4.5",
+          "price": "Price: 130€",
+          "body": "Aenean molestie consectetur purus eget viverra. Morbi sodales mattis fermentum. Maecenas rutrum dapibus odio, id viverra mi. Sed scelerisque lobortis magna, sit amet ultricies velit volutpat et. Quisque auctor, nunc non ultrices molestie, felis tortor facilisis risus, eu euismod eros urna sed urna. Vivamus ut elementum ex. Maecenas viverra et erat vel malesuada. Nulla commodo consectetur vestibulum. Vivamus at ligula aliquet, ultricies metus ac, ullamcorper velit. Morbi felis orci, aliquet ut sem quis, maximus imperdiet lacus. Duis porttitor, velit vel congue pulvinar, nisl tortor tincidunt erat, ac consectetur massa sem non urna. In iaculis magna eget ex venenatis, auctor consequat eros suscipit. Sed et porttitor neque. Vestibulum rhoncus lacus nec urna semper, ac rhoncus augue fermentum."
+        },
+        {
+          "id": 7,
+          "title": "Quantitative Research",
+          "image": "../../images/conference.jpg",
+          "sous-title": "Content: 32hours",
+          "rating": "4.8",
+          "price": "Price: 130€",
+          "body": "Aenean molestie consectetur purus eget viverra. Morbi sodales mattis fermentum. Maecenas rutrum dapibus odio, id viverra mi. Sed scelerisque lobortis magna, sit amet ultricies velit volutpat et. Quisque auctor, nunc non ultrices molestie, felis tortor facilisis risus, eu euismod eros urna sed urna. Vivamus ut elementum ex. Maecenas viverra et erat vel malesuada. Nulla commodo consectetur vestibulum. Vivamus at ligula aliquet, ultricies metus ac, ullamcorper velit. Morbi felis orci, aliquet ut sem quis, maximus imperdiet lacus. Duis porttitor, velit vel congue pulvinar, nisl tortor tincidunt erat, ac consectetur massa sem non urna. In iaculis magna eget ex venenatis, auctor consequat eros suscipit. Sed et porttitor neque. Vestibulum rhoncus lacus nec urna semper, ac rhoncus augue fermentum."
+        },
+        {
+          "id": 8,
+          "title": "Design better ",
+          "image": "../../images/conference.jpg",
+          "sous-title": "Content: 38hours",
+          "rating": "4.8",
+          "price": "Price: 130€",
+          "body": "Aenean molestie consectetur purus eget viverra. Morbi sodales mattis fermentum. Maecenas rutrum dapibus odio, id viverra mi. Sed scelerisque lobortis magna, sit amet ultricies velit volutpat et. Quisque auctor, nunc non ultrices molestie, felis tortor facilisis risus, eu euismod eros urna sed urna. Vivamus ut elementum ex. Maecenas viverra et erat vel malesuada. Nulla commodo consectetur vestibulum. Vivamus at ligula aliquet, ultricies metus ac, ullamcorper velit. Morbi felis orci, aliquet ut sem quis, maximus imperdiet lacus. Duis porttitor, velit vel congue pulvinar, nisl tortor tincidunt erat, ac consectetur massa sem non urna. In iaculis magna eget ex venenatis, auctor consequat eros suscipit. Sed et porttitor neque. Vestibulum rhoncus lacus nec urna semper, ac rhoncus augue fermentum."
+        },
+        {
+          "id": 9,
+          "title": "Emotional design",
+          "image": "../../images/conference.jpg",
+          "sous-title": "Content: 25hours",
+          "rating": "4.6",
+          "price": "Price: 130€",
+          "body": "Aenean molestie consectetur purus eget viverra. Morbi sodales mattis fermentum. Maecenas rutrum dapibus odio, id viverra mi. Sed scelerisque lobortis magna, sit amet ultricies velit volutpat et. Quisque auctor, nunc non ultrices molestie, felis tortor facilisis risus, eu euismod eros urna sed urna. Vivamus ut elementum ex. Maecenas viverra et erat vel malesuada. Nulla commodo consectetur vestibulum. Vivamus at ligula aliquet, ultricies metus ac, ullamcorper velit. Morbi felis orci, aliquet ut sem quis, maximus imperdiet lacus. Duis porttitor, velit vel congue pulvinar, nisl tortor tincidunt erat, ac consectetur massa sem non urna. In iaculis magna eget ex venenatis, auctor consequat eros suscipit. Sed et porttitor neque. Vestibulum rhoncus lacus nec urna semper, ac rhoncus augue fermentum."
+        },
+        {
+          "id": 10,
+          "title": "Addictive User Experiences",
+          "image": "../../images/conference.jpg",
+          "sous-title": "Content: 42hours",
+          "rating": "4.8",
+          "price": "Price: 130€",
+          "body": "Aenean molestie consectetur purus eget viverra. Morbi sodales mattis fermentum. Maecenas rutrum dapibus odio, id viverra mi. Sed scelerisque lobortis magna, sit amet ultricies velit volutpat et. Quisque auctor, nunc non ultrices molestie, felis tortor facilisis risus, eu euismod eros urna sed urna. Vivamus ut elementum ex. Maecenas viverra et erat vel malesuada. Nulla commodo consectetur vestibulum. Vivamus at ligula aliquet, ultricies metus ac, ullamcorper velit. Morbi felis orci, aliquet ut sem quis, maximus imperdiet lacus. Duis porttitor, velit vel congue pulvinar, nisl tortor tincidunt erat, ac consectetur massa sem non urna. In iaculis magna eget ex venenatis, auctor consequat eros suscipit. Sed et porttitor neque. Vestibulum rhoncus lacus nec urna semper, ac rhoncus augue fermentum."
+        },
+        {
+          "id": 11,
+          "title": "Intuitive User Interfaces",
+          "image": "../../images/conference.jpg",
+          "sous-title": "Content: 35hours",
+          "rating": "4.7",
+          "price": "Price: 130€",
+          "body": "Aenean molestie consectetur purus eget viverra. Morbi sodales mattis fermentum. Maecenas rutrum dapibus odio, id viverra mi. Sed scelerisque lobortis magna, sit amet ultricies velit volutpat et. Quisque auctor, nunc non ultrices molestie, felis tortor facilisis risus, eu euismod eros urna sed urna. Vivamus ut elementum ex. Maecenas viverra et erat vel malesuada. Nulla commodo consectetur vestibulum. Vivamus at ligula aliquet, ultricies metus ac, ullamcorper velit. Morbi felis orci, aliquet ut sem quis, maximus imperdiet lacus. Duis porttitor, velit vel congue pulvinar, nisl tortor tincidunt erat, ac consectetur massa sem non urna. In iaculis magna eget ex venenatis, auctor consequat eros suscipit. Sed et porttitor neque. Vestibulum rhoncus lacus nec urna semper, ac rhoncus augue fermentum."
+        },
+        {
+          "id": 12,
+          "title": "User Research – Methods and Best Practices",
+          "image": "../../images/conference.jpg",
+          "sous-title": "Content: 35hours",
+          "rating": "4.5",
+          "price": "Price: 130€",
+          "body": "Aenean molestie consectetur purus eget viverra. Morbi sodales mattis fermentum. Maecenas rutrum dapibus odio, id viverra mi. Sed scelerisque lobortis magna, sit amet ultricies velit volutpat et. Quisque auctor, nunc non ultrices molestie, felis tortor facilisis risus, eu euismod eros urna sed urna. Vivamus ut elementum ex. Maecenas viverra et erat vel malesuada. Nulla commodo consectetur vestibulum. Vivamus at ligula aliquet, ultricies metus ac, ullamcorper velit. Morbi felis orci, aliquet ut sem quis, maximus imperdiet lacus. Duis porttitor, velit vel congue pulvinar, nisl tortor tincidunt erat, ac consectetur massa sem non urna. In iaculis magna eget ex venenatis, auctor consequat eros suscipit. Sed et porttitor neque. Vestibulum rhoncus lacus nec urna semper, ac rhoncus augue fermentum."
+        }
+      ]
+    }
   ]
 }
