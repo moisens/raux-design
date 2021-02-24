@@ -1,13 +1,5 @@
 {
-  "about":[
-    {
-      "id": 1,
-      "title": "About",
-      "image": "../../images/conference.jpg",
-      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vel felis varius, volutpat quam sed, venenatis metus. Maecenas vel semper magna. Duis placerat lectus vel aliquet mollis. Donec eros lorem, fermentum id maximus et, condimentum et elit. Curabitur tortor nibh, iaculis vel metus sed, gravida iaculis augue."
-    }
-  ],
-  "speaker": [
+  "speakers": [
     {
       "id": 1,
       "title": "leopolde ouellet",
@@ -138,109 +130,113 @@
     }
 
   ],
-  "schedule": [
+  "schedules": [
     {
       "id": 1,
-      "title": "Six days of User Research And Ux Design.",
-      "body": "In egestas dignissim consequat. Praesent quis velit et lectus cursus elementum. Cras pellentesque, justo laoreet efficitur malesuada, tellus magna tincidunt dui, eu malesuada ligula neque at diam. Sed gravida faucibus ex at aliquet. Integer ac pharetra risus. Sed sit amet est felis. Nam sit amet lacus lectus. "
-    },
-    {
-      "id": 2,
       "title": "Mon 03 Jan Usability testing",
       "body": "Nam pulvinar mi in ligula lacinia suscipit. Maecenas libero turpis, luctus rhoncus nunc sit amet, molestie varius lectus. Morbi pulvinar ex odio, at elementum odio ornare eu. Cras quis aliquam erat. Vivamus aliquam nibh ut volutpat dapibus. Cras maximus convallis odio, eget fringilla risus laoreet id."
     },
     {
-      "id": 3,
+      "id": 2,
       "title": "Tue 04 Jan Design thinking",
       "body": "Nam pulvinar mi in ligula lacinia suscipit. Maecenas libero turpis, luctus rhoncus nunc sit amet, molestie varius lectus. Morbi pulvinar ex odio, at elementum odio ornare eu. Cras quis aliquam erat. Vivamus aliquam nibh ut volutpat dapibus. Cras maximus convallis odio, eget fringilla risus laoreet id."
     },
     {
-      "id": 4,
+      "id": 3,
       "title": "Wed 05 Jan Information visualisation",
       "body": "Nam pulvinar mi in ligula lacinia suscipit. Maecenas libero turpis, luctus rhoncus nunc sit amet, molestie varius lectus. Morbi pulvinar ex odio, at elementum odio ornare eu. Cras quis aliquam erat. Vivamus aliquam nibh ut volutpat dapibus. Cras maximus convallis odio, eget fringilla risus laoreet id."
     },
     {
-      "id": 5,
+      "id": 4,
       "title": "Thu 06 Jan Design better UX Management: Strategy and Tactics",
       "body": "Nam pulvinar mi in ligula lacinia suscipit. Maecenas libero turpis, luctus rhoncus nunc sit amet, molestie varius lectus. Morbi pulvinar ex odio, at elementum odio ornare eu. Cras quis aliquam erat. Vivamus aliquam nibh ut volutpat dapibus. Cras maximus convallis odio, eget fringilla risus laoreet id."
     },
     {
-      "id": 6,
+      "id": 5,
       "title": "Fri 07 Jan HCI Sprint design",
       "body": "Nam pulvinar mi in ligula lacinia suscipit. Maecenas libero turpis, luctus rhoncus nunc sit amet, molestie varius lectus. Morbi pulvinar ex odio, at elementum odio ornare eu. Cras quis aliquam erat. Vivamus aliquam nibh ut volutpat dapibus. Cras maximus convallis odio, eget fringilla risus laoreet id."
     },
     {
-      "id":7,
+      "id":6,
       "title": "Lundi 10 Design for Usability Mobile User Experience (UX) Design",
       "body": "Nam pulvinar mi in ligula lacinia suscipit. Maecenas libero turpis, luctus rhoncus nunc sit amet, molestie varius lectus. Morbi pulvinar ex odio, at elementum odio ornare eu. Cras quis aliquam erat. Vivamus aliquam nibh ut volutpat dapibus. Cras maximus convallis odio, eget fringilla risus laoreet id."
     }
   ],
-  "booking": [
+  "bookings": [
     {
       "id": 1,
-      "title": "Want to learn more about Research & Ux design?",
-      "sub-title": "Choose your pass…",
-      "image": "../../images/conference.jpg"
-    },
-    {
-      "id": 2,
       "title": "One day pass",
       "sub-title": "Choose your pass…",
       "price": "€45",
       "buy": "Buy"
     },
     {
-      "id": 3,
+      "id": 2,
       "title": "Two days pass",
       "sub-title": "Choose your pass…",
       "price": "€90",
       "buy": "Buy"
     },
     {
-      "id": 4,
+      "id": 3,
       "title": "Three days pass",
       "sub-title": "Choose your pass…",
       "price": "€135",
       "buy": "Buy"
     },
     {
-      "id": 5,
+      "id": 4,
       "title": "Four days pass",
       "sub-title": "Choose your pass…",
       "price": "€180",
       "buy": "Buy"
     },
     {
-      "id": 6,
+      "id": 5,
       "title": "Five days pass",
       "sub-title": "Choose your pass…",
       "price": "€225",
       "buy": "Buy"
     },
     {
-      "id": 7,
+      "id": 6,
       "title": "One day pass",
       "sub-title": "Choose your pass…",
       "price": "€270",
       "buy": "Buy"
     }
   ],
-  "training": [
-    {
-      "title": "The training",
-      "body": "At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
-      "image": "../../images/conference.jpg"
-    },
-    {
-      "course": [
+  "trainings": [
         {
           "id": 1,
           "title": "Usability testing",
           "image": "../../images/conference.jpg",
           "sous-title": "Content: 35hours",
           "rating": "4.7",
-          "price": "Price: 130€",
-          "body": "Aenean molestie consectetur purus eget viverra. Morbi sodales mattis fermentum. Maecenas rutrum dapibus odio, id viverra mi. Sed scelerisque lobortis magna, sit amet ultricies velit volutpat et. Quisque auctor, nunc non ultrices molestie, felis tortor facilisis risus, eu euismod eros urna sed urna. Vivamus ut elementum ex. Maecenas viverra et erat vel malesuada. Nulla commodo consectetur vestibulum. Vivamus at ligula aliquet, ultricies metus ac, ullamcorper velit. Morbi felis orci, aliquet ut sem quis, maximus imperdiet lacus. Duis porttitor, velit vel congue pulvinar, nisl tortor tincidunt erat, ac consectetur massa sem non urna. In iaculis magna eget ex venenatis, auctor consequat eros suscipit. Sed et porttitor neque. Vestibulum rhoncus lacus nec urna semper, ac rhoncus augue fermentum."
+          "price": "Price: €130",
+          "body": "Aenean molestie consectetur purus eget viverra. Morbi sodales mattis fermentum. Maecenas rutrum dapibus odio, id viverra mi. Sed scelerisque lobortis magna, sit amet ultricies velit volutpat et. Quisque auctor, nunc non ultrices molestie, felis tortor facilisis risus, eu euismod eros urna sed urna. Vivamus ut elementum ex. Maecenas viverra et erat vel malesuada. Nulla commodo consectetur vestibulum. Vivamus at ligula aliquet, ultricies metus ac, ullamcorper velit. Morbi felis orci, aliquet ut sem quis, maximus imperdiet lacus. Duis porttitor, velit vel congue pulvinar, nisl tortor tincidunt erat, ac consectetur massa sem non urna. In iaculis magna eget ex venenatis, auctor consequat eros suscipit. Sed et porttitor neque. Vestibulum rhoncus lacus nec urna semper, ac rhoncus augue fermentum.",
+          "details": [
+            {
+              "id": 1,
+              "title": "Benefits of usability testing",
+              "body": "Integer pellentesque ultricies maximus. Curabitur nec ante eu nulla volutpat pretium. Curabitur posuere laoreet nisi quis tristique. Integer ut erat eu nisi placerat iaculis. Suspendisse rutrum nunc at elit dignissim tempus. Sed quis ipsum ac metus rutrum maximus. Nullam laoreet ultrices volutpat."
+            },
+            {
+              "id": 2,
+              "title": "Essentials of a usability test",
+              "body": "Integer pellentesque ultricies maximus. Curabitur nec ante eu nulla volutpat pretium. Curabitur posuere laoreet nisi quis tristique. Integer ut erat eu nisi placerat iaculis. Suspendisse rutrum nunc at elit dignissim tempus. Sed quis ipsum ac metus rutrum maximus. Nullam laoreet ultrices volutpat."
+            },
+            {
+              "id": 3,
+              "title": "Detecting issues",
+              "body": "Integer pellentesque ultricies maximus. Curabitur nec ante eu nulla volutpat pretium. Curabitur posuere laoreet nisi quis tristique. Integer ut erat eu nisi placerat iaculis. Suspendisse rutrum nunc at elit dignissim tempus. Sed quis ipsum ac metus rutrum maximus. Nullam laoreet ultrices volutpat."
+            },
+            {
+              "id": 4,
+              "title": "usability test tasks",
+              "body": "Integer pellentesque ultricies maximus. Curabitur nec ante eu nulla volutpat pretium. Curabitur posuere laoreet nisi quis tristique. Integer ut erat eu nisi placerat iaculis. Suspendisse rutrum nunc at elit dignissim tempus. Sed quis ipsum ac metus rutrum maximus. Nullam laoreet ultrices volutpat."
+            }
+          ]
         },
         {
           "id": 2,
@@ -248,8 +244,25 @@
           "image": "../../../images/hci.jpg",
           "sous-title": "Content: 48hours",
           "rating": "4.9",
-          "price": "Price: 130€",
-          "body": "Aenean molestie consectetur purus eget viverra. Morbi sodales mattis fermentum. Maecenas rutrum dapibus odio, id viverra mi. Sed scelerisque lobortis magna, sit amet ultricies velit volutpat et. Quisque auctor, nunc non ultrices molestie, felis tortor facilisis risus, eu euismod eros urna sed urna. Vivamus ut elementum ex. Maecenas viverra et erat vel malesuada. Nulla commodo consectetur vestibulum. Vivamus at ligula aliquet, ultricies metus ac, ullamcorper velit. Morbi felis orci, aliquet ut sem quis, maximus imperdiet lacus. Duis porttitor, velit vel congue pulvinar, nisl tortor tincidunt erat, ac consectetur massa sem non urna. In iaculis magna eget ex venenatis, auctor consequat eros suscipit. Sed et porttitor neque. Vestibulum rhoncus lacus nec urna semper, ac rhoncus augue fermentum."
+          "price": "Price: €140",
+          "body": "Aenean molestie consectetur purus eget viverra. Morbi sodales mattis fermentum. Maecenas rutrum dapibus odio, id viverra mi. Sed scelerisque lobortis magna, sit amet ultricies velit volutpat et. Quisque auctor, nunc non ultrices molestie, felis tortor facilisis risus, eu euismod eros urna sed urna. Vivamus ut elementum ex. Maecenas viverra et erat vel malesuada. Nulla commodo consectetur vestibulum. Vivamus at ligula aliquet, ultricies metus ac, ullamcorper velit. Morbi felis orci, aliquet ut sem quis, maximus imperdiet lacus. Duis porttitor, velit vel congue pulvinar, nisl tortor tincidunt erat, ac consectetur massa sem non urna. In iaculis magna eget ex venenatis, auctor consequat eros suscipit. Sed et porttitor neque. Vestibulum rhoncus lacus nec urna semper, ac rhoncus augue fermentum.",
+          "details": [
+            {
+              "id": 1,
+              "title": "Introduction to HCI",
+              "body": "Aenean molestie consectetur purus eget viverra. Morbi sodales mattis fermentum. Maecenas rutrum dapibus odio, id viverra mi. Sed scelerisque lobortis magna, sit amet ultricies velit volutpat et. Quisque auctor, nunc non ultrices molestie, felis tortor facilisis risus, eu euismod eros urna sed urna. Vivamus ut elementum ex. Maecenas viverra et erat vel malesuada. Nulla commodo consectetur vestibulum. Vivamus at ligula aliquet, ultricies metus ac, ullamcorper velit. Morbi felis orci, aliquet ut sem quis, maximus imperdiet lacus. Duis porttitor, velit vel congue pulvinar, nisl tortor tincidunt erat, ac consectetur massa sem non urna. In iaculis magna eget ex venenatis, auctor consequat eros suscipit. Sed et porttitor neque. Vestibulum rhoncus lacus nec urna semper, ac rhoncus augue fermentum."
+            },
+            {
+              "id": 2,
+              "title": "Fields of HCI",
+              "body": "Aenean molestie consectetur purus eget viverra. Morbi sodales mattis fermentum. Maecenas rutrum dapibus odio, id viverra mi. Sed scelerisque lobortis magna, sit amet ultricies velit volutpat et. Quisque auctor, nunc non ultrices molestie, felis tortor facilisis risus, eu euismod eros urna sed urna. Vivamus ut elementum ex. Maecenas viverra et erat vel malesuada. Nulla commodo consectetur vestibulum. Vivamus at ligula aliquet, ultricies metus ac, ullamcorper velit. Morbi felis orci, aliquet ut sem quis, maximus imperdiet lacus. Duis porttitor, velit vel congue pulvinar, nisl tortor tincidunt erat, ac consectetur massa sem non urna. In iaculis magna eget ex venenatis, auctor consequat eros suscipit. Sed et porttitor neque. Vestibulum rhoncus lacus nec urna semper, ac rhoncus augue fermentum."
+            },
+            {
+              "id": 3,
+              "title": "Evolution of Ux design",
+              "body": "Aenean molestie consectetur purus eget viverra. Morbi sodales mattis fermentum. Maecenas rutrum dapibus odio, id viverra mi. Sed scelerisque lobortis magna, sit amet ultricies velit volutpat et. Quisque auctor, nunc non ultrices molestie, felis tortor facilisis risus, eu euismod eros urna sed urna. Vivamus ut elementum ex. Maecenas viverra et erat vel malesuada. Nulla commodo consectetur vestibulum. Vivamus at ligula aliquet, ultricies metus ac, ullamcorper velit. Morbi felis orci, aliquet ut sem quis, maximus imperdiet lacus. Duis porttitor, velit vel congue pulvinar, nisl tortor tincidunt erat, ac consectetur massa sem non urna. In iaculis magna eget ex venenatis, auctor consequat eros suscipit. Sed et porttitor neque. Vestibulum rhoncus lacus nec urna semper, ac rhoncus augue fermentum."
+            }
+          ]
         },
         {
           "id": 3,
@@ -257,8 +270,25 @@
           "image": "../../images/conference.jpg",
           "sous-title": "Content: 30hours",
           "rating": "4.6",
-          "price": "Price: 130€",
-          "body": "Aenean molestie consectetur purus eget viverra. Morbi sodales mattis fermentum. Maecenas rutrum dapibus odio, id viverra mi. Sed scelerisque lobortis magna, sit amet ultricies velit volutpat et. Quisque auctor, nunc non ultrices molestie, felis tortor facilisis risus, eu euismod eros urna sed urna. Vivamus ut elementum ex. Maecenas viverra et erat vel malesuada. Nulla commodo consectetur vestibulum. Vivamus at ligula aliquet, ultricies metus ac, ullamcorper velit. Morbi felis orci, aliquet ut sem quis, maximus imperdiet lacus. Duis porttitor, velit vel congue pulvinar, nisl tortor tincidunt erat, ac consectetur massa sem non urna. In iaculis magna eget ex venenatis, auctor consequat eros suscipit. Sed et porttitor neque. Vestibulum rhoncus lacus nec urna semper, ac rhoncus augue fermentum."
+          "price": "Price: €90",
+          "body": "Aenean molestie consectetur purus eget viverra. Morbi sodales mattis fermentum. Maecenas rutrum dapibus odio, id viverra mi. Sed scelerisque lobortis magna, sit amet ultricies velit volutpat et. Quisque auctor, nunc non ultrices molestie, felis tortor facilisis risus, eu euismod eros urna sed urna. Vivamus ut elementum ex. Maecenas viverra et erat vel malesuada. Nulla commodo consectetur vestibulum. Vivamus at ligula aliquet, ultricies metus ac, ullamcorper velit. Morbi felis orci, aliquet ut sem quis, maximus imperdiet lacus. Duis porttitor, velit vel congue pulvinar, nisl tortor tincidunt erat, ac consectetur massa sem non urna. In iaculis magna eget ex venenatis, auctor consequat eros suscipit. Sed et porttitor neque. Vestibulum rhoncus lacus nec urna semper, ac rhoncus augue fermentum.",
+          "details":[
+            {
+              "id": 1,
+              "title": "Introduction to design thinking",
+              "body": "Aenean molestie consectetur purus eget viverra. Morbi sodales mattis fermentum. Maecenas rutrum dapibus odio, id viverra mi. Sed scelerisque lobortis magna, sit amet ultricies velit volutpat et. Quisque auctor, nunc non ultrices molestie, felis tortor facilisis risus, eu euismod eros urna sed urna. Vivamus ut elementum ex. Maecenas viverra et erat vel malesuada. Nulla commodo consectetur vestibulum. Vivamus at ligula aliquet, ultricies metus ac, ullamcorper velit. Morbi felis orci, aliquet ut sem quis, maximus imperdiet lacus. Duis porttitor, velit vel congue pulvinar, nisl tortor tincidunt erat, ac consectetur massa sem non urna. In iaculis magna eget ex venenatis, auctor consequat eros suscipit. Sed et porttitor neque. Vestibulum rhoncus lacus nec urna semper, ac rhoncus augue fermentum."
+            },
+            {
+              "id": 2,
+              "title": "Methodologies",
+              "body": "Aenean molestie consectetur purus eget viverra. Morbi sodales mattis fermentum. Maecenas rutrum dapibus odio, id viverra mi. Sed scelerisque lobortis magna, sit amet ultricies velit volutpat et. Quisque auctor, nunc non ultrices molestie, felis tortor facilisis risus, eu euismod eros urna sed urna. Vivamus ut elementum ex. Maecenas viverra et erat vel malesuada. Nulla commodo consectetur vestibulum. Vivamus at ligula aliquet, ultricies metus ac, ullamcorper velit. Morbi felis orci, aliquet ut sem quis, maximus imperdiet lacus. Duis porttitor, velit vel congue pulvinar, nisl tortor tincidunt erat, ac consectetur massa sem non urna. In iaculis magna eget ex venenatis, auctor consequat eros suscipit. Sed et porttitor neque. Vestibulum rhoncus lacus nec urna semper, ac rhoncus augue fermentum."
+            },
+            {
+              "id": 3,
+              "title": "Best practices",
+              "body": "Aenean molestie consectetur purus eget viverra. Morbi sodales mattis fermentum. Maecenas rutrum dapibus odio, id viverra mi. Sed scelerisque lobortis magna, sit amet ultricies velit volutpat et. Quisque auctor, nunc non ultrices molestie, felis tortor facilisis risus, eu euismod eros urna sed urna. Vivamus ut elementum ex. Maecenas viverra et erat vel malesuada. Nulla commodo consectetur vestibulum. Vivamus at ligula aliquet, ultricies metus ac, ullamcorper velit. Morbi felis orci, aliquet ut sem quis, maximus imperdiet lacus. Duis porttitor, velit vel congue pulvinar, nisl tortor tincidunt erat, ac consectetur massa sem non urna. In iaculis magna eget ex venenatis, auctor consequat eros suscipit. Sed et porttitor neque. Vestibulum rhoncus lacus nec urna semper, ac rhoncus augue fermentum."
+            }
+          ]
         },
         {
           "id": 4,
@@ -266,8 +296,25 @@
           "image": "../../images/conference.jpg",
           "sous-title": "Content: 40hours",
           "rating": "4.7",
-          "price": "Price: 130€",
-          "body": "Aenean molestie consectetur purus eget viverra. Morbi sodales mattis fermentum. Maecenas rutrum dapibus odio, id viverra mi. Sed scelerisque lobortis magna, sit amet ultricies velit volutpat et. Quisque auctor, nunc non ultrices molestie, felis tortor facilisis risus, eu euismod eros urna sed urna. Vivamus ut elementum ex. Maecenas viverra et erat vel malesuada. Nulla commodo consectetur vestibulum. Vivamus at ligula aliquet, ultricies metus ac, ullamcorper velit. Morbi felis orci, aliquet ut sem quis, maximus imperdiet lacus. Duis porttitor, velit vel congue pulvinar, nisl tortor tincidunt erat, ac consectetur massa sem non urna. In iaculis magna eget ex venenatis, auctor consequat eros suscipit. Sed et porttitor neque. Vestibulum rhoncus lacus nec urna semper, ac rhoncus augue fermentum."
+          "price": "Price: €180",
+          "body": "Aenean molestie consectetur purus eget viverra. Morbi sodales mattis fermentum. Maecenas rutrum dapibus odio, id viverra mi. Sed scelerisque lobortis magna, sit amet ultricies velit volutpat et. Quisque auctor, nunc non ultrices molestie, felis tortor facilisis risus, eu euismod eros urna sed urna. Vivamus ut elementum ex. Maecenas viverra et erat vel malesuada. Nulla commodo consectetur vestibulum. Vivamus at ligula aliquet, ultricies metus ac, ullamcorper velit. Morbi felis orci, aliquet ut sem quis, maximus imperdiet lacus. Duis porttitor, velit vel congue pulvinar, nisl tortor tincidunt erat, ac consectetur massa sem non urna. In iaculis magna eget ex venenatis, auctor consequat eros suscipit. Sed et porttitor neque. Vestibulum rhoncus lacus nec urna semper, ac rhoncus augue fermentum.",
+          "details": [
+            {
+              "id": 1,
+              "title": "Methodologies",
+              "body": "Aenean molestie consectetur purus eget viverra. Morbi sodales mattis fermentum. Maecenas rutrum dapibus odio, id viverra mi. Sed scelerisque lobortis magna, sit amet ultricies velit volutpat et. Quisque auctor, nunc non ultrices molestie, felis tortor facilisis risus, eu euismod eros urna sed urna. Vivamus ut elementum ex. Maecenas viverra et erat vel malesuada. Nulla commodo consectetur vestibulum. Vivamus at ligula aliquet, ultricies metus ac, ullamcorper velit. Morbi felis orci, aliquet ut sem quis, maximus imperdiet lacus. Duis porttitor, velit vel congue pulvinar, nisl tortor tincidunt erat, ac consectetur massa sem non urna. In iaculis magna eget ex venenatis, auctor consequat eros suscipit. Sed et porttitor neque. Vestibulum rhoncus lacus nec urna semper, ac rhoncus augue fermentum."
+            },
+            {
+              "id": 2,
+              "title": "Usability",
+              "body": "Aenean molestie consectetur purus eget viverra. Morbi sodales mattis fermentum. Maecenas rutrum dapibus odio, id viverra mi. Sed scelerisque lobortis magna, sit amet ultricies velit volutpat et. Quisque auctor, nunc non ultrices molestie, felis tortor facilisis risus, eu euismod eros urna sed urna. Vivamus ut elementum ex. Maecenas viverra et erat vel malesuada. Nulla commodo consectetur vestibulum. Vivamus at ligula aliquet, ultricies metus ac, ullamcorper velit. Morbi felis orci, aliquet ut sem quis, maximus imperdiet lacus. Duis porttitor, velit vel congue pulvinar, nisl tortor tincidunt erat, ac consectetur massa sem non urna. In iaculis magna eget ex venenatis, auctor consequat eros suscipit. Sed et porttitor neque. Vestibulum rhoncus lacus nec urna semper, ac rhoncus augue fermentum."
+            },
+            {
+              "id": 3,
+              "title": "Personas",
+              "body": "Aenean molestie consectetur purus eget viverra. Morbi sodales mattis fermentum. Maecenas rutrum dapibus odio, id viverra mi. Sed scelerisque lobortis magna, sit amet ultricies velit volutpat et. Quisque auctor, nunc non ultrices molestie, felis tortor facilisis risus, eu euismod eros urna sed urna. Vivamus ut elementum ex. Maecenas viverra et erat vel malesuada. Nulla commodo consectetur vestibulum. Vivamus at ligula aliquet, ultricies metus ac, ullamcorper velit. Morbi felis orci, aliquet ut sem quis, maximus imperdiet lacus. Duis porttitor, velit vel congue pulvinar, nisl tortor tincidunt erat, ac consectetur massa sem non urna. In iaculis magna eget ex venenatis, auctor consequat eros suscipit. Sed et porttitor neque. Vestibulum rhoncus lacus nec urna semper, ac rhoncus augue fermentum."
+            }
+          ]
         },
         {
           "id": 5,
@@ -275,8 +322,25 @@
           "image": "../../images/conference.jpg",
           "sous-title": "Content: 20hours",
           "rating": "4.8",
-          "price": "Price: 130€",
-          "body": "Aenean molestie consectetur purus eget viverra. Morbi sodales mattis fermentum. Maecenas rutrum dapibus odio, id viverra mi. Sed scelerisque lobortis magna, sit amet ultricies velit volutpat et. Quisque auctor, nunc non ultrices molestie, felis tortor facilisis risus, eu euismod eros urna sed urna. Vivamus ut elementum ex. Maecenas viverra et erat vel malesuada. Nulla commodo consectetur vestibulum. Vivamus at ligula aliquet, ultricies metus ac, ullamcorper velit. Morbi felis orci, aliquet ut sem quis, maximus imperdiet lacus. Duis porttitor, velit vel congue pulvinar, nisl tortor tincidunt erat, ac consectetur massa sem non urna. In iaculis magna eget ex venenatis, auctor consequat eros suscipit. Sed et porttitor neque. Vestibulum rhoncus lacus nec urna semper, ac rhoncus augue fermentum."
+          "price": "Price: €60",
+          "body": "Aenean molestie consectetur purus eget viverra. Morbi sodales mattis fermentum. Maecenas rutrum dapibus odio, id viverra mi. Sed scelerisque lobortis magna, sit amet ultricies velit volutpat et. Quisque auctor, nunc non ultrices molestie, felis tortor facilisis risus, eu euismod eros urna sed urna. Vivamus ut elementum ex. Maecenas viverra et erat vel malesuada. Nulla commodo consectetur vestibulum. Vivamus at ligula aliquet, ultricies metus ac, ullamcorper velit. Morbi felis orci, aliquet ut sem quis, maximus imperdiet lacus. Duis porttitor, velit vel congue pulvinar, nisl tortor tincidunt erat, ac consectetur massa sem non urna. In iaculis magna eget ex venenatis, auctor consequat eros suscipit. Sed et porttitor neque. Vestibulum rhoncus lacus nec urna semper, ac rhoncus augue fermentum.",
+          "details": [
+            {
+              "id": 1,
+              "title": "Gestalt and perception",
+              "body": "Aenean molestie consectetur purus eget viverra. Morbi sodales mattis fermentum. Maecenas rutrum dapibus odio, id viverra mi. Sed scelerisque lobortis magna, sit amet ultricies velit volutpat et. Quisque auctor, nunc non ultrices molestie, felis tortor facilisis risus, eu euismod eros urna sed urna. Vivamus ut elementum ex. Maecenas viverra et erat vel malesuada. Nulla commodo consectetur vestibulum. Vivamus at ligula aliquet, ultricies metus ac, ullamcorper velit. Morbi felis orci, aliquet ut sem quis, maximus imperdiet lacus. Duis porttitor, velit vel congue pulvinar, nisl tortor tincidunt erat, ac consectetur massa sem non urna. In iaculis magna eget ex venenatis, auctor consequat eros suscipit. Sed et porttitor neque. Vestibulum rhoncus lacus nec urna semper, ac rhoncus augue fermentum." 
+            },
+            {
+              "id": 2,
+              "title": "the basics",
+              "body": "Aenean molestie consectetur purus eget viverra. Morbi sodales mattis fermentum. Maecenas rutrum dapibus odio, id viverra mi. Sed scelerisque lobortis magna, sit amet ultricies velit volutpat et. Quisque auctor, nunc non ultrices molestie, felis tortor facilisis risus, eu euismod eros urna sed urna. Vivamus ut elementum ex. Maecenas viverra et erat vel malesuada. Nulla commodo consectetur vestibulum. Vivamus at ligula aliquet, ultricies metus ac, ullamcorper velit. Morbi felis orci, aliquet ut sem quis, maximus imperdiet lacus. Duis porttitor, velit vel congue pulvinar, nisl tortor tincidunt erat, ac consectetur massa sem non urna. In iaculis magna eget ex venenatis, auctor consequat eros suscipit. Sed et porttitor neque. Vestibulum rhoncus lacus nec urna semper, ac rhoncus augue fermentum."
+            },
+            {
+              "id": 3,
+              "title": "Gestalt and design",
+              "body": "Aenean molestie consectetur purus eget viverra. Morbi sodales mattis fermentum. Maecenas rutrum dapibus odio, id viverra mi. Sed scelerisque lobortis magna, sit amet ultricies velit volutpat et. Quisque auctor, nunc non ultrices molestie, felis tortor facilisis risus, eu euismod eros urna sed urna. Vivamus ut elementum ex. Maecenas viverra et erat vel malesuada. Nulla commodo consectetur vestibulum. Vivamus at ligula aliquet, ultricies metus ac, ullamcorper velit. Morbi felis orci, aliquet ut sem quis, maximus imperdiet lacus. Duis porttitor, velit vel congue pulvinar, nisl tortor tincidunt erat, ac consectetur massa sem non urna. In iaculis magna eget ex venenatis, auctor consequat eros suscipit. Sed et porttitor neque. Vestibulum rhoncus lacus nec urna semper, ac rhoncus augue fermentum."
+            }
+          ]
         },
         {
           "id": 6,
@@ -284,8 +348,25 @@
           "image": "../../images/conference.jpg",
           "sous-title": "Content: 15hours",
           "rating": "4.5",
-          "price": "Price: 130€",
-          "body": "Aenean molestie consectetur purus eget viverra. Morbi sodales mattis fermentum. Maecenas rutrum dapibus odio, id viverra mi. Sed scelerisque lobortis magna, sit amet ultricies velit volutpat et. Quisque auctor, nunc non ultrices molestie, felis tortor facilisis risus, eu euismod eros urna sed urna. Vivamus ut elementum ex. Maecenas viverra et erat vel malesuada. Nulla commodo consectetur vestibulum. Vivamus at ligula aliquet, ultricies metus ac, ullamcorper velit. Morbi felis orci, aliquet ut sem quis, maximus imperdiet lacus. Duis porttitor, velit vel congue pulvinar, nisl tortor tincidunt erat, ac consectetur massa sem non urna. In iaculis magna eget ex venenatis, auctor consequat eros suscipit. Sed et porttitor neque. Vestibulum rhoncus lacus nec urna semper, ac rhoncus augue fermentum."
+          "price": "Price: €30",
+          "body": "Aenean molestie consectetur purus eget viverra. Morbi sodales mattis fermentum. Maecenas rutrum dapibus odio, id viverra mi. Sed scelerisque lobortis magna, sit amet ultricies velit volutpat et. Quisque auctor, nunc non ultrices molestie, felis tortor facilisis risus, eu euismod eros urna sed urna. Vivamus ut elementum ex. Maecenas viverra et erat vel malesuada. Nulla commodo consectetur vestibulum. Vivamus at ligula aliquet, ultricies metus ac, ullamcorper velit. Morbi felis orci, aliquet ut sem quis, maximus imperdiet lacus. Duis porttitor, velit vel congue pulvinar, nisl tortor tincidunt erat, ac consectetur massa sem non urna. In iaculis magna eget ex venenatis, auctor consequat eros suscipit. Sed et porttitor neque. Vestibulum rhoncus lacus nec urna semper, ac rhoncus augue fermentum.",
+          "details": [
+            {
+              "id": 1,
+              "title": "Designing an Information Visualization",
+              "body": "Aenean molestie consectetur purus eget viverra. Morbi sodales mattis fermentum. Maecenas rutrum dapibus odio, id viverra mi. Sed scelerisque lobortis magna, sit amet ultricies velit volutpat et. Quisque auctor, nunc non ultrices molestie, felis tortor facilisis risus, eu euismod eros urna sed urna. Vivamus ut elementum ex. Maecenas viverra et erat vel malesuada. Nulla commodo consectetur vestibulum. Vivamus at ligula aliquet, ultricies metus ac, ullamcorper velit. Morbi felis orci, aliquet ut sem quis, maximus imperdiet lacus. Duis porttitor, velit vel congue pulvinar, nisl tortor tincidunt erat, ac consectetur massa sem non urna. In iaculis magna eget ex venenatis, auctor consequat eros suscipit. Sed et porttitor neque. Vestibulum rhoncus lacus nec urna semper, ac rhoncus augue fermentum."
+            },
+            {
+              "id": 2,
+              "title": "Defining the problem",
+              "body": "Aenean molestie consectetur purus eget viverra. Morbi sodales mattis fermentum. Maecenas rutrum dapibus odio, id viverra mi. Sed scelerisque lobortis magna, sit amet ultricies velit volutpat et. Quisque auctor, nunc non ultrices molestie, felis tortor facilisis risus, eu euismod eros urna sed urna. Vivamus ut elementum ex. Maecenas viverra et erat vel malesuada. Nulla commodo consectetur vestibulum. Vivamus at ligula aliquet, ultricies metus ac, ullamcorper velit. Morbi felis orci, aliquet ut sem quis, maximus imperdiet lacus. Duis porttitor, velit vel congue pulvinar, nisl tortor tincidunt erat, ac consectetur massa sem non urna. In iaculis magna eget ex venenatis, auctor consequat eros suscipit. Sed et porttitor neque. Vestibulum rhoncus lacus nec urna semper, ac rhoncus augue fermentum."
+            },
+            {
+              "id": 3,
+              "title": "Data to be Represented",
+              "body": "Aenean molestie consectetur purus eget viverra. Morbi sodales mattis fermentum. Maecenas rutrum dapibus odio, id viverra mi. Sed scelerisque lobortis magna, sit amet ultricies velit volutpat et. Quisque auctor, nunc non ultrices molestie, felis tortor facilisis risus, eu euismod eros urna sed urna. Vivamus ut elementum ex. Maecenas viverra et erat vel malesuada. Nulla commodo consectetur vestibulum. Vivamus at ligula aliquet, ultricies metus ac, ullamcorper velit. Morbi felis orci, aliquet ut sem quis, maximus imperdiet lacus. Duis porttitor, velit vel congue pulvinar, nisl tortor tincidunt erat, ac consectetur massa sem non urna. In iaculis magna eget ex venenatis, auctor consequat eros suscipit. Sed et porttitor neque. Vestibulum rhoncus lacus nec urna semper, ac rhoncus augue fermentum."
+            }
+          ]
         },
         {
           "id": 7,
@@ -293,8 +374,25 @@
           "image": "../../images/conference.jpg",
           "sous-title": "Content: 32hours",
           "rating": "4.8",
-          "price": "Price: 130€",
-          "body": "Aenean molestie consectetur purus eget viverra. Morbi sodales mattis fermentum. Maecenas rutrum dapibus odio, id viverra mi. Sed scelerisque lobortis magna, sit amet ultricies velit volutpat et. Quisque auctor, nunc non ultrices molestie, felis tortor facilisis risus, eu euismod eros urna sed urna. Vivamus ut elementum ex. Maecenas viverra et erat vel malesuada. Nulla commodo consectetur vestibulum. Vivamus at ligula aliquet, ultricies metus ac, ullamcorper velit. Morbi felis orci, aliquet ut sem quis, maximus imperdiet lacus. Duis porttitor, velit vel congue pulvinar, nisl tortor tincidunt erat, ac consectetur massa sem non urna. In iaculis magna eget ex venenatis, auctor consequat eros suscipit. Sed et porttitor neque. Vestibulum rhoncus lacus nec urna semper, ac rhoncus augue fermentum."
+          "price": "Price: €34",
+          "body": "Aenean molestie consectetur purus eget viverra. Morbi sodales mattis fermentum. Maecenas rutrum dapibus odio, id viverra mi. Sed scelerisque lobortis magna, sit amet ultricies velit volutpat et. Quisque auctor, nunc non ultrices molestie, felis tortor facilisis risus, eu euismod eros urna sed urna. Vivamus ut elementum ex. Maecenas viverra et erat vel malesuada. Nulla commodo consectetur vestibulum. Vivamus at ligula aliquet, ultricies metus ac, ullamcorper velit. Morbi felis orci, aliquet ut sem quis, maximus imperdiet lacus. Duis porttitor, velit vel congue pulvinar, nisl tortor tincidunt erat, ac consectetur massa sem non urna. In iaculis magna eget ex venenatis, auctor consequat eros suscipit. Sed et porttitor neque. Vestibulum rhoncus lacus nec urna semper, ac rhoncus augue fermentum.",
+          "details": [
+            {
+              "id": 1,
+              "title": "Quantitative Research Methods",
+              "body": "Aenean molestie consectetur purus eget viverra. Morbi sodales mattis fermentum. Maecenas rutrum dapibus odio, id viverra mi. Sed scelerisque lobortis magna, sit amet ultricies velit volutpat et. Quisque auctor, nunc non ultrices molestie, felis tortor facilisis risus, eu euismod eros urna sed urna. Vivamus ut elementum ex. Maecenas viverra et erat vel malesuada. Nulla commodo consectetur vestibulum. Vivamus at ligula aliquet, ultricies metus ac, ullamcorper velit. Morbi felis orci, aliquet ut sem quis, maximus imperdiet lacus. Duis porttitor, velit vel congue pulvinar, nisl tortor tincidunt erat, ac consectetur massa sem non urna. In iaculis magna eget ex venenatis, auctor consequat eros suscipit. Sed et porttitor neque. Vestibulum rhoncus lacus nec urna semper, ac rhoncus augue fermentum."
+            },
+            {
+              "id": 2,
+              "title": "User-Centred Design Requires User Research",
+              "body": "Aenean molestie consectetur purus eget viverra. Morbi sodales mattis fermentum. Maecenas rutrum dapibus odio, id viverra mi. Sed scelerisque lobortis magna, sit amet ultricies velit volutpat et. Quisque auctor, nunc non ultrices molestie, felis tortor facilisis risus, eu euismod eros urna sed urna. Vivamus ut elementum ex. Maecenas viverra et erat vel malesuada. Nulla commodo consectetur vestibulum. Vivamus at ligula aliquet, ultricies metus ac, ullamcorper velit. Morbi felis orci, aliquet ut sem quis, maximus imperdiet lacus. Duis porttitor, velit vel congue pulvinar, nisl tortor tincidunt erat, ac consectetur massa sem non urna. In iaculis magna eget ex venenatis, auctor consequat eros suscipit. Sed et porttitor neque. Vestibulum rhoncus lacus nec urna semper, ac rhoncus augue fermentum."
+            },
+            {
+              "id": 3,
+              "title": "Tips and techniques",
+              "body": "Aenean molestie consectetur purus eget viverra. Morbi sodales mattis fermentum. Maecenas rutrum dapibus odio, id viverra mi. Sed scelerisque lobortis magna, sit amet ultricies velit volutpat et. Quisque auctor, nunc non ultrices molestie, felis tortor facilisis risus, eu euismod eros urna sed urna. Vivamus ut elementum ex. Maecenas viverra et erat vel malesuada. Nulla commodo consectetur vestibulum. Vivamus at ligula aliquet, ultricies metus ac, ullamcorper velit. Morbi felis orci, aliquet ut sem quis, maximus imperdiet lacus. Duis porttitor, velit vel congue pulvinar, nisl tortor tincidunt erat, ac consectetur massa sem non urna. In iaculis magna eget ex venenatis, auctor consequat eros suscipit. Sed et porttitor neque. Vestibulum rhoncus lacus nec urna semper, ac rhoncus augue fermentum."
+            }
+          ]
         },
         {
           "id": 8,
@@ -302,8 +400,25 @@
           "image": "../../images/conference.jpg",
           "sous-title": "Content: 38hours",
           "rating": "4.8",
-          "price": "Price: 130€",
-          "body": "Aenean molestie consectetur purus eget viverra. Morbi sodales mattis fermentum. Maecenas rutrum dapibus odio, id viverra mi. Sed scelerisque lobortis magna, sit amet ultricies velit volutpat et. Quisque auctor, nunc non ultrices molestie, felis tortor facilisis risus, eu euismod eros urna sed urna. Vivamus ut elementum ex. Maecenas viverra et erat vel malesuada. Nulla commodo consectetur vestibulum. Vivamus at ligula aliquet, ultricies metus ac, ullamcorper velit. Morbi felis orci, aliquet ut sem quis, maximus imperdiet lacus. Duis porttitor, velit vel congue pulvinar, nisl tortor tincidunt erat, ac consectetur massa sem non urna. In iaculis magna eget ex venenatis, auctor consequat eros suscipit. Sed et porttitor neque. Vestibulum rhoncus lacus nec urna semper, ac rhoncus augue fermentum."
+          "price": "Price: €42",
+          "body": "Aenean molestie consectetur purus eget viverra. Morbi sodales mattis fermentum. Maecenas rutrum dapibus odio, id viverra mi. Sed scelerisque lobortis magna, sit amet ultricies velit volutpat et. Quisque auctor, nunc non ultrices molestie, felis tortor facilisis risus, eu euismod eros urna sed urna. Vivamus ut elementum ex. Maecenas viverra et erat vel malesuada. Nulla commodo consectetur vestibulum. Vivamus at ligula aliquet, ultricies metus ac, ullamcorper velit. Morbi felis orci, aliquet ut sem quis, maximus imperdiet lacus. Duis porttitor, velit vel congue pulvinar, nisl tortor tincidunt erat, ac consectetur massa sem non urna. In iaculis magna eget ex venenatis, auctor consequat eros suscipit. Sed et porttitor neque. Vestibulum rhoncus lacus nec urna semper, ac rhoncus augue fermentum.",
+          "details": [
+            {
+              "id": 1,
+              "title": "Techniques",
+              "body": "Aenean molestie consectetur purus eget viverra. Morbi sodales mattis fermentum. Maecenas rutrum dapibus odio, id viverra mi. Sed scelerisque lobortis magna, sit amet ultricies velit volutpat et. Quisque auctor, nunc non ultrices molestie, felis tortor facilisis risus, eu euismod eros urna sed urna. Vivamus ut elementum ex. Maecenas viverra et erat vel malesuada. Nulla commodo consectetur vestibulum. Vivamus at ligula aliquet, ultricies metus ac, ullamcorper velit. Morbi felis orci, aliquet ut sem quis, maximus imperdiet lacus. Duis porttitor, velit vel congue pulvinar, nisl tortor tincidunt erat, ac consectetur massa sem non urna. In iaculis magna eget ex venenatis, auctor consequat eros suscipit. Sed et porttitor neque. Vestibulum rhoncus lacus nec urna semper, ac rhoncus augue fermentum."
+            },
+            {
+              "id": 2,
+              "title": "Designing for Products and Services",
+              "body": "Aenean molestie consectetur purus eget viverra. Morbi sodales mattis fermentum. Maecenas rutrum dapibus odio, id viverra mi. Sed scelerisque lobortis magna, sit amet ultricies velit volutpat et. Quisque auctor, nunc non ultrices molestie, felis tortor facilisis risus, eu euismod eros urna sed urna. Vivamus ut elementum ex. Maecenas viverra et erat vel malesuada. Nulla commodo consectetur vestibulum. Vivamus at ligula aliquet, ultricies metus ac, ullamcorper velit. Morbi felis orci, aliquet ut sem quis, maximus imperdiet lacus. Duis porttitor, velit vel congue pulvinar, nisl tortor tincidunt erat, ac consectetur massa sem non urna. In iaculis magna eget ex venenatis, auctor consequat eros suscipit. Sed et porttitor neque. Vestibulum rhoncus lacus nec urna semper, ac rhoncus augue fermentum."
+            },
+            {
+              "id": 3,
+              "title": "User centered",
+              "body": "Aenean molestie consectetur purus eget viverra. Morbi sodales mattis fermentum. Maecenas rutrum dapibus odio, id viverra mi. Sed scelerisque lobortis magna, sit amet ultricies velit volutpat et. Quisque auctor, nunc non ultrices molestie, felis tortor facilisis risus, eu euismod eros urna sed urna. Vivamus ut elementum ex. Maecenas viverra et erat vel malesuada. Nulla commodo consectetur vestibulum. Vivamus at ligula aliquet, ultricies metus ac, ullamcorper velit. Morbi felis orci, aliquet ut sem quis, maximus imperdiet lacus. Duis porttitor, velit vel congue pulvinar, nisl tortor tincidunt erat, ac consectetur massa sem non urna. In iaculis magna eget ex venenatis, auctor consequat eros suscipit. Sed et porttitor neque. Vestibulum rhoncus lacus nec urna semper, ac rhoncus augue fermentum."
+            }
+          ]
         },
         {
           "id": 9,
@@ -311,8 +426,25 @@
           "image": "../../images/conference.jpg",
           "sous-title": "Content: 25hours",
           "rating": "4.6",
-          "price": "Price: 130€",
-          "body": "Aenean molestie consectetur purus eget viverra. Morbi sodales mattis fermentum. Maecenas rutrum dapibus odio, id viverra mi. Sed scelerisque lobortis magna, sit amet ultricies velit volutpat et. Quisque auctor, nunc non ultrices molestie, felis tortor facilisis risus, eu euismod eros urna sed urna. Vivamus ut elementum ex. Maecenas viverra et erat vel malesuada. Nulla commodo consectetur vestibulum. Vivamus at ligula aliquet, ultricies metus ac, ullamcorper velit. Morbi felis orci, aliquet ut sem quis, maximus imperdiet lacus. Duis porttitor, velit vel congue pulvinar, nisl tortor tincidunt erat, ac consectetur massa sem non urna. In iaculis magna eget ex venenatis, auctor consequat eros suscipit. Sed et porttitor neque. Vestibulum rhoncus lacus nec urna semper, ac rhoncus augue fermentum."
+          "price": "Price: €28.80",
+          "body": "Aenean molestie consectetur purus eget viverra. Morbi sodales mattis fermentum. Maecenas rutrum dapibus odio, id viverra mi. Sed scelerisque lobortis magna, sit amet ultricies velit volutpat et. Quisque auctor, nunc non ultrices molestie, felis tortor facilisis risus, eu euismod eros urna sed urna. Vivamus ut elementum ex. Maecenas viverra et erat vel malesuada. Nulla commodo consectetur vestibulum. Vivamus at ligula aliquet, ultricies metus ac, ullamcorper velit. Morbi felis orci, aliquet ut sem quis, maximus imperdiet lacus. Duis porttitor, velit vel congue pulvinar, nisl tortor tincidunt erat, ac consectetur massa sem non urna. In iaculis magna eget ex venenatis, auctor consequat eros suscipit. Sed et porttitor neque. Vestibulum rhoncus lacus nec urna semper, ac rhoncus augue fermentum.",
+          "details": [
+            {
+              "id": 1,
+              "title": "Introduction to Emotional design",
+              "body": "Aenean molestie consectetur purus eget viverra. Morbi sodales mattis fermentum. Maecenas rutrum dapibus odio, id viverra mi. Sed scelerisque lobortis magna, sit amet ultricies velit volutpat et. Quisque auctor, nunc non ultrices molestie, felis tortor facilisis risus, eu euismod eros urna sed urna. Vivamus ut elementum ex. Maecenas viverra et erat vel malesuada. Nulla commodo consectetur vestibulum. Vivamus at ligula aliquet, ultricies metus ac, ullamcorper velit. Morbi felis orci, aliquet ut sem quis, maximus imperdiet lacus. Duis porttitor, velit vel congue pulvinar, nisl tortor tincidunt erat, ac consectetur massa sem non urna. In iaculis magna eget ex venenatis, auctor consequat eros suscipit. Sed et porttitor neque. Vestibulum rhoncus lacus nec urna semper, ac rhoncus augue fermentum."
+            },
+            {
+              "id": 2,
+              "title": "How to Apply Emotional Design",
+              "body": "Aenean molestie consectetur purus eget viverra. Morbi sodales mattis fermentum. Maecenas rutrum dapibus odio, id viverra mi. Sed scelerisque lobortis magna, sit amet ultricies velit volutpat et. Quisque auctor, nunc non ultrices molestie, felis tortor facilisis risus, eu euismod eros urna sed urna. Vivamus ut elementum ex. Maecenas viverra et erat vel malesuada. Nulla commodo consectetur vestibulum. Vivamus at ligula aliquet, ultricies metus ac, ullamcorper velit. Morbi felis orci, aliquet ut sem quis, maximus imperdiet lacus. Duis porttitor, velit vel congue pulvinar, nisl tortor tincidunt erat, ac consectetur massa sem non urna. In iaculis magna eget ex venenatis, auctor consequat eros suscipit. Sed et porttitor neque. Vestibulum rhoncus lacus nec urna semper, ac rhoncus augue fermentum."
+            },
+            {
+              "id": 3,
+              "title": "Design for human",
+              "body": "Aenean molestie consectetur purus eget viverra. Morbi sodales mattis fermentum. Maecenas rutrum dapibus odio, id viverra mi. Sed scelerisque lobortis magna, sit amet ultricies velit volutpat et. Quisque auctor, nunc non ultrices molestie, felis tortor facilisis risus, eu euismod eros urna sed urna. Vivamus ut elementum ex. Maecenas viverra et erat vel malesuada. Nulla commodo consectetur vestibulum. Vivamus at ligula aliquet, ultricies metus ac, ullamcorper velit. Morbi felis orci, aliquet ut sem quis, maximus imperdiet lacus. Duis porttitor, velit vel congue pulvinar, nisl tortor tincidunt erat, ac consectetur massa sem non urna. In iaculis magna eget ex venenatis, auctor consequat eros suscipit. Sed et porttitor neque. Vestibulum rhoncus lacus nec urna semper, ac rhoncus augue fermentum."
+            }
+          ]
         },
         {
           "id": 10,
@@ -320,8 +452,25 @@
           "image": "../../images/conference.jpg",
           "sous-title": "Content: 42hours",
           "rating": "4.8",
-          "price": "Price: 130€",
-          "body": "Aenean molestie consectetur purus eget viverra. Morbi sodales mattis fermentum. Maecenas rutrum dapibus odio, id viverra mi. Sed scelerisque lobortis magna, sit amet ultricies velit volutpat et. Quisque auctor, nunc non ultrices molestie, felis tortor facilisis risus, eu euismod eros urna sed urna. Vivamus ut elementum ex. Maecenas viverra et erat vel malesuada. Nulla commodo consectetur vestibulum. Vivamus at ligula aliquet, ultricies metus ac, ullamcorper velit. Morbi felis orci, aliquet ut sem quis, maximus imperdiet lacus. Duis porttitor, velit vel congue pulvinar, nisl tortor tincidunt erat, ac consectetur massa sem non urna. In iaculis magna eget ex venenatis, auctor consequat eros suscipit. Sed et porttitor neque. Vestibulum rhoncus lacus nec urna semper, ac rhoncus augue fermentum."
+          "price": "Price: 137.77€",
+          "body": "Aenean molestie consectetur purus eget viverra. Morbi sodales mattis fermentum. Maecenas rutrum dapibus odio, id viverra mi. Sed scelerisque lobortis magna, sit amet ultricies velit volutpat et. Quisque auctor, nunc non ultrices molestie, felis tortor facilisis risus, eu euismod eros urna sed urna. Vivamus ut elementum ex. Maecenas viverra et erat vel malesuada. Nulla commodo consectetur vestibulum. Vivamus at ligula aliquet, ultricies metus ac, ullamcorper velit. Morbi felis orci, aliquet ut sem quis, maximus imperdiet lacus. Duis porttitor, velit vel congue pulvinar, nisl tortor tincidunt erat, ac consectetur massa sem non urna. In iaculis magna eget ex venenatis, auctor consequat eros suscipit. Sed et porttitor neque. Vestibulum rhoncus lacus nec urna semper, ac rhoncus augue fermentum.",
+          "details": [
+            {
+              "id": 1,
+              "title": "Best practices",
+              "body": "Aenean molestie consectetur purus eget viverra. Morbi sodales mattis fermentum. Maecenas rutrum dapibus odio, id viverra mi. Sed scelerisque lobortis magna, sit amet ultricies velit volutpat et. Quisque auctor, nunc non ultrices molestie, felis tortor facilisis risus, eu euismod eros urna sed urna. Vivamus ut elementum ex. Maecenas viverra et erat vel malesuada. Nulla commodo consectetur vestibulum. Vivamus at ligula aliquet, ultricies metus ac, ullamcorper velit. Morbi felis orci, aliquet ut sem quis, maximus imperdiet lacus. Duis porttitor, velit vel congue pulvinar, nisl tortor tincidunt erat, ac consectetur massa sem non urna. In iaculis magna eget ex venenatis, auctor consequat eros suscipit. Sed et porttitor neque. Vestibulum rhoncus lacus nec urna semper, ac rhoncus augue fermentum."
+            },
+            {
+              "id": 2,
+              "title": "User friendly",
+              "body": "Aenean molestie consectetur purus eget viverra. Morbi sodales mattis fermentum. Maecenas rutrum dapibus odio, id viverra mi. Sed scelerisque lobortis magna, sit amet ultricies velit volutpat et. Quisque auctor, nunc non ultrices molestie, felis tortor facilisis risus, eu euismod eros urna sed urna. Vivamus ut elementum ex. Maecenas viverra et erat vel malesuada. Nulla commodo consectetur vestibulum. Vivamus at ligula aliquet, ultricies metus ac, ullamcorper velit. Morbi felis orci, aliquet ut sem quis, maximus imperdiet lacus. Duis porttitor, velit vel congue pulvinar, nisl tortor tincidunt erat, ac consectetur massa sem non urna. In iaculis magna eget ex venenatis, auctor consequat eros suscipit. Sed et porttitor neque. Vestibulum rhoncus lacus nec urna semper, ac rhoncus augue fermentum."
+            },
+            {
+              "id": 3,
+              "title": "Methodes",
+              "body": "Aenean molestie consectetur purus eget viverra. Morbi sodales mattis fermentum. Maecenas rutrum dapibus odio, id viverra mi. Sed scelerisque lobortis magna, sit amet ultricies velit volutpat et. Quisque auctor, nunc non ultrices molestie, felis tortor facilisis risus, eu euismod eros urna sed urna. Vivamus ut elementum ex. Maecenas viverra et erat vel malesuada. Nulla commodo consectetur vestibulum. Vivamus at ligula aliquet, ultricies metus ac, ullamcorper velit. Morbi felis orci, aliquet ut sem quis, maximus imperdiet lacus. Duis porttitor, velit vel congue pulvinar, nisl tortor tincidunt erat, ac consectetur massa sem non urna. In iaculis magna eget ex venenatis, auctor consequat eros suscipit. Sed et porttitor neque. Vestibulum rhoncus lacus nec urna semper, ac rhoncus augue fermentum."
+            }
+          ]
         },
         {
           "id": 11,
@@ -329,8 +478,25 @@
           "image": "../../images/conference.jpg",
           "sous-title": "Content: 35hours",
           "rating": "4.7",
-          "price": "Price: 130€",
-          "body": "Aenean molestie consectetur purus eget viverra. Morbi sodales mattis fermentum. Maecenas rutrum dapibus odio, id viverra mi. Sed scelerisque lobortis magna, sit amet ultricies velit volutpat et. Quisque auctor, nunc non ultrices molestie, felis tortor facilisis risus, eu euismod eros urna sed urna. Vivamus ut elementum ex. Maecenas viverra et erat vel malesuada. Nulla commodo consectetur vestibulum. Vivamus at ligula aliquet, ultricies metus ac, ullamcorper velit. Morbi felis orci, aliquet ut sem quis, maximus imperdiet lacus. Duis porttitor, velit vel congue pulvinar, nisl tortor tincidunt erat, ac consectetur massa sem non urna. In iaculis magna eget ex venenatis, auctor consequat eros suscipit. Sed et porttitor neque. Vestibulum rhoncus lacus nec urna semper, ac rhoncus augue fermentum."
+          "price": "Price: €80",
+          "body": "Aenean molestie consectetur purus eget viverra. Morbi sodales mattis fermentum. Maecenas rutrum dapibus odio, id viverra mi. Sed scelerisque lobortis magna, sit amet ultricies velit volutpat et. Quisque auctor, nunc non ultrices molestie, felis tortor facilisis risus, eu euismod eros urna sed urna. Vivamus ut elementum ex. Maecenas viverra et erat vel malesuada. Nulla commodo consectetur vestibulum. Vivamus at ligula aliquet, ultricies metus ac, ullamcorper velit. Morbi felis orci, aliquet ut sem quis, maximus imperdiet lacus. Duis porttitor, velit vel congue pulvinar, nisl tortor tincidunt erat, ac consectetur massa sem non urna. In iaculis magna eget ex venenatis, auctor consequat eros suscipit. Sed et porttitor neque. Vestibulum rhoncus lacus nec urna semper, ac rhoncus augue fermentum.",
+          "details": [
+            {
+              "id": 1,
+              "title": "What is Intuitive User Interface?",
+              "body": "Aenean molestie consectetur purus eget viverra. Morbi sodales mattis fermentum. Maecenas rutrum dapibus odio, id viverra mi. Sed scelerisque lobortis magna, sit amet ultricies velit volutpat et. Quisque auctor, nunc non ultrices molestie, felis tortor facilisis risus, eu euismod eros urna sed urna. Vivamus ut elementum ex. Maecenas viverra et erat vel malesuada. Nulla commodo consectetur vestibulum. Vivamus at ligula aliquet, ultricies metus ac, ullamcorper velit. Morbi felis orci, aliquet ut sem quis, maximus imperdiet lacus. Duis porttitor, velit vel congue pulvinar, nisl tortor tincidunt erat, ac consectetur massa sem non urna. In iaculis magna eget ex venenatis, auctor consequat eros suscipit. Sed et porttitor neque. Vestibulum rhoncus lacus nec urna semper, ac rhoncus augue fermentum."
+            },
+            {
+              "id": 2,
+              "title": "Intuitive approch",
+              "body": "Aenean molestie consectetur purus eget viverra. Morbi sodales mattis fermentum. Maecenas rutrum dapibus odio, id viverra mi. Sed scelerisque lobortis magna, sit amet ultricies velit volutpat et. Quisque auctor, nunc non ultrices molestie, felis tortor facilisis risus, eu euismod eros urna sed urna. Vivamus ut elementum ex. Maecenas viverra et erat vel malesuada. Nulla commodo consectetur vestibulum. Vivamus at ligula aliquet, ultricies metus ac, ullamcorper velit. Morbi felis orci, aliquet ut sem quis, maximus imperdiet lacus. Duis porttitor, velit vel congue pulvinar, nisl tortor tincidunt erat, ac consectetur massa sem non urna. In iaculis magna eget ex venenatis, auctor consequat eros suscipit. Sed et porttitor neque. Vestibulum rhoncus lacus nec urna semper, ac rhoncus augue fermentum."
+            },
+            {
+              "id": 3,
+              "title": "Designing intuitive products",
+              "body": "Aenean molestie consectetur purus eget viverra. Morbi sodales mattis fermentum. Maecenas rutrum dapibus odio, id viverra mi. Sed scelerisque lobortis magna, sit amet ultricies velit volutpat et. Quisque auctor, nunc non ultrices molestie, felis tortor facilisis risus, eu euismod eros urna sed urna. Vivamus ut elementum ex. Maecenas viverra et erat vel malesuada. Nulla commodo consectetur vestibulum. Vivamus at ligula aliquet, ultricies metus ac, ullamcorper velit. Morbi felis orci, aliquet ut sem quis, maximus imperdiet lacus. Duis porttitor, velit vel congue pulvinar, nisl tortor tincidunt erat, ac consectetur massa sem non urna. In iaculis magna eget ex venenatis, auctor consequat eros suscipit. Sed et porttitor neque. Vestibulum rhoncus lacus nec urna semper, ac rhoncus augue fermentum."
+            }
+          ]
         },
         {
           "id": 12,
@@ -338,10 +504,26 @@
           "image": "../../images/conference.jpg",
           "sous-title": "Content: 35hours",
           "rating": "4.5",
-          "price": "Price: 130€",
-          "body": "Aenean molestie consectetur purus eget viverra. Morbi sodales mattis fermentum. Maecenas rutrum dapibus odio, id viverra mi. Sed scelerisque lobortis magna, sit amet ultricies velit volutpat et. Quisque auctor, nunc non ultrices molestie, felis tortor facilisis risus, eu euismod eros urna sed urna. Vivamus ut elementum ex. Maecenas viverra et erat vel malesuada. Nulla commodo consectetur vestibulum. Vivamus at ligula aliquet, ultricies metus ac, ullamcorper velit. Morbi felis orci, aliquet ut sem quis, maximus imperdiet lacus. Duis porttitor, velit vel congue pulvinar, nisl tortor tincidunt erat, ac consectetur massa sem non urna. In iaculis magna eget ex venenatis, auctor consequat eros suscipit. Sed et porttitor neque. Vestibulum rhoncus lacus nec urna semper, ac rhoncus augue fermentum."
+          "price": "Price: €80.99",
+          "body": "Aenean molestie consectetur purus eget viverra. Morbi sodales mattis fermentum. Maecenas rutrum dapibus odio, id viverra mi. Sed scelerisque lobortis magna, sit amet ultricies velit volutpat et. Quisque auctor, nunc non ultrices molestie, felis tortor facilisis risus, eu euismod eros urna sed urna. Vivamus ut elementum ex. Maecenas viverra et erat vel malesuada. Nulla commodo consectetur vestibulum. Vivamus at ligula aliquet, ultricies metus ac, ullamcorper velit. Morbi felis orci, aliquet ut sem quis, maximus imperdiet lacus. Duis porttitor, velit vel congue pulvinar, nisl tortor tincidunt erat, ac consectetur massa sem non urna. In iaculis magna eget ex venenatis, auctor consequat eros suscipit. Sed et porttitor neque. Vestibulum rhoncus lacus nec urna semper, ac rhoncus augue fermentum.",
+          "details": [
+            {
+              "id": 1,
+              "title": "Introduction to User Research",
+              "body": "Aenean molestie consectetur purus eget viverra. Morbi sodales mattis fermentum. Maecenas rutrum dapibus odio, id viverra mi. Sed scelerisque lobortis magna, sit amet ultricies velit volutpat et. Quisque auctor, nunc non ultrices molestie, felis tortor facilisis risus, eu euismod eros urna sed urna. Vivamus ut elementum ex. Maecenas viverra et erat vel malesuada. Nulla commodo consectetur vestibulum. Vivamus at ligula aliquet, ultricies metus ac, ullamcorper velit. Morbi felis orci, aliquet ut sem quis, maximus imperdiet lacus. Duis porttitor, velit vel congue pulvinar, nisl tortor tincidunt erat, ac consectetur massa sem non urna. In iaculis magna eget ex venenatis, auctor consequat eros suscipit. Sed et porttitor neque. Vestibulum rhoncus lacus nec urna semper, ac rhoncus augue fermentum."
+            },
+            {
+              "id": 2,
+              "title": "Methodologies",
+              "body": "Aenean molestie consectetur purus eget viverra. Morbi sodales mattis fermentum. Maecenas rutrum dapibus odio, id viverra mi. Sed scelerisque lobortis magna, sit amet ultricies velit volutpat et. Quisque auctor, nunc non ultrices molestie, felis tortor facilisis risus, eu euismod eros urna sed urna. Vivamus ut elementum ex. Maecenas viverra et erat vel malesuada. Nulla commodo consectetur vestibulum. Vivamus at ligula aliquet, ultricies metus ac, ullamcorper velit. Morbi felis orci, aliquet ut sem quis, maximus imperdiet lacus. Duis porttitor, velit vel congue pulvinar, nisl tortor tincidunt erat, ac consectetur massa sem non urna. In iaculis magna eget ex venenatis, auctor consequat eros suscipit. Sed et porttitor neque. Vestibulum rhoncus lacus nec urna semper, ac rhoncus augue fermentum."
+            },
+            {
+              "id": 3,
+              "title": "carrd sorting",
+              "body": "Aenean molestie consectetur purus eget viverra. Morbi sodales mattis fermentum. Maecenas rutrum dapibus odio, id viverra mi. Sed scelerisque lobortis magna, sit amet ultricies velit volutpat et. Quisque auctor, nunc non ultrices molestie, felis tortor facilisis risus, eu euismod eros urna sed urna. Vivamus ut elementum ex. Maecenas viverra et erat vel malesuada. Nulla commodo consectetur vestibulum. Vivamus at ligula aliquet, ultricies metus ac, ullamcorper velit. Morbi felis orci, aliquet ut sem quis, maximus imperdiet lacus. Duis porttitor, velit vel congue pulvinar, nisl tortor tincidunt erat, ac consectetur massa sem non urna. In iaculis magna eget ex venenatis, auctor consequat eros suscipit. Sed et porttitor neque. Vestibulum rhoncus lacus nec urna semper, ac rhoncus augue fermentum."
+            }
+          ]
         }
-      ]
-    }
+      
   ]
 }
