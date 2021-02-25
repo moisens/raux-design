@@ -132,28 +132,103 @@
   ],
   "schedules": [
     {
-      "id": 1,
-      "image": "../../images/speaker-1.jpg",
-      "title": "usability testing",
-      "sub-title": "speaker: leopolde ouellet",
-      "hour": "9:00 - 12:00",
-      "body": "Nam pulvinar mi in ligula lacinia suscipit. Maecenas libero turpis, luctus rhoncus nunc sit amet, molestie varius lectus. Morbi pulvinar ex odio, at elementum odio ornare eu. Cras quis aliquam erat. Vivamus aliquam nibh ut volutpat dapibus. Cras maximus convallis odio, eget fringilla risus laoreet id."
+      "monday": [
+        {
+          "id": 1,
+          "image": "../../images/speaker-1.jpg",
+          "title": "usability testing",
+          "sub-title": "speaker: leopolde ouellet",
+          "hour": "9:00 - 12:00",
+          "body": "Nam pulvinar mi in ligula lacinia suscipit. Maecenas libero turpis, luctus rhoncus nunc sit amet, molestie varius lectus. Morbi pulvinar ex odio, at elementum odio ornare eu. Cras quis aliquam erat. Vivamus aliquam nibh ut volutpat dapibus. Cras maximus convallis odio, eget fringilla risus laoreet id."
+        }
+      ]
     },
     {
-      "id": 2,
-      "image": "../../images/speaker-1.jpg",
-      "title": "design thinking",
-      "sub-title": "speaker: melanie dubois",
-      "hour": "9:00 - 12:00",
-      "body": "Nam pulvinar mi in ligula lacinia suscipit. Maecenas libero turpis, luctus rhoncus nunc sit amet, molestie varius lectus. Morbi pulvinar ex odio, at elementum odio ornare eu. Cras quis aliquam erat. Vivamus aliquam nibh ut volutpat dapibus. Cras maximus convallis odio, eget fringilla risus laoreet id."
+      "tuesday": [
+        {
+          "id": 1,
+          "image": "../../images/speaker-1.jpg",
+          "title": "design thinking",
+          "sub-title": "speaker: melanie dubois",
+          "hour": "9:00 - 12:00",
+          "body": "Nam pulvinar mi in ligula lacinia suscipit. Maecenas libero turpis, luctus rhoncus nunc sit amet, molestie varius lectus. Morbi pulvinar ex odio, at elementum odio ornare eu. Cras quis aliquam erat. Vivamus aliquam nibh ut volutpat dapibus. Cras maximus convallis odio, eget fringilla risus laoreet id."
+        }
+      ]
     },
     {
-      "id": 3,
-      "image": "../../images/speaker-1.jpg",
-      "title": "Mobile User Experience (UX) Design",
-      "sub-title": "speaker: meredith lambert",
-      "hour": "9:00 - 12:00",
-      "body": "Nam pulvinar mi in ligula lacinia suscipit. Maecenas libero turpis, luctus rhoncus nunc sit amet, molestie varius lectus. Morbi pulvinar ex odio, at elementum odio ornare eu. Cras quis aliquam erat. Vivamus aliquam nibh ut volutpat dapibus. Cras maximus convallis odio, eget fringilla risus laoreet id."
+      "wednesday": [
+        {
+          "id": 1,
+          "image": "../../images/speaker-1.jpg",
+          "title": "information visualisation",
+          "sub-title": "speaker: ralf griffin",
+          "hour": "9:00 - 12:00",
+          "body": "Nam pulvinar mi in ligula lacinia suscipit. Maecenas libero turpis, luctus rhoncus nunc sit amet, molestie varius lectus. Morbi pulvinar ex odio, at elementum odio ornare eu. Cras quis aliquam erat. Vivamus aliquam nibh ut volutpat dapibus. Cras maximus convallis odio, eget fringilla risus laoreet id."
+        },
+        {
+          "id": 2,
+          "image": "../../images/speaker-1.jpg",
+          "title": "Design better",
+          "sub-title": "speaker: zoé ming na wen",
+          "hour": "12:30 - 15:30",
+          "body": "Nam pulvinar mi in ligula lacinia suscipit. Maecenas libero turpis, luctus rhoncus nunc sit amet, molestie varius lectus. Morbi pulvinar ex odio, at elementum odio ornare eu. Cras quis aliquam erat. Vivamus aliquam nibh ut volutpat dapibus. Cras maximus convallis odio, eget fringilla risus laoreet id."
+   
+        }
+      ]
+    },
+    {
+      "thursday": [
+        {
+          "id": 1,
+          "image": "../../images/speaker-1.jpg",
+          "title": "hci",
+          "sub-title": "speaker: janet frazier",
+          "hour": "9:00 - 12:00",
+          "body": "Nam pulvinar mi in ligula lacinia suscipit. Maecenas libero turpis, luctus rhoncus nunc sit amet, molestie varius lectus. Morbi pulvinar ex odio, at elementum odio ornare eu. Cras quis aliquam erat. Vivamus aliquam nibh ut volutpat dapibus. Cras maximus convallis odio, eget fringilla risus laoreet id."
+        },
+        {
+          "id": 2,
+          "image": "../../images/speaker-1.jpg",
+          "title": "sprint design",
+          "sub-title": "charles anderson",
+          "hour": "12:30 - 15:30",
+          "body": "Nam pulvinar mi in ligula lacinia suscipit. Maecenas libero turpis, luctus rhoncus nunc sit amet, molestie varius lectus. Morbi pulvinar ex odio, at elementum odio ornare eu. Cras quis aliquam erat. Vivamus aliquam nibh ut volutpat dapibus. Cras maximus convallis odio, eget fringilla risus laoreet id."
+   
+        }
+      ]
+    },
+    {
+      "friday": [
+        {
+          "id": 1,
+          "image": "../../images/speaker-1.jpg",
+          "title": "UX Management: Strategy and Tactics",
+          "sub-title": "speaker: toshiko sato",
+          "hour": "9:00 - 12:00",
+          "body": "Nam pulvinar mi in ligula lacinia suscipit. Maecenas libero turpis, luctus rhoncus nunc sit amet, molestie varius lectus. Morbi pulvinar ex odio, at elementum odio ornare eu. Cras quis aliquam erat. Vivamus aliquam nibh ut volutpat dapibus. Cras maximus convallis odio, eget fringilla risus laoreet id."
+        },
+        {
+          "id": 2,
+          "image": "../../images/speaker-1.jpg",
+          "title": "Interaction Design for Usability",
+          "sub-title": "robert tadeus",
+          "hour": "12:30 - 15:30",
+          "body": "Nam pulvinar mi in ligula lacinia suscipit. Maecenas libero turpis, luctus rhoncus nunc sit amet, molestie varius lectus. Morbi pulvinar ex odio, at elementum odio ornare eu. Cras quis aliquam erat. Vivamus aliquam nibh ut volutpat dapibus. Cras maximus convallis odio, eget fringilla risus laoreet id."
+   
+        }
+      ]
+    },
+    {
+      "nextmonday": [
+        {
+          "id": 1,
+          "image": "../../images/speaker-1.jpg",
+          "title": "Mobile User Experience (UX) Design",
+          "sub-title": "speaker: meredith lambert",
+          "hour": "9:00 - 12:00",
+          "body": "Nam pulvinar mi in ligula lacinia suscipit. Maecenas libero turpis, luctus rhoncus nunc sit amet, molestie varius lectus. Morbi pulvinar ex odio, at elementum odio ornare eu. Cras quis aliquam erat. Vivamus aliquam nibh ut volutpat dapibus. Cras maximus convallis odio, eget fringilla risus laoreet id."
+        }
+      ]
     }
   ],
   "bookings": [
