@@ -653,7 +653,7 @@ footer {
 }
 
 .schedule-content {
-  display: flex;
+  display: inline-flex;
   padding: 20px 0px 20px 80px;
 }
 .schedule-content img {
@@ -680,11 +680,12 @@ footer {
   line-height: 1.5;
 }
 
-.schedule-separation {
-  width: 50%;
-  border: solid 3px #CE2553;
-  border-top-right-radius: 20px;
-  border-bottom-right-radius: 20px;
+.schedule-content {
+  display: none;
+}
+
+.schedule-content.active-schedule {
+  display: inline-flex;
 }
 
 .curved-illu {
