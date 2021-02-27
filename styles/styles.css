@@ -653,10 +653,14 @@ footer {
 }
 
 .schedule-content {
-  display: inline-flex;
   padding: 20px 0px 20px 80px;
 }
-.schedule-content img {
+
+.image-text {
+  display: flex;
+  padding-top: 40px;
+}
+.image-text img {
   object-fit: cover;
   border: solid 4px #FFD052;
 }
@@ -685,7 +689,7 @@ footer {
 }
 
 .schedule-content.active-schedule {
-  display: inline-flex;
+  display: block;
 }
 
 .curved-illu {
