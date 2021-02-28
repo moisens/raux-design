@@ -6,4 +6,11 @@ export const fetchThemesData = async () => {
 }
 
 
+export const fetchMondayData = async () => {
+  const res = await fetch('http://localhost:3000/monday');
+  const monday = await res.json();
+  return monday;
+}
+
+
 

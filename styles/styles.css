@@ -661,6 +661,8 @@ footer {
   padding-top: 40px;
 }
 .image-text img {
+  width: 200px;
+  height: 180px;
   object-fit: cover;
   border: solid 4px #FFD052;
 }
@@ -677,7 +679,7 @@ footer {
 .schedule-texts h4 {
   font-size: 18px;
   color: #8E2091;
-  padding-bottom: 20px;
+  line-height: 1.9;
 }
 .schedule-texts p {
   font-size: 22px;

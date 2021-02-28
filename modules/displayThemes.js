@@ -19,7 +19,7 @@ const theme = async () => {
 
   articleTheme.innerHTML = newThemes;
   } catch (error) {
-    console.log('unable to fetch the data');
+    console.log('unable to fetch themes data');
     
   }
   
