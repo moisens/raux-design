@@ -6,7 +6,6 @@ const Wednesday_schedule = async () => {
   try {
     const wednesday = await fetchWednesdayData();
     const newWednesday = wednesday.map(wedShedule => {
-      console.log(wedShedule);
       const { image, title, subtitle, hour, body } = wedShedule;
       return`
       <div class="image-text">
