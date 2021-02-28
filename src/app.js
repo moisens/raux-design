@@ -4,7 +4,7 @@ import tuesdaySchedule from '../modules/displayTuesdaySchedule.js';
 import Wednesday_schedule from '../modules/displayWednesdaySchedule.js';
 import thursdaySchedule from '../modules/displayThursdaySchedule.js';
 import fridaySchedule from '../modules/displayFridaySchedule.js';
-
+import nextMondaySchedule from '../modules/displayNextMondaySchedule.js'
 
 
 const init = () => {
@@ -14,9 +14,10 @@ const init = () => {
   Wednesday_schedule();
   thursdaySchedule();
   fridaySchedule();
+  nextMondaySchedule();
 
 
-  
+
 }
 
 window.addEventListener('load', init);
