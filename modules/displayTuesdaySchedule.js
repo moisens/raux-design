@@ -5,7 +5,6 @@ const shedule_tuesday = document.querySelector('#tuesday');
 const tuesdaySchedule = async () => {
   try {
     const tuesday = await fetchTuesdayData();
-    console.log(tuesday);
     const newTuesday = tuesday.map(mardi => {
       const { image, title, subtitle, hour, body } = mardi;
       return`
