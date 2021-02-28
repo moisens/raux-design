@@ -823,6 +823,8 @@ footer{
   display: flex;
   padding-top: 40px;
   img{
+    width: 200px;
+    height: 180px;
     object-fit: cover;
     border: solid 4px #FFD052;
   }
@@ -840,7 +842,7 @@ footer{
   h4{
     font-size: 18px;
     color: #8E2091;
-    padding-bottom: 20px;
+    line-height: 1.9;
   }
   p{
     font-size: 22px;

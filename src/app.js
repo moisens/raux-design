@@ -1,3 +1,10 @@
-import theme from '../components/themes.js';
+import theme from '../modules/displayThemes.js';
+import mondaySchedule from '../modules/displayMondaySchedule.js';
 
-theme();
+
+const init = () => {
+  theme();
+  mondaySchedule();
+}
+
+window.addEventListener('load', init);
