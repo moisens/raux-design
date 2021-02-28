@@ -18,3 +18,10 @@ export const fetchTuesdayData = async () => {
   const tuesday = await res.json();
   return tuesday;
 }
+
+
+export const fetchWednesdayData = async () => {
+  const res = await fetch('http://localhost:3000/wednesday');
+  const wednesday = await res.json();
+  return wednesday;
+}
