@@ -9,14 +9,14 @@ const Wednesday_schedule = async () => {
       const { image, title, subtitle, hour, body } = wedShedule;
       return`
       <div class="image-text">
-      <img src="${image}" alt="${title}" title="${title}">
-      <article class="schedule-texts">
-        <h3>${title}</h3>
-        <h4>${subtitle}</h4>
-        <h4>${hour}</h4>
-        <p>${body}</p>
-      </article>
-    </div>
+        <img src="${image}" alt="${title}" title="${title}">
+        <article class="schedule-texts">
+          <h3>${title}</h3>
+          <h4>${subtitle}</h4>
+          <h4>${hour}</h4>
+          <p>${body}</p>
+        </article>
+      </div>
       `;
     }).join('');
     schedule_wednesday.innerHTML = newWednesday;

@@ -39,3 +39,10 @@ export const fechtFridayData = async () => {
   const friday = await res.json();
   return friday;
 }
+
+
+export const fetchNextMondayData = async () => {
+  const res = await fetch('http://localhost:3000/nextmonday');
+  const next_monday = await res.json();
+  return next_monday;
+}
