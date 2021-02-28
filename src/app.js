@@ -2,6 +2,8 @@ import theme from '../modules/displayThemes.js';
 import mondaySchedule from '../modules/displayMondaySchedule.js';
 import tuesdaySchedule from '../modules/displayTuesdaySchedule.js';
 import Wednesday_schedule from '../modules/displayWednesdaySchedule.js';
+import thursdaySchedule from '../modules/displayThursdaySchedule.js';
+
 
 
 const init = () => {
@@ -9,6 +11,7 @@ const init = () => {
   mondaySchedule();
   tuesdaySchedule();
   Wednesday_schedule();
+  thursdaySchedule();
 }
 
 window.addEventListener('load', init);
