@@ -624,17 +624,18 @@ footer {
 }
 .btn-container button {
   width: 140px;
+  height: 50px;
   border: none;
   background-color: #fff;
   color: #223C5D;
   font-size: 20px;
   cursor: pointer;
 }
-.btn-container button p {
-  padding: 15px;
-}
 .btn-container button:hover {
   background-color: #FFD052;
+}
+.btn-container .first-monday {
+  border-top-left-radius: 9px;
 }
 .btn-container .second-monday {
   border-top-right-radius: 9px;
@@ -642,12 +643,13 @@ footer {
 .btn-container .active-schedule {
   background-color: #CB2350;
   color: #fff;
-  border-top-left-radius: 9px;
 }
 .btn-container .active-schedule::after {
   content: "";
   width: 100%;
   height: 5px;
+  position: relative;
+  top: 22%;
   background-color: #FFD052;
   display: block;
 }
