@@ -227,44 +227,44 @@
     {
       "id": 1,
       "title": "One day pass",
-      "subtitle": "Choose your pass…",
       "price": "€45",
-      "buy": "Buy"
+      "buy": "Buy",
+      "body": "Rerum nihil illum quaerat accusamus"
     },
     {
       "id": 2,
       "title": "Two days pass",
-      "subtitle": "Choose your pass…",
       "price": "€90",
-      "buy": "Buy"
+      "buy": "Buy",
+      "body": "Rerum nihil illum quaerat accusamus"
     },
     {
       "id": 3,
       "title": "Three days pass",
-      "subtitle": "Choose your pass…",
       "price": "€135",
-      "buy": "Buy"
+      "buy": "Buy",
+      "body": "Rerum nihil illum quaerat accusamus"
     },
     {
       "id": 4,
       "title": "Four days pass",
-      "subtitle": "Choose your pass…",
       "price": "€180",
-      "buy": "Buy"
+      "buy": "Buy",
+      "body": "Rerum nihil illum quaerat accusamus"
     },
     {
       "id": 5,
       "title": "Five days pass",
-      "subtitle": "Choose your pass…",
       "price": "€225",
-      "buy": "Buy"
+      "buy": "Buy",
+      "body": "Rerum nihil illum quaerat accusamus"
     },
     {
       "id": 6,
       "title": "One day pass",
-      "subtitle": "Choose your pass…",
       "price": "€270",
-      "buy": "Buy"
+      "buy": "Buy",
+      "body": "Rerum nihil illum quaerat accusamus"
     }
   ],
   "trainings": [

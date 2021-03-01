@@ -46,3 +46,10 @@ export const fetchNextMondayData = async () => {
   const next_monday = await res.json();
   return next_monday;
 }
+
+
+export const fetchBookingData = async () => {
+  const res = await fetch('http://localhost:3000/bookings');
+  const booking = await res.json();
+  return booking;
+}
