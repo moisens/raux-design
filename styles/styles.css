@@ -983,6 +983,12 @@ footer {
   border-radius: 9px;
   margin-bottom: 40px;
 }
+.all-courses .lesson-text-img .lesson-img img {
+  width: 100%;
+  height: 200px;
+  border-radius: 9px;
+  object-fit: cover;
+}
 .all-courses .lesson-text-img .hours-rating {
   display: flex;
   justify-content: space-between;

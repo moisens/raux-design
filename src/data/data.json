@@ -275,7 +275,7 @@
           "soustitle": "Content: 35hours",
           "rating": "4.7",
           "price": "Price: €130",
-          "body": "Aenean molestie consectetur purus eget viverra. Morbi sodales mattis fermentum. Maecenas rutrum dapibus odio, id viverra mi. Sed scelerisque lobortis magna, sit amet ultricies velit volutpat et. Quisque auctor, nunc non ultrices molestie, felis tortor facilisis risus, eu euismod eros urna sed urna. Vivamus ut elementum ex. Maecenas viverra et erat vel malesuada. Nulla commodo consectetur vestibulum. Vivamus at ligula aliquet, ultricies metus ac, ullamcorper velit. Morbi felis orci, aliquet ut sem quis, maximus imperdiet lacus. Duis porttitor, velit vel congue pulvinar, nisl tortor tincidunt erat, ac consectetur massa sem non urna. In iaculis magna eget ex venenatis, auctor consequat eros suscipit. Sed et porttitor neque. Vestibulum rhoncus lacus nec urna semper, ac rhoncus augue fermentum.",
+          "body": "Aenean molestie consectetur purus eget viverra. Morbi sodales mattis fermentum.",
           "details": [
             {
               "id": 1,
@@ -301,12 +301,12 @@
         },
         {
           "id": 2,
-          "title": "Human-Computer Interaction - HCI",
+          "title": "HCI",
           "image": "../../../images/hci.jpg",
           "soustitle": "Content: 48hours",
           "rating": "4.9",
           "price": "Price: €140",
-          "body": "Aenean molestie consectetur purus eget viverra. Morbi sodales mattis fermentum. Maecenas rutrum dapibus odio, id viverra mi. Sed scelerisque lobortis magna, sit amet ultricies velit volutpat et. Quisque auctor, nunc non ultrices molestie, felis tortor facilisis risus, eu euismod eros urna sed urna. Vivamus ut elementum ex. Maecenas viverra et erat vel malesuada. Nulla commodo consectetur vestibulum. Vivamus at ligula aliquet, ultricies metus ac, ullamcorper velit. Morbi felis orci, aliquet ut sem quis, maximus imperdiet lacus. Duis porttitor, velit vel congue pulvinar, nisl tortor tincidunt erat, ac consectetur massa sem non urna. In iaculis magna eget ex venenatis, auctor consequat eros suscipit. Sed et porttitor neque. Vestibulum rhoncus lacus nec urna semper, ac rhoncus augue fermentum.",
+          "body": "Aenean molestie consectetur purus eget viverra. Morbi sodales mattis fermentum.",
           "details": [
             {
               "id": 1,
@@ -332,7 +332,7 @@
           "soustitle": "Content: 30hours",
           "rating": "4.6",
           "price": "Price: €90",
-          "body": "Aenean molestie consectetur purus eget viverra. Morbi sodales mattis fermentum. Maecenas rutrum dapibus odio, id viverra mi. Sed scelerisque lobortis magna, sit amet ultricies velit volutpat et. Quisque auctor, nunc non ultrices molestie, felis tortor facilisis risus, eu euismod eros urna sed urna. Vivamus ut elementum ex. Maecenas viverra et erat vel malesuada. Nulla commodo consectetur vestibulum. Vivamus at ligula aliquet, ultricies metus ac, ullamcorper velit. Morbi felis orci, aliquet ut sem quis, maximus imperdiet lacus. Duis porttitor, velit vel congue pulvinar, nisl tortor tincidunt erat, ac consectetur massa sem non urna. In iaculis magna eget ex venenatis, auctor consequat eros suscipit. Sed et porttitor neque. Vestibulum rhoncus lacus nec urna semper, ac rhoncus augue fermentum.",
+          "body": "Aenean molestie consectetur purus eget viverra. Morbi sodales mattis fermentum.",
           "details":[
             {
               "id": 1,
@@ -353,12 +353,12 @@
         },
         {
           "id": 4,
-          "title": "Interaction Design for Usability",
+          "title": "Interaction Design",
           "image": "../../images/conference.jpg",
           "soustitle": "Content: 40hours",
           "rating": "4.7",
           "price": "Price: €180",
-          "body": "Aenean molestie consectetur purus eget viverra. Morbi sodales mattis fermentum. Maecenas rutrum dapibus odio, id viverra mi. Sed scelerisque lobortis magna, sit amet ultricies velit volutpat et. Quisque auctor, nunc non ultrices molestie, felis tortor facilisis risus, eu euismod eros urna sed urna. Vivamus ut elementum ex. Maecenas viverra et erat vel malesuada. Nulla commodo consectetur vestibulum. Vivamus at ligula aliquet, ultricies metus ac, ullamcorper velit. Morbi felis orci, aliquet ut sem quis, maximus imperdiet lacus. Duis porttitor, velit vel congue pulvinar, nisl tortor tincidunt erat, ac consectetur massa sem non urna. In iaculis magna eget ex venenatis, auctor consequat eros suscipit. Sed et porttitor neque. Vestibulum rhoncus lacus nec urna semper, ac rhoncus augue fermentum.",
+          "body": "Aenean molestie consectetur purus eget viverra. Morbi sodales mattis fermentum.",
           "details": [
             {
               "id": 1,
@@ -384,7 +384,7 @@
           "soustitle": "Content: 20hours",
           "rating": "4.8",
           "price": "Price: €60",
-          "body": "Aenean molestie consectetur purus eget viverra. Morbi sodales mattis fermentum. Maecenas rutrum dapibus odio, id viverra mi. Sed scelerisque lobortis magna, sit amet ultricies velit volutpat et. Quisque auctor, nunc non ultrices molestie, felis tortor facilisis risus, eu euismod eros urna sed urna. Vivamus ut elementum ex. Maecenas viverra et erat vel malesuada. Nulla commodo consectetur vestibulum. Vivamus at ligula aliquet, ultricies metus ac, ullamcorper velit. Morbi felis orci, aliquet ut sem quis, maximus imperdiet lacus. Duis porttitor, velit vel congue pulvinar, nisl tortor tincidunt erat, ac consectetur massa sem non urna. In iaculis magna eget ex venenatis, auctor consequat eros suscipit. Sed et porttitor neque. Vestibulum rhoncus lacus nec urna semper, ac rhoncus augue fermentum.",
+          "body": "Aenean molestie consectetur purus eget viverra. Morbi sodales mattis fermentum.",
           "details": [
             {
               "id": 1,
@@ -410,7 +410,7 @@
           "soustitle": "Content: 15hours",
           "rating": "4.5",
           "price": "Price: €30",
-          "body": "Aenean molestie consectetur purus eget viverra. Morbi sodales mattis fermentum. Maecenas rutrum dapibus odio, id viverra mi. Sed scelerisque lobortis magna, sit amet ultricies velit volutpat et. Quisque auctor, nunc non ultrices molestie, felis tortor facilisis risus, eu euismod eros urna sed urna. Vivamus ut elementum ex. Maecenas viverra et erat vel malesuada. Nulla commodo consectetur vestibulum. Vivamus at ligula aliquet, ultricies metus ac, ullamcorper velit. Morbi felis orci, aliquet ut sem quis, maximus imperdiet lacus. Duis porttitor, velit vel congue pulvinar, nisl tortor tincidunt erat, ac consectetur massa sem non urna. In iaculis magna eget ex venenatis, auctor consequat eros suscipit. Sed et porttitor neque. Vestibulum rhoncus lacus nec urna semper, ac rhoncus augue fermentum.",
+          "body": "Aenean molestie consectetur purus eget viverra. Morbi sodales mattis fermentum.",
           "details": [
             {
               "id": 1,
@@ -436,7 +436,7 @@
           "soustitle": "Content: 32hours",
           "rating": "4.8",
           "price": "Price: €34",
-          "body": "Aenean molestie consectetur purus eget viverra. Morbi sodales mattis fermentum. Maecenas rutrum dapibus odio, id viverra mi. Sed scelerisque lobortis magna, sit amet ultricies velit volutpat et. Quisque auctor, nunc non ultrices molestie, felis tortor facilisis risus, eu euismod eros urna sed urna. Vivamus ut elementum ex. Maecenas viverra et erat vel malesuada. Nulla commodo consectetur vestibulum. Vivamus at ligula aliquet, ultricies metus ac, ullamcorper velit. Morbi felis orci, aliquet ut sem quis, maximus imperdiet lacus. Duis porttitor, velit vel congue pulvinar, nisl tortor tincidunt erat, ac consectetur massa sem non urna. In iaculis magna eget ex venenatis, auctor consequat eros suscipit. Sed et porttitor neque. Vestibulum rhoncus lacus nec urna semper, ac rhoncus augue fermentum.",
+          "body": "Aenean molestie consectetur purus eget viverra. Morbi sodales mattis fermentum.",
           "details": [
             {
               "id": 1,
@@ -462,7 +462,7 @@
           "soustitle": "Content: 38hours",
           "rating": "4.8",
           "price": "Price: €42",
-          "body": "Aenean molestie consectetur purus eget viverra. Morbi sodales mattis fermentum. Maecenas rutrum dapibus odio, id viverra mi. Sed scelerisque lobortis magna, sit amet ultricies velit volutpat et. Quisque auctor, nunc non ultrices molestie, felis tortor facilisis risus, eu euismod eros urna sed urna. Vivamus ut elementum ex. Maecenas viverra et erat vel malesuada. Nulla commodo consectetur vestibulum. Vivamus at ligula aliquet, ultricies metus ac, ullamcorper velit. Morbi felis orci, aliquet ut sem quis, maximus imperdiet lacus. Duis porttitor, velit vel congue pulvinar, nisl tortor tincidunt erat, ac consectetur massa sem non urna. In iaculis magna eget ex venenatis, auctor consequat eros suscipit. Sed et porttitor neque. Vestibulum rhoncus lacus nec urna semper, ac rhoncus augue fermentum.",
+          "body": "Aenean molestie consectetur purus eget viverra. Morbi sodales mattis fermentum.",
           "details": [
             {
               "id": 1,
@@ -488,7 +488,7 @@
           "soustitle": "Content: 25hours",
           "rating": "4.6",
           "price": "Price: €28.80",
-          "body": "Aenean molestie consectetur purus eget viverra. Morbi sodales mattis fermentum. Maecenas rutrum dapibus odio, id viverra mi. Sed scelerisque lobortis magna, sit amet ultricies velit volutpat et. Quisque auctor, nunc non ultrices molestie, felis tortor facilisis risus, eu euismod eros urna sed urna. Vivamus ut elementum ex. Maecenas viverra et erat vel malesuada. Nulla commodo consectetur vestibulum. Vivamus at ligula aliquet, ultricies metus ac, ullamcorper velit. Morbi felis orci, aliquet ut sem quis, maximus imperdiet lacus. Duis porttitor, velit vel congue pulvinar, nisl tortor tincidunt erat, ac consectetur massa sem non urna. In iaculis magna eget ex venenatis, auctor consequat eros suscipit. Sed et porttitor neque. Vestibulum rhoncus lacus nec urna semper, ac rhoncus augue fermentum.",
+          "body": "Aenean molestie consectetur purus eget viverra. Morbi sodales mattis fermentum.",
           "details": [
             {
               "id": 1,
@@ -513,8 +513,8 @@
           "image": "../../images/conference.jpg",
           "soustitle": "Content: 42hours",
           "rating": "4.8",
-          "price": "Price: 137.77€",
-          "body": "Aenean molestie consectetur purus eget viverra. Morbi sodales mattis fermentum. Maecenas rutrum dapibus odio, id viverra mi. Sed scelerisque lobortis magna, sit amet ultricies velit volutpat et. Quisque auctor, nunc non ultrices molestie, felis tortor facilisis risus, eu euismod eros urna sed urna. Vivamus ut elementum ex. Maecenas viverra et erat vel malesuada. Nulla commodo consectetur vestibulum. Vivamus at ligula aliquet, ultricies metus ac, ullamcorper velit. Morbi felis orci, aliquet ut sem quis, maximus imperdiet lacus. Duis porttitor, velit vel congue pulvinar, nisl tortor tincidunt erat, ac consectetur massa sem non urna. In iaculis magna eget ex venenatis, auctor consequat eros suscipit. Sed et porttitor neque. Vestibulum rhoncus lacus nec urna semper, ac rhoncus augue fermentum.",
+          "price": "Price: €137.77",
+          "body": "Aenean molestie consectetur purus eget viverra. Morbi sodales mattis fermentum.",
           "details": [
             {
               "id": 1,
@@ -540,7 +540,7 @@
           "soustitle": "Content: 35hours",
           "rating": "4.7",
           "price": "Price: €80",
-          "body": "Aenean molestie consectetur purus eget viverra. Morbi sodales mattis fermentum. Maecenas rutrum dapibus odio, id viverra mi. Sed scelerisque lobortis magna, sit amet ultricies velit volutpat et. Quisque auctor, nunc non ultrices molestie, felis tortor facilisis risus, eu euismod eros urna sed urna. Vivamus ut elementum ex. Maecenas viverra et erat vel malesuada. Nulla commodo consectetur vestibulum. Vivamus at ligula aliquet, ultricies metus ac, ullamcorper velit. Morbi felis orci, aliquet ut sem quis, maximus imperdiet lacus. Duis porttitor, velit vel congue pulvinar, nisl tortor tincidunt erat, ac consectetur massa sem non urna. In iaculis magna eget ex venenatis, auctor consequat eros suscipit. Sed et porttitor neque. Vestibulum rhoncus lacus nec urna semper, ac rhoncus augue fermentum.",
+          "body": "Aenean molestie consectetur purus eget viverra. Morbi sodales mattis fermentum.",
           "details": [
             {
               "id": 1,
@@ -561,12 +561,12 @@
         },
         {
           "id": 12,
-          "title": "User Research – Methods and Best Practices",
+          "title": "User Research – Methods",
           "image": "../../images/conference.jpg",
-          "soustitle": "Content: 35hours",
+          "soustitle": "Content: 36hours",
           "rating": "4.5",
           "price": "Price: €80.99",
-          "body": "Aenean molestie consectetur purus eget viverra. Morbi sodales mattis fermentum. Maecenas rutrum dapibus odio, id viverra mi. Sed scelerisque lobortis magna, sit amet ultricies velit volutpat et. Quisque auctor, nunc non ultrices molestie, felis tortor facilisis risus, eu euismod eros urna sed urna. Vivamus ut elementum ex. Maecenas viverra et erat vel malesuada. Nulla commodo consectetur vestibulum. Vivamus at ligula aliquet, ultricies metus ac, ullamcorper velit. Morbi felis orci, aliquet ut sem quis, maximus imperdiet lacus. Duis porttitor, velit vel congue pulvinar, nisl tortor tincidunt erat, ac consectetur massa sem non urna. In iaculis magna eget ex venenatis, auctor consequat eros suscipit. Sed et porttitor neque. Vestibulum rhoncus lacus nec urna semper, ac rhoncus augue fermentum.",
+          "body": "Aenean molestie consectetur purus eget viverra. Morbi sodales mattis fermentum.",
           "details": [
             {
               "id": 1,

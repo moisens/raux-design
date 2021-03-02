@@ -1214,6 +1214,13 @@ footer{
       background-color: $yellow;
       border-radius: 9px;
       margin-bottom: 40px;
+
+      img{
+        width: 100%;
+        height: 200px;
+        border-radius: 9px;
+        object-fit: cover;
+      }
     }
 
     .hours-rating{
