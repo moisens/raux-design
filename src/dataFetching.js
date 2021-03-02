@@ -53,3 +53,10 @@ export const fetchBookingData = async () => {
   const booking = await res.json();
   return booking;
 }
+
+
+export const fetchTrainingData = async () =>{
+  const res = await fetch('http://localhost:3000/trainings');
+  const training = await res.json();
+  return training;
+}
