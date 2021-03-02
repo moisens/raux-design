@@ -4,11 +4,10 @@ const articleTheme = document.querySelector('.article-grid');
 
 
 const theme = async () => {
-  try {
-    const themes = await fetchThemesData();
-    const newThemes = themes.map(theme => {
-    const { image, title, body } = theme;
-    return `
+  const themes = await fetchThemesData();
+  const newThemes = themes.map(theme => {
+  const { image, title, body } = theme;
+  return `
       <article>
         <img src="${image}" alt="${title}" title="${title}">
         <h4>${title}</h4>
@@ -18,10 +17,7 @@ const theme = async () => {
   }).join('');
 
   articleTheme.innerHTML = newThemes;
-  } catch (error) {
-    console.log('unable to fetch themes data');
-    
-  }
+  
   
 }
 

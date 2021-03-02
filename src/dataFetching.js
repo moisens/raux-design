@@ -1,7 +1,24 @@
+const fetchContoller = new AbortController();
+
 export const fetchThemesData = async () => {
-  const res = await fetch('http://localhost:3000/themes');
-  const themes = await res.json();
-  return themes;
+  try {
+    const { signal } = fetchContoller;
+    let time = setTimeout(() => {
+      fetchContoller.abort();
+      console.log('Fetching themes aborted');
+    },3000);
+    const res = await fetch('http://localhost:3000/themes', { signal });
+    const themes = await res.json();
+    clearTimeout(time);
+    console.log('we got the themes data');
+    return themes;
+  } catch (err) {
+    if (err.name === 'AbortError') {
+      console.log('Fetch aborted');
+    } else {
+      console.error('Uh oh, an error!', err);
+    }
+  }
   
 }
 
