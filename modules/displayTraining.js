@@ -6,7 +6,6 @@ const displayTraining = async () => {
   try {
     const trainings = await fetchTrainingData();
     const newTraining = trainings.map(training => {
-      console.log(training);
       const { title, image, soustitle, rating, price, body } = training;
       return`
       <article class="courses-lesson">
