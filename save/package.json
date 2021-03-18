@@ -1,0 +1,23 @@
+{
+  "name": "raux-design",
+  "version": "1.0.0",
+  "description": "Conference and training in Research & Ux design",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moisens/raux-design.git"
+  },
+  "keywords": [],
+  "author": "Moïse N",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/moisens/raux-design/issues"
+  },
+  "homepage": "https://github.com/moisens/raux-design#readme",
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
