@@ -1,10 +1,11 @@
 import './header.scss';
 import headerbigImg from '../../images/headerbigImg.jpg';
 import headersmallImg from '../../images/headersmallImg.jpg'
-
+import nav from '../nav/nav.js';
 
 
 const header = () => {
+  nav();
   const body = document.querySelector('body');
   const textImg = `
     <section class="text-img-header header-container layout">

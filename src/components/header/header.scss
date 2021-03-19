@@ -13,7 +13,10 @@ $gray-Colour: #F5F5F5;
 $dark-blue-Colour: #011F45;
 
 
+
+
 .header-container{
+  height: auto;
   background-color: red;
   padding-top: 60px;
   display: grid;
@@ -24,7 +27,7 @@ $dark-blue-Colour: #011F45;
 
 .header-text-container{
   background-color: $gray-Colour;
-  padding: 20px;
+  padding: 20px 0 200px 20px;
   
 
   .titles-btns{
