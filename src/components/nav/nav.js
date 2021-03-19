@@ -3,7 +3,8 @@ import './nav.scss'
 
 
 const nav = () => {
-  const nav = `
+  const body = document.querySelector('body');
+  const navigation = `
     <nav class="nav-container">
       <div class="logo">Raux</div>
       <ul>
@@ -13,12 +14,12 @@ const nav = () => {
         <li><a <a href="training.html">TRAINING</a></li>
       </ul>
       <div class="cart-connect-container">
-        <a>CART</a>
-        <a><button>CONNECTION</button><a/>
+        <p>CART</p>
+        <button>CONNECTION</button>
       </div>
     <nav/>
   `;
-  return nav;
+  return body.innerHTML += navigation;
 
 
 }
