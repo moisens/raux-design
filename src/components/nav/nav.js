@@ -5,7 +5,7 @@ import './nav.scss'
 const nav = () => {
   const body = document.querySelector('body');
   const navigation = `
-    <nav class="nav-container">
+    <nav class="nav-container nav-scrolled">
       <div class="logo">Raux</div>
       <ul>
         <li><a href="home.html">HOME</a></li>

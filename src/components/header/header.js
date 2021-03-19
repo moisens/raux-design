@@ -1,4 +1,8 @@
 import './header.scss';
+import headerbigImg from '../../images/headerbigImg.jpg';
+import headersmallImg from '../../images/headersmallImg.jpg'
+
+
 
 const header = () => {
   const body = document.querySelector('body');
@@ -10,14 +14,19 @@ const header = () => {
         <div class="titles-btns">
           <h1>IMAGINE AND DESIGN FOR HUMAN</h1>
           <h2>Research And Ux design conference</h2>
-          <button>BOOKING</button>
-          <button>TRAINING</button>
+          <button class="btn-booking">BOOKING</button>
+          <button class="btn-training">TRAINING</button>
         </div>
       </div>
       <!--End Header-text-container-->
       <!--Header-images-container-->
       <div class="header-image-container">
-        23456789
+        <div class="header-small-img">
+        <img src="${headersmallImg}" alt="small image conference" alt="Conference room" />
+        </div>
+        <div class="header-big-img">
+          <img src="${headerbigImg}" alt="small image conference" alt="Conference room" />
+        </div>
       </div>
       <!--End-Header-images-container-->
     </section>
