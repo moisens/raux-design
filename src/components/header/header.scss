@@ -1,8 +1,16 @@
 $font-family: 'Lato',sans-serif;
 $font-size-h1: 3rem;
+$font-size-h2: 2rem;
+$font-size-btn: 18px;
+
 $font-Weight-400: 400;
 $font-Weight-700: 700;
 $font-Weight-900: 900;
+
+$purple-Colour: #8B1F93;
+$red-Colour: #CB2350;
+$gray-Colour: #F5F5F5;
+$dark-blue-Colour: #011F45;
 
 
 .header-container{
@@ -10,29 +18,50 @@ $font-Weight-900: 900;
   padding-top: 60px;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(550px, 1fr));
+  //At the end put in display flex
 
 }
 
 .header-text-container{
-  background-color: blue;
+  background-color: $gray-Colour;
   padding: 20px;
   
 
   .titles-btns{
     display: block;
-    flex-flow:wrap;
-    position: absolute;
-    top: 50%;
-    left: 30%;
-    transform: translate(-50%, -10%);
+    padding: 250px 0 0 60px;
+    color: $dark-blue-Colour;
+
 
     h1{
       font-family: $font-family;
       font-size: $font-size-h1;
       font-weight: $font-Weight-900;
+      text-shadow: 0 1px 4px rgba(69, 69, 69, 0.708);      
       line-height: 1.2;
-      width: 70%;
+      width: 85%;
       
+    }
+    h2{
+      font-family: $font-family;
+      font-size: $font-size-h2;
+      padding-bottom: 80px;
+    }
+    button{
+      padding: 16px 8%;
+      border: none;
+      border-radius: 30px;
+      font-size: $font-size-btn;
+      font-weight: $font-Weight-900;
+      margin-right: 2%;
+      cursor: pointer;
+      
+    }
+    .btn-booking{
+      color:$purple-Colour;
+    }
+    .btn-training{
+      color: $red-Colour;
     }
   }
 
@@ -40,5 +69,44 @@ $font-Weight-900: 900;
 }
 
 .header-image-container{
-  background-color: blueviolet;
+  background-color: $gray-Colour;
+  padding: 20px;
+
+  
+}
+
+.header-small-img{
+  background-color: red;
+  width: 250px;
+  height: 250px;
+  margin: 20px 0 20px 40px;
+  border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+
+  img{
+    width: 250px;
+    height: 250px;
+    background-size: cover;
+    object-fit: cover;
+    border: solid 8px #fff;
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%; 
+  }
+}
+
+.header-big-img{
+  background-color: gainsboro;
+  width: 350px;
+  height: 350px;
+  margin: 20px 0 0 160px;
+  border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+  
+  
+
+  img{
+    width: 350px;
+    height: 350px;
+    background-size: cover;
+    object-fit: cover;
+    border: solid 8px #fff;
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+  }
 }
