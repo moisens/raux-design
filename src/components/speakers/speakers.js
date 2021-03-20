@@ -38,7 +38,7 @@ const speakers = () => {
           <button>LINKEDIN</button>
           <button>WEBSITE</button>
         </div>
-        <div class="one-speaker-image">IMG</div>
+        <div class="one-speaker-image inveted">IMG</div>
       </div>
       <!--End Speaker Two-->
       <!--Speaker Thee-->
@@ -58,6 +58,14 @@ const speakers = () => {
         </div>
       </div>
       <!--End Speaker Three-->
+      <!--pagination-->
+      <div class="page">
+        <button>PREV</button>
+        <p>1</p>
+        <p>2</p>
+        <p>3</p>
+        <button>NEXT</button>
+      </div>
     </section>
   `;
   return body.innerHTML += speaker;
