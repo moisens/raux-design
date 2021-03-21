@@ -1,15 +1,19 @@
-
 $font-family: 'Lato',sans-serif;
 $yellow-Colour: #FEC52D;
 $dark-blue-Colour: #011F45;
 $red-Colour: #CB2350;
+$purple-Colour: #8B1F93;
+$gray-Colour: #F5F5F5;
+$white-Colour: #fff;
 $font-size-h2-title: 2.5rem;
+$font-size-h3-title: 1.5rem;
+$font-size-btn: 18px;
+$font-size-next-prev: 25px;
 $font-size-p: 1.375rem;
 $font-family: 'Lato',sans-serif;
 $font-Weight-400: 400;
 $font-Weight-700: 700;
 $font-Weight-900: 900;
-
 
 
 
@@ -23,7 +27,7 @@ $font-Weight-900: 900;
 }
 
 .schedule-text-image{
-  background-color: honeydew;
+  background-color: $white-Colour;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
   gap: 50px;
@@ -62,18 +66,98 @@ $font-Weight-900: 900;
 .illutrated-picture{
   background-color: $red-Colour;
   width: 100%;
-  height: 600px;
+  height: auto;
   display: flex;
   justify-content: center;
   align-items: flex-start;
+  padding-bottom: 200px;
 
 }
 
 .schedule-days{
   width: 60%;
-  height: 300px;
+  height: auto;
   margin-top: -90px;
-  background-color: lightgrey;
+  background-color: $white-Colour;
   border-radius: 9px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.174);
 }
 
+.days-link-container{
+  background-color: $white-Colour;
+  border-top-left-radius: 9px;
+  border-top-right-radius: 9px;
+  display: flex;
+  justify-content: space-between;
+  
+  .monday{
+    border-top-left-radius: 9px;
+  }
+  .next-mond{
+    border-top-right-radius: 9px;
+  }
+
+  .day-btn{
+    border: none;
+    background-color: transparent;
+    padding: 20px;
+    font-size: $font-size-btn;
+    outline: none;
+    cursor: pointer;
+    &:hover{
+      border-bottom: solid 3px $red-Colour;
+    }
+    &.active{
+      background-color: $yellow-Colour;
+      color: $white-Colour;
+      border-bottom: solid 3px $red-Colour;
+    }
+
+  }
+
+  
+
+  
+}
+
+.d-day-agenda{
+  //background-color: blueviolet;
+  display: flex;
+  gap: 40px;
+  padding: 40px 0 20px 20px;
+
+  .talk-day-img{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%
+  }
+
+  .about-talk{
+    //background-color: cadetblue;
+    width: 60%;
+
+    h3{
+      font-size: $font-size-h3-title;
+      font-weight: $font-Weight-900;
+      color: $red-Colour;
+    }
+    h5{
+      line-height: 1.9;
+      color: $purple-Colour;
+    }
+    p{
+      padding: 20px 0 40px;
+      line-height: 1.9;
+    }
+  }
+
+}
+
+.day-content{
+  display: none;
+}
+
+.day-content.active{
+  display: block
+}
