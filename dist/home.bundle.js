@@ -64,6 +64,17 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 /***/ }),
 
+/***/ "./src/components/partners/partners.js":
+/*!*********************************************!*\
+  !*** ./src/components/partners/partners.js ***!
+  \*********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var core_js_modules_es_array_concat_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! core-js/modules/es.array.concat.js */ \"./node_modules/core-js/modules/es.array.concat.js\");\n/* harmony import */ var core_js_modules_es_array_concat_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_array_concat_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _partners_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./partners.scss */ \"./src/components/partners/partners.scss\");\n/* harmony import */ var _images_curvedIlluReverse_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../images/curvedIlluReverse.svg */ \"./src/images/curvedIlluReverse.svg\");\n/* harmony import */ var _images_logoAdobe_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../images/logoAdobe.png */ \"./src/images/logoAdobe.png\");\n/* harmony import */ var _images_logoBxlFormation_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../images/logoBxlFormation.png */ \"./src/images/logoBxlFormation.png\");\n/* harmony import */ var _images_logoFwb_png__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../images/logoFwb.png */ \"./src/images/logoFwb.png\");\n/* harmony import */ var _images_kbcLogo_png__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../images/kbcLogo.png */ \"./src/images/kbcLogo.png\");\n\n\n\n\n\n\n\n\nvar partners = function partners() {\n  var body = document.querySelector('body');\n  var partner = \"\\n    <section class=\\\"partners-container layout\\\">\\n      <div class=\\\"cuved-illu-partners\\\">\\n        <img src=\\\"\".concat(_images_curvedIlluReverse_svg__WEBPACK_IMPORTED_MODULE_2__, \"\\\" alt=\\\"Curved Illustration\\\">\\n      </div>\\n      <div class=\\\"all-partners\\\">\\n        <div class=\\\"adobe\\\">\\n          <img src=\\\"\").concat(_images_logoAdobe_png__WEBPACK_IMPORTED_MODULE_3__, \"\\\" alt=\\\"logo-Adobe\\\" title=\\\"Adobe\\\">\\n        </div>\\n        <div class=\\\"fwb\\\">\\n          <img src=\\\"\").concat(_images_logoFwb_png__WEBPACK_IMPORTED_MODULE_5__, \"\\\" alt=\\\"logo-fwb\\\" title=\\\"Federation Wallonie Bruxelles\\\">\\n        </div>\\n        <div class=\\\"bfm\\\">\\n          <img src=\\\"\").concat(_images_logoBxlFormation_png__WEBPACK_IMPORTED_MODULE_4__, \"\\\" alt=\\\"logo-bfm\\\" title=\\\"Buxelles Formation\\\">\\n        </div>\\n        <div class=\\\"kbc\\\">\\n          <img src=\\\"\").concat(_images_kbcLogo_png__WEBPACK_IMPORTED_MODULE_6__, \"\\\" alt=\\\"logo-kbc\\\" title=\\\"KBC\\\">\\n        </div>\\n      </div>\\n    </section>\\n  \");\n  return body.innerHTML += partner;\n};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (partners);\n\n//# sourceURL=webpack://raux-design/./src/components/partners/partners.js?");
+
+/***/ }),
+
 /***/ "./src/components/speakers/speakers.js":
 /*!*********************************************!*\
   !*** ./src/components/speakers/speakers.js ***!
@@ -93,7 +104,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles.scss */ \"./src/pages/styles.scss\");\n/* harmony import */ var _components_header_header_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/header/header.js */ \"./src/components/header/header.js\");\n/* harmony import */ var _components_about_about_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/about/about.js */ \"./src/components/about/about.js\");\n/* harmony import */ var _components_speakers_speakers_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/speakers/speakers.js */ \"./src/components/speakers/speakers.js\");\n/* harmony import */ var _components_themesSection_themes_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/themesSection/themes.js */ \"./src/components/themesSection/themes.js\");\n //import nav from '../components/nav/nav.js';\n\n\n\n\n\n\nvar home = function home() {\n  //nav();\n  (0,_components_header_header_js__WEBPACK_IMPORTED_MODULE_1__.default)();\n  (0,_components_about_about_js__WEBPACK_IMPORTED_MODULE_2__.default)();\n  (0,_components_speakers_speakers_js__WEBPACK_IMPORTED_MODULE_3__.default)();\n  (0,_components_themesSection_themes_js__WEBPACK_IMPORTED_MODULE_4__.default)();\n};\n\nhome();\n\n//# sourceURL=webpack://raux-design/./src/pages/home.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles.scss */ \"./src/pages/styles.scss\");\n/* harmony import */ var _components_header_header_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/header/header.js */ \"./src/components/header/header.js\");\n/* harmony import */ var _components_about_about_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/about/about.js */ \"./src/components/about/about.js\");\n/* harmony import */ var _components_speakers_speakers_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/speakers/speakers.js */ \"./src/components/speakers/speakers.js\");\n/* harmony import */ var _components_themesSection_themes_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/themesSection/themes.js */ \"./src/components/themesSection/themes.js\");\n/* harmony import */ var _components_partners_partners_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/partners/partners.js */ \"./src/components/partners/partners.js\");\n //import nav from '../components/nav/nav.js';\n\n\n\n\n\n\n\nvar home = function home() {\n  //nav();\n  (0,_components_header_header_js__WEBPACK_IMPORTED_MODULE_1__.default)();\n  (0,_components_about_about_js__WEBPACK_IMPORTED_MODULE_2__.default)();\n  (0,_components_speakers_speakers_js__WEBPACK_IMPORTED_MODULE_3__.default)();\n  (0,_components_themesSection_themes_js__WEBPACK_IMPORTED_MODULE_4__.default)();\n  (0,_components_partners_partners_js__WEBPACK_IMPORTED_MODULE_5__.default)();\n};\n\nhome();\n\n//# sourceURL=webpack://raux-design/./src/pages/home.js?");
 
 /***/ }),
 
@@ -683,6 +694,17 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 /***/ }),
 
+/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/partners/partners.scss":
+/*!****************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/partners/partners.scss ***!
+  \****************************************************************************************************************************/
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);\n// Imports\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \".partners-container {\\n  background-color: #F5F5F5;\\n  width: 100%;\\n  height: auto; }\\n  .partners-container .cuved-illu-partners {\\n    width: 100%;\\n    height: 80px; }\\n    .partners-container .cuved-illu-partners img {\\n      width: 100%;\\n      height: 100%;\\n      background-size: cover;\\n      object-fit: cover; }\\n  .partners-container .all-partners {\\n    padding: 80px;\\n    display: flex;\\n    justify-content: center;\\n    align-items: center;\\n    gap: 30px; }\\n    .partners-container .all-partners .adobe, .partners-container .all-partners .fwb, .partners-container .all-partners .bfm {\\n      width: 120px;\\n      height: 100px; }\\n      .partners-container .all-partners .adobe img, .partners-container .all-partners .fwb img, .partners-container .all-partners .bfm img {\\n        width: 100%;\\n        height: 100%; }\\n    .partners-container .all-partners .kbc {\\n      width: 100px;\\n      height: 100px; }\\n      .partners-container .all-partners .kbc img {\\n        width: 100%;\\n        height: 100%; }\\n\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://raux-design/./src/components/partners/partners.scss?./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js");
+
+/***/ }),
+
 /***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/speakers/speakers.scss":
 /*!****************************************************************************************************************************!*\
   !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/speakers/speakers.scss ***!
@@ -887,6 +909,17 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 "use strict";
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\");\n/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_nav_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !!../../../node_modules/css-loader/dist/cjs.js!../../../node_modules/sass-loader/dist/cjs.js!./nav.scss */ \"./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/nav/nav.scss\");\n\n            \n\nvar options = {};\n\noptions.insert = \"head\";\noptions.singleton = false;\n\nvar update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_nav_scss__WEBPACK_IMPORTED_MODULE_1__.default, options);\n\n\nif (true) {\n  if (!_node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_nav_scss__WEBPACK_IMPORTED_MODULE_1__.default.locals || module.hot.invalidate) {\n    var isEqualLocals = function isEqualLocals(a, b, isNamedExport) {\n  if (!a && b || a && !b) {\n    return false;\n  }\n\n  var p;\n\n  for (p in a) {\n    if (isNamedExport && p === 'default') {\n      // eslint-disable-next-line no-continue\n      continue;\n    }\n\n    if (a[p] !== b[p]) {\n      return false;\n    }\n  }\n\n  for (p in b) {\n    if (isNamedExport && p === 'default') {\n      // eslint-disable-next-line no-continue\n      continue;\n    }\n\n    if (!a[p]) {\n      return false;\n    }\n  }\n\n  return true;\n};\n    var oldLocals = _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_nav_scss__WEBPACK_IMPORTED_MODULE_1__.default.locals;\n\n    module.hot.accept(\n      /*! !!../../../node_modules/css-loader/dist/cjs.js!../../../node_modules/sass-loader/dist/cjs.js!./nav.scss */ \"./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/nav/nav.scss\",\n      __WEBPACK_OUTDATED_DEPENDENCIES__ => { /* harmony import */ _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_nav_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !!../../../node_modules/css-loader/dist/cjs.js!../../../node_modules/sass-loader/dist/cjs.js!./nav.scss */ \"./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/nav/nav.scss\");\n(function () {\n        if (!isEqualLocals(oldLocals, _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_nav_scss__WEBPACK_IMPORTED_MODULE_1__.default.locals, undefined)) {\n                module.hot.invalidate();\n\n                return;\n              }\n\n              oldLocals = _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_nav_scss__WEBPACK_IMPORTED_MODULE_1__.default.locals;\n\n              update(_node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_nav_scss__WEBPACK_IMPORTED_MODULE_1__.default);\n      })(__WEBPACK_OUTDATED_DEPENDENCIES__); }\n    )\n  }\n\n  module.hot.dispose(function() {\n    update();\n  });\n}\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_nav_scss__WEBPACK_IMPORTED_MODULE_1__.default.locals || {});\n\n//# sourceURL=webpack://raux-design/./src/components/nav/nav.scss?");
+
+/***/ }),
+
+/***/ "./src/components/partners/partners.scss":
+/*!***********************************************!*\
+  !*** ./src/components/partners/partners.scss ***!
+  \***********************************************/
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\");\n/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_partners_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !!../../../node_modules/css-loader/dist/cjs.js!../../../node_modules/sass-loader/dist/cjs.js!./partners.scss */ \"./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/partners/partners.scss\");\n\n            \n\nvar options = {};\n\noptions.insert = \"head\";\noptions.singleton = false;\n\nvar update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_partners_scss__WEBPACK_IMPORTED_MODULE_1__.default, options);\n\n\nif (true) {\n  if (!_node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_partners_scss__WEBPACK_IMPORTED_MODULE_1__.default.locals || module.hot.invalidate) {\n    var isEqualLocals = function isEqualLocals(a, b, isNamedExport) {\n  if (!a && b || a && !b) {\n    return false;\n  }\n\n  var p;\n\n  for (p in a) {\n    if (isNamedExport && p === 'default') {\n      // eslint-disable-next-line no-continue\n      continue;\n    }\n\n    if (a[p] !== b[p]) {\n      return false;\n    }\n  }\n\n  for (p in b) {\n    if (isNamedExport && p === 'default') {\n      // eslint-disable-next-line no-continue\n      continue;\n    }\n\n    if (!a[p]) {\n      return false;\n    }\n  }\n\n  return true;\n};\n    var oldLocals = _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_partners_scss__WEBPACK_IMPORTED_MODULE_1__.default.locals;\n\n    module.hot.accept(\n      /*! !!../../../node_modules/css-loader/dist/cjs.js!../../../node_modules/sass-loader/dist/cjs.js!./partners.scss */ \"./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/partners/partners.scss\",\n      __WEBPACK_OUTDATED_DEPENDENCIES__ => { /* harmony import */ _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_partners_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !!../../../node_modules/css-loader/dist/cjs.js!../../../node_modules/sass-loader/dist/cjs.js!./partners.scss */ \"./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/partners/partners.scss\");\n(function () {\n        if (!isEqualLocals(oldLocals, _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_partners_scss__WEBPACK_IMPORTED_MODULE_1__.default.locals, undefined)) {\n                module.hot.invalidate();\n\n                return;\n              }\n\n              oldLocals = _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_partners_scss__WEBPACK_IMPORTED_MODULE_1__.default.locals;\n\n              update(_node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_partners_scss__WEBPACK_IMPORTED_MODULE_1__.default);\n      })(__WEBPACK_OUTDATED_DEPENDENCIES__); }\n    )\n  }\n\n  module.hot.dispose(function() {\n    update();\n  });\n}\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_partners_scss__WEBPACK_IMPORTED_MODULE_1__.default.locals || {});\n\n//# sourceURL=webpack://raux-design/./src/components/partners/partners.scss?");
 
 /***/ }),
 
@@ -1170,6 +1203,50 @@ eval("module.exports = __webpack_require__.p + \"7ada44e8fd21a70bd194.jpg\";\n\n
 
 /***/ }),
 
+/***/ "./src/images/kbcLogo.png":
+/*!********************************!*\
+  !*** ./src/images/kbcLogo.png ***!
+  \********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"2da4f1fc1dcce30d1fa2.png\";\n\n//# sourceURL=webpack://raux-design/./src/images/kbcLogo.png?");
+
+/***/ }),
+
+/***/ "./src/images/logoAdobe.png":
+/*!**********************************!*\
+  !*** ./src/images/logoAdobe.png ***!
+  \**********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"a4c1a8d9f68c99b8457b.png\";\n\n//# sourceURL=webpack://raux-design/./src/images/logoAdobe.png?");
+
+/***/ }),
+
+/***/ "./src/images/logoBxlFormation.png":
+/*!*****************************************!*\
+  !*** ./src/images/logoBxlFormation.png ***!
+  \*****************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"8b16be45fe555ade4ea4.png\";\n\n//# sourceURL=webpack://raux-design/./src/images/logoBxlFormation.png?");
+
+/***/ }),
+
+/***/ "./src/images/logoFwb.png":
+/*!********************************!*\
+  !*** ./src/images/logoFwb.png ***!
+  \********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"b957c92c1999aae1a565.png\";\n\n//# sourceURL=webpack://raux-design/./src/images/logoFwb.png?");
+
+/***/ }),
+
 /***/ "./src/images/usability1.jpg":
 /*!***********************************!*\
   !*** ./src/images/usability1.jpg ***!
@@ -1269,7 +1346,7 @@ eval("module.exports = __webpack_require__.p + \"f61b7d442caca9b3bc4e.jpg\";\n\n
 /******/ 	
 /******/ 	/* webpack/runtime/getFullHash */
 /******/ 	(() => {
-/******/ 		__webpack_require__.h = () => ("514df7daaf38af1e0a84")
+/******/ 		__webpack_require__.h = () => ("dd9e833a06d3d4816969")
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/global */

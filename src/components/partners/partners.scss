@@ -1,0 +1,49 @@
+$gray-Colour: #F5F5F5;
+
+.partners-container{
+  background-color: $gray-Colour;
+  width: 100%;
+  height: auto;
+
+  .cuved-illu-partners{
+    width: 100%;
+    height: 80px;
+
+    img{
+      width: 100%;
+      height: 100%;
+      background-size: cover;
+      object-fit: cover;
+    }
+  }
+
+  .all-partners{
+    padding: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+    .adobe, .fwb, .bfm{
+      width: 120px;
+      height: 100px;
+      //background-color: red;
+
+      img{
+        width: 100%;
+        height: 100%;
+      }
+    }
+    
+    .kbc{
+      width: 100px;
+      height: 100px;
+     //background-color: red;
+
+      img{
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+}
