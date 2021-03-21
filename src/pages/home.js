@@ -4,6 +4,7 @@ import header from '../components/header/header.js';
 import about from '../components/about/about.js';
 import speakers from '../components/speakers/speakers.js';
 import themes from '../components/themesSection/themes.js';
+import partners from '../components/partners/partners.js';
 
 
 const home = () => {
@@ -12,6 +13,7 @@ const home = () => {
   about();
   speakers();
   themes();
+  partners();
 }
 home();
 

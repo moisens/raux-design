@@ -3,7 +3,7 @@ $font-size: 1.125rem;
 $font-Weight-400: 400;
 $font-Weight-700: 700;
 $font-Weight-900: 900;
-
+$gray-Colour: #F5F5F5;
 $text-Colour: #000;
 $purple-Colour: #8B1F93;
 
@@ -12,7 +12,7 @@ $purple-Colour: #8B1F93;
 .nav-container {
   width: 100%;
   height: auto;
-  background-color: #F5F5F5;
+  background-color: $gray-Colour;
   display: flex;
   justify-content: flex-end;
   align-items: center;
