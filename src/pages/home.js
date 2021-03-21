@@ -1,5 +1,4 @@
 import './styles.scss'
-//import nav from '../components/nav/nav.js';
 import header from '../components/header/header.js';
 import about from '../components/about/about.js';
 import speakers from '../components/speakers/speakers.js';
@@ -9,8 +8,7 @@ import contact from '../components/contact/contact.js';
 import footer from '../components/footer/footer.js';
 
 
-const home = () => {
-  //nav();
+const Home = () => {
   header()
   about();
   speakers();
@@ -19,5 +17,5 @@ const home = () => {
   contact();
   footer();
 }
-home();
+Home();
 

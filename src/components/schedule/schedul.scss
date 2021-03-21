@@ -1,0 +1,79 @@
+
+$font-family: 'Lato',sans-serif;
+$yellow-Colour: #FEC52D;
+$dark-blue-Colour: #011F45;
+$red-Colour: #CB2350;
+$font-size-h2-title: 2.5rem;
+$font-size-p: 1.375rem;
+$font-family: 'Lato',sans-serif;
+$font-Weight-400: 400;
+$font-Weight-700: 700;
+$font-Weight-900: 900;
+
+
+
+
+.schedule-container{
+  width: 100%;
+  height: auto;
+  background-color: gray;
+  font-family: $font-family;
+  font-size: $font-size-p;
+  color: $dark-blue-Colour;
+}
+
+.schedule-text-image{
+  background-color: honeydew;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+  gap: 50px;
+  padding: 150px 80px 160px 80px;
+
+  .schedule-text{
+    h2{
+      font-family: $font-size-h2-title;
+      font-weight: $font-Weight-900;
+      line-height: 1.4;
+      width: 70%;
+      
+    }
+    p{
+      padding: 40px 0 160px;
+      line-height: 1.9;
+    }
+  }
+
+  .schedule-image{
+    width: 400px;
+    height: 380px;
+    background-color: green;
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+
+    img{
+      width: 400px;
+      height: 380px;
+      background-size: cover;
+      object-fit: cover;
+      border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+    }
+  }
+}
+
+.illutrated-picture{
+  background-color: $red-Colour;
+  width: 100%;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+
+}
+
+.schedule-days{
+  width: 60%;
+  height: 300px;
+  margin-top: -90px;
+  background-color: lightgrey;
+  border-radius: 9px;
+}
+
