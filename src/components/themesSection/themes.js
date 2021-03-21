@@ -1,5 +1,8 @@
 import './themes.scss';
 import curvedIlluReverse from '../../images/curvedIlluReverse.svg';
+import usability1 from '../../images/usability1.jpg';
+
+
 
 const themes = () => {
   const body = document.querySelector('body');
@@ -13,15 +16,80 @@ const themes = () => {
       <div class="all-themes-content">
       <!--First Theme-->
         <div class="one-theme">
-        <img src="" alt=""/>
-        <h3>Usability testing</h3>
-        <p>
+          <div class="theme-image">
+            <img src="${usability1}" alt="usability1" title="Usability testing"/>
+          </div>
+          <h3>Usability testing</h3>
+          <p>
+            The last person we talked to said this would be 
+            ready synergestic actionables nor this medium 
+            needs to be more dynamic.
+          </p>
+        </div>
+      <!--End First Theme-->
+      <!--First Theme-->
+        <div class="one-theme">
+          <div class="theme-image">
+            <img src="${usability1}" alt="usability1" title="Usability testing"/>
+          </div>
+          <h3>Usability testing</h3>
+          <p>
           The last person we talked to said this would be 
           ready synergestic actionables nor this medium 
-          needs to be more dynamic we need to socialize the 
-          comms with the wider stakeholder community, nor 
-          let's prioritize the low-hanging fruit.
-        </p>
+          needs to be more dynamic.
+          </p>
+        </div>
+      <!--End First Theme-->
+      <!--First Theme-->
+        <div class="one-theme">
+          <div class="theme-image">
+            <img src="${usability1}" alt="usability1" title="Usability testing"/>
+          </div>
+          <h3>Usability testing</h3>
+          <p>
+          The last person we talked to said this would be 
+          ready synergestic actionables nor this medium 
+          needs to be more dynamic.
+          </p>
+        </div>
+      <!--End First Theme-->
+      <!--First Theme-->
+        <div class="one-theme">
+          <div class="theme-image">
+            <img src="${usability1}" alt="usability1" title="Usability testing"/>
+          </div>
+          <h3>Usability testing</h3>
+          <p>
+          The last person we talked to said this would be 
+          ready synergestic actionables nor this medium 
+          needs to be more dynamic.
+          </p>
+        </div>
+      <!--End First Theme-->
+      <!--First Theme-->
+        <div class="one-theme">
+          <div class="theme-image">
+            <img src="${usability1}" alt="usability1" title="Usability testing"/>
+          </div>
+          <h3>Usability testing</h3>
+          <p>
+          The last person we talked to said this would be 
+          ready synergestic actionables nor this medium 
+          needs to be more dynamic.
+          </p>
+        </div>
+      <!--End First Theme-->
+      <!--First Theme-->
+        <div class="one-theme">
+          <div class="theme-image">
+            <img src="${usability1}" alt="usability1" title="Usability testing"/>
+          </div>
+          <h3>Usability testing</h3>
+          <p>
+          The last person we talked to said this would be 
+          ready synergestic actionables nor this medium 
+          needs to be more dynamic.
+          </p>
         </div>
       <!--End First Theme-->
       </div>
