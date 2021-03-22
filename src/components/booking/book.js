@@ -8,45 +8,36 @@ const book = () => {
   let newBooking = `
     <section class="booking-container layout">
       <h2>Want to learn more about Research & Ux design?</h2>
-      <p>Choose your pass…</p>
+      <h4>Choose your pass…</h4>
       <!--container pass & images-->
       <div class="pass-image-content">
         <div class="choose-pass">
           <div class="one-pass">
-            <h3>One day pass</h3>
-            <p>What about scaling components to a global audience?</p>
-            <div class="buy">€40</div>
-            <div class="purle">2</div>
+            <div class="pass-content">
+              <div class="about-pass">
+                <h3>One day pass</h3>
+                <p>What about scaling component.</p>
+              </div>
+              <div class="purple">
+                <p class="price-pass">€100</p>
+              </div>
+            </div>
+            <div class="buy">BUY</div>
           </div>
           <div class="one-pass">
-            <h3>One day pass</h3>
-            <p>What about scaling components to a global audience?</p>
-            <div class="buy">€40</div>
-            <div class="purle">2</div>
+            
           </div>
           <div class="one-pass">
-            <h3>One day pass</h3>
-            <p>What about scaling components to a global audience?</p>
-            <div class="buy">€40</div>
-            <div class="purle">2</div>
+            
           </div>
           <div class="one-pass">
-            <h3>One day pass</h3>
-            <p>What about scaling components to a global audience?</p>
-            <div class="buy">€40</div>
-            <div class="purle">2</div>
+            
           </div>
           <div class="one-pass">
-            <h3>One day pass</h3>
-            <p>What about scaling components to a global audience?</p>
-            <div class="buy">€40</div>
-            <div class="purle">2</div>
+            
           </div>
           <div class="one-pass">
-            <h3>One day pass</h3>
-            <p>What about scaling components to a global audience?</p>
-            <div class="buy">€40</div>
-            <div class="purle">2</div>
+            
           </div>
         </div>
         <div class="image-pass">IMG</div>

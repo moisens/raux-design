@@ -1,0 +1,96 @@
+$font-family: 'Lato',sans-serif;
+$yellow-Colour: #FEC52D;
+$dark-blue-Colour: #011F45;
+$red-Colour: #CB2350;
+$purple-Colour: #8B1F93;
+$gray-Colour: #F5F5F5;
+$white-Colour: #fff;
+$font-size-h2-title: 2.5rem;
+$font-size-h3-title: 1.5rem;
+$font-size-btn: 18px;
+$font-size-next-prev: 25px;
+$font-size-p: 1.375rem;
+$font-family: 'Lato',sans-serif;
+$font-Weight-400: 400;
+$font-Weight-700: 700;
+$font-Weight-900: 900;
+
+
+.booking-container{
+  background-color: cadetblue;
+  padding-top: 60px;
+  width: 100%;
+  height: auto;
+  font-family: $font-family;
+  padding: 80px 100px 160px 100px;
+  
+
+  h2{
+    font-weight: $font-Weight-900;
+    font-size: $font-size-h2-title;
+    color: $dark-blue-Colour;
+    width: 40%;
+    padding-top: 80px;
+  }
+
+  h4{
+    padding: 40px 0;
+  }
+
+}
+
+.pass-image-content{
+  background-color: lightgrey;
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(560px, 1fr));
+  gap: 20px;
+
+}
+
+.choose-pass{
+  background-color: lightslategray;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+
+  .one-pass{
+    background-color: #335E95;
+    display: flex;
+  }
+
+  .pass-content{
+    background-color: royalblue;
+    width: 80%;
+    height: auto;
+
+    .about-pass{
+      background-color: seagreen;
+      width: auto;
+      height: auto;
+      padding: 10px; 
+
+      h3{
+        font-size: 18px;
+        font-weight: 900;
+        padding-bottom: 10px;
+      }
+      p{
+        line-height: 1.5;
+      }
+    }
+
+    .purple{
+      background-color: purple;
+      width: 100%;
+      height: 20px;
+      
+    }
+  }
+  .buy{
+    background-color: red;
+    width: 20%;
+    height: auto;
+          
+  }
+}
