@@ -16,28 +16,79 @@ const book = () => {
             <div class="pass-content">
               <div class="about-pass">
                 <h3>One day pass</h3>
-                <p>What about scaling component.</p>
+                <p class="pass-text">What about scaling component.</p>
               </div>
-              <div class="purple">
-                <p class="price-pass">€100</p>
-              </div>
+              <p class="price-pass">€100</p>
+              <div class="purple"></div>
             </div>
-            <div class="buy">BUY</div>
+            <div class="buy">
+              <p>BUY</p>
+            </div>
           </div>
           <div class="one-pass">
-            
+            <div class="pass-content">
+              <div class="about-pass">
+                <h3>One day pass</h3>
+                <p class="pass-text">What about scaling component.</p>
+              </div>
+              <p class="price-pass">€100</p>
+              <div class="purple"></div>
+            </div>
+            <div class="buy">
+              <p>BUY</p>
+            </div>
           </div>
           <div class="one-pass">
-            
+            <div class="pass-content">
+              <div class="about-pass">
+                <h3>One day pass</h3>
+                <p class="pass-text">What about scaling component.</p>
+              </div>
+              <p class="price-pass">€100</p>
+              <div class="purple"></div>
+            </div>
+            <div class="buy">
+              <p>BUY</p>
+            </div>
           </div>
           <div class="one-pass">
-            
+            <div class="pass-content">
+              <div class="about-pass">
+                <h3>One day pass</h3>
+                <p class="pass-text">What about scaling component.</p>
+              </div>
+              <p class="price-pass">€100</p>
+              <div class="purple"></div>
+            </div>
+            <div class="buy">
+              <p>BUY</p>
+            </div>
           </div>
           <div class="one-pass">
-            
+            <div class="pass-content">
+              <div class="about-pass">
+                <h3>One day pass</h3>
+                <p class="pass-text">What about scaling component.</p>
+              </div>
+              <p class="price-pass">€100</p>
+              <div class="purple"></div>
+            </div>
+            <div class="buy">
+              <p>BUY</p>
+            </div>
           </div>
           <div class="one-pass">
-            
+            <div class="pass-content">
+              <div class="about-pass">
+                <h3>One day pass</h3>
+                <p class="pass-text">What about scaling component.</p>
+              </div>
+              <p class="price-pass">€100</p>
+              <div class="purple"></div>
+            </div>
+            <div class="buy">
+              <p>BUY</p>
+            </div>
           </div>
         </div>
         <div class="image-pass">IMG</div>

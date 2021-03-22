@@ -1,5 +1,6 @@
 $font-family: 'Lato',sans-serif;
 $yellow-Colour: #FEC52D;
+$regular-blue-Colour: #335E95;
 $dark-blue-Colour: #011F45;
 $red-Colour: #CB2350;
 $purple-Colour: #8B1F93;
@@ -8,6 +9,7 @@ $white-Colour: #fff;
 $font-size-h2-title: 2.5rem;
 $font-size-h3-title: 1.5rem;
 $font-size-btn: 18px;
+$font-size-price: 28px;
 $font-size-next-prev: 25px;
 $font-size-p: 1.375rem;
 $font-family: 'Lato',sans-serif;
@@ -42,55 +44,77 @@ $font-Weight-900: 900;
 .pass-image-content{
   background-color: lightgrey;
   height: auto;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(560px, 1fr));
-  gap: 20px;
+  display: flex;
+  gap: 30px;
+  
 
 }
 
 .choose-pass{
+  width: 700px;
   background-color: lightslategray;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  display: flex;
+  flex-flow: wrap;
   gap: 20px;
+}
 
-  .one-pass{
-    background-color: #335E95;
-    display: flex;
-  }
-
+.one-pass{
+  //background-color: teal;
+  display: flex;
+  
   .pass-content{
-    background-color: royalblue;
-    width: 80%;
-    height: auto;
+    background-color: $regular-blue-Colour;
+    border-top-left-radius: 9px;
+    border-bottom-left-radius: 9px;
 
-    .about-pass{
-      background-color: seagreen;
-      width: auto;
-      height: auto;
-      padding: 10px; 
-
-      h3{
-        font-size: 18px;
-        font-weight: 900;
-        padding-bottom: 10px;
-      }
-      p{
-        line-height: 1.5;
-      }
+    h3{
+      padding: 20px 0 10px 10px;
+      font-size: $font-size-h3-title;
+      color: $white-Colour;
+    }
+    .pass-text{
+      padding: 0 20px 40px 10px;
+      color: $white-Colour;
     }
 
     .purple{
-      background-color: purple;
-      width: 100%;
       height: 20px;
+      background-color: $purple-Colour;
+      border-bottom-left-radius: 9px;
       
     }
+
+    .price-pass{
+      font-size: $font-size-price;
+      font-weight: $font-Weight-900;
+      color: $white-Colour;
+      margin-left: 20px;
+    }
+
   }
   .buy{
-    background-color: red;
-    width: 20%;
-    height: auto;
-          
+    background-color: $dark-blue-Colour;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 9px;
+    border-bottom-right-radius: 9px;
+    cursor: pointer;
+
+    p{
+      font-size: $font-size-btn;
+      font-weight: $font-Weight-900;
+      color: $white-Colour;
+    }
+
+    
   }
+  
+}
+
+.image-pass{
+  width: 300px;
+  //height: 300px;
+  background-color: steelblue;
 }
