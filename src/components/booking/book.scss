@@ -21,12 +21,12 @@ $font-Weight-900: 900;
 
 
 .booking-container{
-  background-color: cadetblue;
+  background-color: $white-Colour;
   padding-top: 60px;
   width: 100%;
   height: auto;
   font-family: $font-family;
-  padding: 80px 100px 160px 100px;
+  //padding: 80px 100px 0 100px;
   
 
   h2{
@@ -34,12 +34,12 @@ $font-Weight-900: 900;
     font-size: $font-size-h2-title;
     color: $dark-blue-Colour;
     width: 40%;
-    padding-top: 80px;
+    padding: 80px 0 0 100px;
   }
 
   h4{
     font-size: $font-size-h4-title;
-    padding: 60px 0;
+    padding: 60px 0 60px 100px;
   }
 
   .rendez-vous{
@@ -54,6 +54,7 @@ $font-Weight-900: 900;
   display: flex;
   justify-content: space-between;
   gap: 30px;
+  padding: 0 100px 0 100px
   
 
 }
@@ -142,10 +143,11 @@ $font-Weight-900: 900;
 
 .form-rdv-seat{
   padding-top: 40px;
-  background-color: lightsteelblue;
+  //background-color: lightsteelblue;
   display: flex;
   justify-content: center;
-  gap: 30px;
+  gap: 40px;
+  padding-bottom: 200px;
 
   form{
     display: flex;
@@ -181,6 +183,29 @@ $font-Weight-900: 900;
     width: 250px;
     height: 250px;
     background-color: $red-Colour;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+
+    p{
+      font-size: $font-size-p;
+      font-weight: $font-Weight-700;
+      color: $white-Colour;
+    }
+  }
+}
+
+.curved-illu-book{
+  width: 100%;
+  height: 80px;
+  background-color: transparent;
+
+  img{
+    width: 100%;
+    height: 80px;
+    background-size: cover;
+    object-fit: cover;
   }
 }
 

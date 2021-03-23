@@ -1,5 +1,5 @@
 import './book.scss';
-
+import cuvedForm from '../../images/cuvedForm.svg';
 
 
 const book = () => {
@@ -109,7 +109,9 @@ const book = () => {
       </div>
     </div>
     <!--End Formulaire-->
-    <div class="curved-illu-book">2</div>
+    <div class="curved-illu-book">
+      <img src="${cuvedForm}" alt="curved illistration booking"/>
+    </div>
     </section>
   `;
   return body.innerHTML += newBooking;
