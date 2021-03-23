@@ -8,10 +8,12 @@ $gray-Colour: #F5F5F5;
 $white-Colour: #fff;
 $font-size-h2-title: 2.5rem;
 $font-size-h3-title: 1.5rem;
+$font-size-h4-title: 1.25rem;
 $font-size-btn: 18px;
 $font-size-price: 28px;
 $font-size-next-prev: 25px;
 $font-size-p: 1.375rem;
+$font-size-form: 1.0625rem;
 $font-family: 'Lato',sans-serif;
 $font-Weight-400: 400;
 $font-Weight-700: 700;
@@ -36,13 +38,18 @@ $font-Weight-900: 900;
   }
 
   h4{
-    padding: 40px 0;
+    font-size: $font-size-h4-title;
+    padding: 60px 0;
+  }
+
+  .rendez-vous{
+    font-weight: $font-Weight-900;
   }
 
 }
 
 .pass-image-content{
-  background-color: lightgrey;
+  //background-color: lightgrey;
   height: auto;
   display: flex;
   justify-content: space-between;
@@ -53,7 +60,7 @@ $font-Weight-900: 900;
 
 .choose-pass{
   width: 700px;
-  background-color: lightslategray;
+  //background-color: lightslategray;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 20px;
@@ -67,6 +74,7 @@ $font-Weight-900: 900;
     background-color: $regular-blue-Colour;
     border-top-left-radius: 9px;
     border-bottom-left-radius: 9px;
+    position: relative;
 
     h3{
       padding: 20px 0 10px 10px;
@@ -90,6 +98,9 @@ $font-Weight-900: 900;
       font-weight: $font-Weight-900;
       color: $white-Colour;
       margin-left: 20px;
+      position: absolute;
+      top: 87px;
+      left: 182px;
     }
 
   }
@@ -115,7 +126,61 @@ $font-Weight-900: 900;
 }
 
 .image-pass{
-  width: 300px;
-  //height: 300px;
+  width: 400px;
+  height: 400px;
+  background-size: cover;
   background-color: steelblue;
+  border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+
+  img{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+  }
 }
+
+.form-rdv-seat{
+  padding-top: 40px;
+  background-color: lightsteelblue;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+
+  form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    input{
+      width: 260px;
+      height: 55px;
+      border: solid 1px $purple-Colour;
+      border-radius: 9px;
+      font-size: $font-size-form;
+      padding-left: 12px;
+      color: $dark-blue-Colour;
+
+    }
+
+    button{
+      width: 260px;
+      height: 55px;
+      border: none;
+      border-radius: 30px;
+      background-color: $purple-Colour;
+      color: $white-Colour;
+      margin-top: 10px;
+      font-size: $font-size-btn;
+      font-weight: $font-Weight-900;
+      cursor: pointer;
+    }
+  }
+
+  .seat-left{
+    width: 250px;
+    height: 250px;
+    background-color: $red-Colour;
+  }
+}
+
