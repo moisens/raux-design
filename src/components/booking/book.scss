@@ -45,6 +45,7 @@ $font-Weight-900: 900;
   background-color: lightgrey;
   height: auto;
   display: flex;
+  justify-content: space-between;
   gap: 30px;
   
 
@@ -53,8 +54,8 @@ $font-Weight-900: 900;
 .choose-pass{
   width: 700px;
   background-color: lightslategray;
-  display: flex;
-  flex-flow: wrap;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 20px;
 }
 
