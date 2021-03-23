@@ -28,7 +28,7 @@ const book = () => {
           <div class="one-pass">
             <div class="pass-content">
               <div class="about-pass">
-                <h3>One day pass</h3>
+                <h3>Two days pass</h3>
                 <p class="pass-text">What about scaling component.</p>
               </div>
               <p class="price-pass">€100</p>
@@ -41,7 +41,7 @@ const book = () => {
           <div class="one-pass">
             <div class="pass-content">
               <div class="about-pass">
-                <h3>One day pass</h3>
+                <h3>Three days pass</h3>
                 <p class="pass-text">What about scaling component.</p>
               </div>
               <p class="price-pass">€100</p>
@@ -54,7 +54,7 @@ const book = () => {
           <div class="one-pass">
             <div class="pass-content">
               <div class="about-pass">
-                <h3>One day pass</h3>
+                <h3>Four days pass</h3>
                 <p class="pass-text">What about scaling component.</p>
               </div>
               <p class="price-pass">€100</p>
@@ -67,7 +67,7 @@ const book = () => {
           <div class="one-pass">
             <div class="pass-content">
               <div class="about-pass">
-                <h3>One day pass</h3>
+                <h3>Five days pass</h3>
                 <p class="pass-text">What about scaling component.</p>
               </div>
               <p class="price-pass">€100</p>
@@ -80,7 +80,7 @@ const book = () => {
           <div class="one-pass">
             <div class="pass-content">
               <div class="about-pass">
-                <h3>One day pass</h3>
+                <h3>Six days pass</h3>
                 <p class="pass-text">What about scaling component.</p>
               </div>
               <p class="price-pass">€100</p>
@@ -94,7 +94,7 @@ const book = () => {
         <div class="image-pass">IMG</div>
       </div>
     <!--End container pass & images-->
-    <p>Schedule a day, come and visit us <span class="rendez-vous">From Jan 13 to Jan 18</span></p>
+    <h4>Schedule a day, come and visit us <span class="rendez-vous">From Jan 13 to Jan 18</span></h4>
     <!--Formulaire-->
     <div class="form-rdv-seat">
       <form>
