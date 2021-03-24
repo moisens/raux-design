@@ -1,0 +1,80 @@
+$font-family: 'Lato',sans-serif;
+$yellow-Colour: #FEC52D;
+$regular-blue-Colour: #335E95;
+$dark-blue-Colour: #011F45;
+$red-Colour: #CB2350;
+$purple-Colour: #8B1F93;
+$gray-Colour: #F5F5F5;
+$white-Colour: #fff;
+$font-size-h2-title: 2.5rem;
+$font-size-h3-title: 1.5rem;
+$font-size-h4-title: 1.25rem;
+$font-size-btn: 18px;
+$font-size-price: 28px;
+$font-size-next-prev: 25px;
+$font-size-p: 1.375rem;
+$font-size-form: 1.0625rem;
+$font-family: 'Lato',sans-serif;
+$font-Weight-400: 400;
+$font-Weight-700: 700;
+$font-Weight-900: 900;
+
+
+
+.training-container{
+  width: 100%;
+  height: auto;
+  padding-top: 60px;
+  background-color: wheat;
+  font-family: $font-family;
+}
+
+.train-img-text{
+  background-color: white;
+  display: flex;
+  gap: 30px;
+  padding: 80px 100px 160px 100px;
+
+  .train-image{
+    width: 350px;
+    height: 350px;
+    background-color: blue;
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+
+    img{
+      width: 350px;
+      height: 350px;
+      background-size: cover;
+      object-fit: cover;
+      border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+    }
+  }
+
+  .train-text{
+    width: 60%;
+
+    h2{
+      color: #011F45;
+      font-size: $font-size-h2-title;
+      font-weight: $font-Weight-900;
+    }
+
+    p{
+      padding-top: 40px;
+      font-size: $font-size-p;
+      line-height: 1.9;
+    }
+
+    button{
+      margin-top: 40px;
+      border: none;
+      border-radius: 30px;
+      padding: 17px 7%;
+      font-size: $font-size-btn;
+      font-weight: $font-Weight-700;
+      color: $purple-Colour;
+      background-color: $gray-Colour;
+      cursor: pointer;
+    }
+  }
+}
