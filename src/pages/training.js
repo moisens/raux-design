@@ -1,4 +1,11 @@
+import './styles.scss';
+import nav from '../components/nav/nav.js';
+import Training from '../components/training/train.js';
+import footer from '../components/footer/footer.js'
+
 const training = () => {
-  console.log('Training Page');
+  nav();
+  Training();
+  footer();
 }
 training();
