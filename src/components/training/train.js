@@ -9,7 +9,7 @@ const Training = () => {
     <section class="training-container layout">
       <article class="train-img-text">
         <div class="train-image">
-          <img src="" alt="Training-image" />
+          <img src="" alt="Training-image" title="Training"/>
         </div>
         <div class="train-text">
           <h2>The training</h2>
