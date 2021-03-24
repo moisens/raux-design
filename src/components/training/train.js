@@ -1,4 +1,5 @@
 import './train.scss';
+import curvedIlluReverse from '../../images/curvedIlluReverse.svg'
 
 
 
@@ -26,7 +27,9 @@ const Training = () => {
           <button type="button">REGISTER</button>
         </div>
       </article>
-      <div class="curved-illustration"></div>
+      <div class="curved-illustration">
+        <img src="${curvedIlluReverse}" alt="curved-illustrtion-training"/>
+      </div>
       <div class="training-courses">
         <h2>Courses</h2>
         <div class="courses-container">
@@ -34,28 +37,196 @@ const Training = () => {
           <article class="one-course">
             <!--course title-->
             <div class="course-title">
-              <p>Title of the course</p>
+              <h4>Title of the course</h4>
               <button type="button" class="course-btn">
-                <span class="plus-icon">+</span>
-                <span class="minus-icon">-</span>
+                <span class="plus-icon"><div>+</div></span>
+                <span class="minus-icon"><div>-</div></span>
               </button>
             </div>
             <!--End course title-->
             <!--Course text-->
             <div class="course-content">
-              <img src="" alt="image-course"/>
+              <div class="course-image">
+                <img src="" alt="image-course"/>
+              </div>
               <div class="cont-price-rating">
                 <div class="content-price">
                   <p>Content: 35hours</p>
                   <p>Price: 130€</p>
                 </div>
                 <div class="content-rating">
-                  <p>4.7 ★★★★☆</p>
+                  <p>4.7 <span class="star">★★★★☆</span></p>
                 </div>
-                <p>
-                Put your feelers out please submit the sop and uat files...Read more
-                </p>
               </div>
+              <p>
+                Put your feelers out please submit the sop and uat files...<span class="read-more">Read more</span>
+              </p>
+              
+            </div>
+            <!--End Course text-->
+          </article>
+          <!--End Single course-->
+          <!--Single course-->
+          <article class="one-course">
+            <!--course title-->
+            <div class="course-title">
+              <h4>Title of the course</h4>
+              <button type="button" class="course-btn">
+                <span class="plus-icon"><div>+</div></span>
+                <span class="minus-icon"><div>-</div></span>
+              </button>
+            </div>
+            <!--End course title-->
+            <!--Course text-->
+            <div class="course-content">
+              <div class="course-image">
+                <img src="" alt="image-course"/>
+              </div>
+              <div class="cont-price-rating">
+                <div class="content-price">
+                  <p>Content: 35hours</p>
+                  <p>Price: 130€</p>
+                </div>
+                <div class="content-rating">
+                  <p>4.7 <span class="star">★★★★☆</span></p>
+                </div>
+              </div>
+              <p>
+                Put your feelers out please submit the sop and uat files...<span class="read-more">Read more</span>
+              </p>
+              
+            </div>
+            <!--End Course text-->
+          </article>
+          <!--End Single course-->
+          <!--Single course-->
+          <article class="one-course">
+            <!--course title-->
+            <div class="course-title">
+              <h4>Title of the course</h4>
+              <button type="button" class="course-btn">
+                <span class="plus-icon"><div>+</div></span>
+                <span class="minus-icon"><div>-</div></span>
+              </button>
+            </div>
+            <!--End course title-->
+            <!--Course text-->
+            <div class="course-content">
+              <div class="course-image">
+                <img src="" alt="image-course"/>
+              </div>
+              <div class="cont-price-rating">
+                <div class="content-price">
+                  <p>Content: 35hours</p>
+                  <p>Price: 130€</p>
+                </div>
+                <div class="content-rating">
+                  <p>4.7 <span class="star">★★★★☆</span></p>
+                </div>
+              </div>
+              <p>
+                Put your feelers out please submit the sop and uat files...<span class="read-more">Read more</span>
+              </p>
+              
+            </div>
+            <!--End Course text-->
+          </article>
+          <!--End Single course-->
+          <!--Single course-->
+          <article class="one-course">
+            <!--course title-->
+            <div class="course-title">
+              <h4>Title of the course</h4>
+              <button type="button" class="course-btn">
+                <span class="plus-icon"><div>+</div></span>
+                <span class="minus-icon"><div>-</div></span>
+              </button>
+            </div>
+            <!--End course title-->
+            <!--Course text-->
+            <div class="course-content">
+              <div class="course-image">
+                <img src="" alt="image-course"/>
+              </div>
+              <div class="cont-price-rating">
+                <div class="content-price">
+                  <p>Content: 35hours</p>
+                  <p>Price: 130€</p>
+                </div>
+                <div class="content-rating">
+                  <p>4.7 <span class="star">★★★★☆</span></p>
+                </div>
+              </div>
+              <p>
+                Put your feelers out please submit the sop and uat files...<span class="read-more">Read more</span>
+              </p>
+              
+            </div>
+            <!--End Course text-->
+          </article>
+          <!--End Single course-->
+          <!--Single course-->
+          <article class="one-course">
+            <!--course title-->
+            <div class="course-title">
+              <h4>Title of the course</h4>
+              <button type="button" class="course-btn">
+                <span class="plus-icon"><div>+</div></span>
+                <span class="minus-icon"><div>-</div></span>
+              </button>
+            </div>
+            <!--End course title-->
+            <!--Course text-->
+            <div class="course-content">
+              <div class="course-image">
+                <img src="" alt="image-course"/>
+              </div>
+              <div class="cont-price-rating">
+                <div class="content-price">
+                  <p>Content: 35hours</p>
+                  <p>Price: 130€</p>
+                </div>
+                <div class="content-rating">
+                  <p>4.7 <span class="star">★★★★☆</span></p>
+                </div>
+              </div>
+              <p>
+                Put your feelers out please submit the sop and uat files...<span class="read-more">Read more</span>
+              </p>
+              
+            </div>
+            <!--End Course text-->
+          </article>
+          <!--End Single course-->
+          <!--Single course-->
+          <article class="one-course">
+            <!--course title-->
+            <div class="course-title">
+              <h4>Title of the course</h4>
+              <button type="button" class="course-btn">
+                <span class="plus-icon"><div>+</div></span>
+                <span class="minus-icon"><div>-</div></span>
+              </button>
+            </div>
+            <!--End course title-->
+            <!--Course text-->
+            <div class="course-content">
+              <div class="course-image">
+                <img src="" alt="image-course"/>
+              </div>
+              <div class="cont-price-rating">
+                <div class="content-price">
+                  <p>Content: 35hours</p>
+                  <p>Price: 130€</p>
+                </div>
+                <div class="content-rating">
+                  <p>4.7 <span class="star">★★★★☆</span></p>
+                </div>
+              </div>
+              <p>
+                Put your feelers out please submit the sop and uat files...<span class="read-more">Read more</span>
+              </p>
+              
             </div>
             <!--End Course text-->
           </article>

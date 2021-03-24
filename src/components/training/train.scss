@@ -78,3 +78,128 @@ $font-Weight-900: 900;
     }
   }
 }
+
+.curved-illustration{
+  width: 100%;
+  height: 80px;
+  background-color: $gray-Colour;
+
+  img{
+    width: 100%;
+    height: 80px;
+    background-size: cover;
+    object-fit: cover;
+  }
+}
+
+.training-courses{
+  padding: 80px 100px 160px 100px;
+  background-color: $gray-Colour;
+
+  h2{
+    font-size: $font-size-h2-title;
+    font-weight: $font-Weight-900;
+  }
+}
+
+.courses-container{
+  padding: 80px 120px;
+  //background-color: $red-Colour;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+  gap: 20px;
+}
+
+//.one-course{
+  //background-color: $white-Colour;
+//
+
+.course-title{
+  background-color: $white-Colour;
+  display: flex;
+  justify-content: space-between;
+  padding: 18px;
+  border-radius: 9px;
+  box-shadow: 2px 2px 2px 0px rgba(74, 74, 74, 0.304);
+
+  h4{
+    font-size: $font-size-h4-title;
+    font-weight: $font-Weight-700;
+  }
+
+  .course-btn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    background-color: transparent;
+
+    .plus-icon, .minus-icon{
+      color: $purple-Colour;
+      font-size: $font-size-btn;
+      font-weight: $font-Weight-700;
+      cursor: pointer;
+    }
+
+    .minus-icon{
+      display: none;
+    }
+  }
+}
+
+.course-content{
+  background-color: $white-Colour;
+  padding: 18px;
+
+  .course-image{
+    width: 100%;
+    height: 200px;
+    background-color: gray;
+    border-radius: 9px;
+
+    img{
+      width: 100%;
+      height: 200px;
+      background-size: cover;
+      object-fit: cover;
+    }
+  }
+
+  .cont-price-rating{
+    padding: 10px 0 ;
+    //background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+
+    .content-price{
+      p{
+        line-height: 1.5;
+        font-size: $font-size-p;
+        color: $red-Colour;
+      }
+    }
+
+    .content-rating{
+      font-size: $font-size-p;
+
+      .star{
+        color: $yellow-Colour;
+      }
+    }
+  }
+
+  p{
+    font-size: $font-size-p;
+    line-height: 1.5;
+
+    .read-more{
+      color: $yellow-Colour;
+      font-weight: $font-Weight-700;
+      cursor: pointer;
+    }
+  }
+
+  display: none;
+}
+
+
