@@ -232,6 +232,7 @@ const Training = () => {
           </article>
           <!--End Single course-->
         </div>
+        <hr>
       </div>
     </section>
   `;

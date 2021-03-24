@@ -33,7 +33,7 @@ $font-Weight-900: 900;
   background-color: white;
   display: flex;
   gap: 30px;
-  padding: 80px 100px 160px 100px;
+  padding: 80px 100px 190px 100px;
 
   .train-image{
     width: 350px;
@@ -103,7 +103,7 @@ $font-Weight-900: 900;
 }
 
 .courses-container{
-  padding: 80px 120px;
+  padding: 80px 120px 160px;
   //background-color: $red-Colour;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
@@ -200,6 +200,14 @@ $font-Weight-900: 900;
   }
 
   display: none;
+}
+
+hr{
+  border: solid 2px $red-Colour;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  width: 60%;
+  margin-left: -100px;
 }
 
 
