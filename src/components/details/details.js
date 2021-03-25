@@ -1,5 +1,5 @@
 import './details.scss';
-
+import cuvedForm from '../../images/cuvedForm.svg';
 
 
 const Details = () => {
@@ -54,12 +54,54 @@ const Details = () => {
             <!--End text content-->
           </article>
           <!--End content one-->
+          <!--content one-->
+          <article class="single-detail">
+            <!--title content-->
+            <div class="detail-title">
+              <h4>Title of content</h4>
+              <button type="button" class="course-btn">
+                <span class="plus-icon"><div>+</div></span>
+                <span class="minus-icon"><div>-</div></span>
+              </button>
+            </div>
+            <!--End title content-->
+            <!--text content-->
+            <div class="detail-text">
+              <p>
+              Commitment to the cause . Create spaces to explore what’s next vec, churning anomalies. Synergestic actionables. Flesh that out c-suite. Put your feelers out message the initiative into the weeds single wringable neck shoot me an email currying favour ping me. I know you're busy.
+              </p>
+            </div>
+            <!--End text content-->
+          </article>
+          <!--End content one-->
+          <!--content one-->
+          <article class="single-detail">
+            <!--title content-->
+            <div class="detail-title">
+              <h4>Title of content</h4>
+              <button type="button" class="course-btn">
+                <span class="plus-icon"><div>+</div></span>
+                <span class="minus-icon"><div>-</div></span>
+              </button>
+            </div>
+            <!--End title content-->
+            <!--text content-->
+            <div class="detail-text">
+              <p>
+              Commitment to the cause . Create spaces to explore what’s next vec, churning anomalies. Synergestic actionables. Flesh that out c-suite. Put your feelers out message the initiative into the weeds single wringable neck shoot me an email currying favour ping me. I know you're busy.
+              </p>
+            </div>
+            <!--End text content-->
+          </article>
+          <!--End content one-->
+        </div>
+        <div class="btn-detail-add">
+          <button>ADD TO CART</button>
         </div>
       </article>
       <!--End Article Two-->
-      <button>ADD TO CART</button>
       <div class="curved-illustration-details">
-        <img src="" alt="curved-illustration"/>
+        <img src="${cuvedForm}" alt="curved-illustration"/>
       </div>
     </section>
   `;
