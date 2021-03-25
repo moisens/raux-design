@@ -10,7 +10,7 @@ const Details = () => {
     <!--Article one-->
       <article class="detail-course">
         <div class="title-arrow">
-          <div>🡠</div>
+          <button class="arrow">←</button>
           <h2>Usability testing</h2>
         </div>
         <div class="image-detail">
@@ -21,13 +21,13 @@ const Details = () => {
             <p>Content: 35hours</p>
             <p>Price: €130</p>
           </div>
-          <div class="rate>
-            <p>4.7 <span class="star">★★★★☆</span></p>
-          </div>
+          <p class="star">4.7<span class="rating">★★★★☆</span></p>
         </div>
-        <p>
-          Put your feelers out message the initiative into the weeds single wringable neck shoot me an email currying favour ping me. I know you're busy. Shoot me an email feed the algorithm low-hanging fruit vertical integration, yet criticality please advise soonest. Feature creep powerPointless, yet after I ran into Helen at a restaurant, I realized she was just office pretty to be inspired is to become creative, innovative and energized we want this philosophy to trickle down to all our stakeholders yet we need to leverage our synergies mumbo jumbo.
-        </p>
+        <div class="course-texts">
+          <p>
+            Put your feelers out message the initiative into the weeds single wringable neck shoot me an email currying favour ping me. I know you're busy. Shoot me an email feed the algorithm low-hanging fruit vertical integration, yet criticality please advise soonest. Feature creep powerPointless, yet after I ran into Helen at a restaurant, I realized she was just office pretty to be inspired is to become creative, innovative and energized we want this philosophy to trickle down to all our stakeholders yet we need to leverage our synergies mumbo jumbo.
+          </p>
+        </div>
       </article>
       <!--End Article one-->
       <!--Article Two-->
