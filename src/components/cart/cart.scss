@@ -65,23 +65,30 @@ $font-Weight-900: 900;
   .cart-courses{
     width: 700px;
     background-color: $gray-Colour;
+    border: solid 1px $purple-Colour;
+    border-radius: 9px;
+    padding: 40px;
     
     .one-course-bought{
-      background-color: red;
       display: flex;
-      padding: 40px;
+      width: auto;
+      box-shadow: 0 2px 12px rgba(0, 0, 0, 0.142);
+      border-top-left-radius: 9px;
+      border-bottom-left-radius: 9px;
+      
 
       .image-course{
         width: 183px;
         height: 170px;
-        background-color: #fff;
+        background-color: lightslategray;
         border-left: solid 6px $purple-Colour;
         border-top-left-radius: 9px;
         border-bottom-left-radius: 9px;
       }
       .text-price-trash{
-        background-color: lightslategray;
+        background-color: $white-Colour;
         padding: 20px;
+        width: 71%;
         
         h4{
           font-size: $font-size-h4-title;
