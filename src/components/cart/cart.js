@@ -28,9 +28,12 @@ const Cart = () => {
               </div>
             </div>
             <!--End One Course-->
-            
           </div>
-          <div class="cart-course-price">3</div>
+          <div class="cart-course-price">
+            <h5>Total:</h5>
+            <p>€130</p>
+            <button>CHECKOUT</button>
+          </div>
         </div>
       </section>
     </div>

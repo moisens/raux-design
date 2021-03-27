@@ -1,20 +1,15 @@
 $font-family: 'Lato',sans-serif;
-$yellow-Colour: #FEC52D;
-$regular-blue-Colour: #335E95;
 $dark-blue-Colour: #011F45;
 $red-Colour: #CB2350;
 $purple-Colour: #8B1F93;
-$gray-Colour: #F5F5F5;
+$yellow-Colour: #FEC52D;
 $white-Colour: #fff;
 $font-size-h2-title: 2.5rem;
-$font-size-h3-title: 1.5rem;
 $font-size-h4-title: 1.25rem;
-$font-size-btn: 18px;
-$font-size-price: 28px;
-$font-size-next-prev: 25px;
+$font-size-h5-title: 2.2rem;
 $font-size-p: 1.375rem;
-$font-size-form: 1.0625rem;
-$font-family: 'Lato',sans-serif;
+$font-size-p-price: 3rem;
+$font-size-btn: 18px;
 $font-Weight-400: 400;
 $font-Weight-700: 700;
 $font-Weight-900: 900;
@@ -41,7 +36,7 @@ $font-Weight-900: 900;
 }
 
 .cart{
-  background-color: seagreen;
+  background-color: $white-Colour;
   width: 100%;
   height: auto;
   padding: 80px 100px 160px 100px;
@@ -57,14 +52,14 @@ $font-Weight-900: 900;
 .cart-content{
   width: 100%;
   height: auto;
-  background-color: $yellow-Colour;
-  padding-top: 80px;
+  background-color: $white-Colour;
+  padding: 80px 120px 80px 120px;
   display: flex;
   gap: 40px;
 
   .cart-courses{
     width: 700px;
-    background-color: $gray-Colour;
+    background-color: $white-Colour;
     border: solid 1px $purple-Colour;
     border-radius: 9px;
     padding: 40px;
@@ -73,17 +68,16 @@ $font-Weight-900: 900;
       display: flex;
       width: auto;
       box-shadow: 0 2px 12px rgba(0, 0, 0, 0.142);
+      border-left: solid 6px $purple-Colour;
       border-top-left-radius: 9px;
       border-bottom-left-radius: 9px;
+      margin-bottom: 30px;
       
 
       .image-course{
         width: 183px;
-        height: 170px;
+        height: 178px;
         background-color: lightslategray;
-        border-left: solid 6px $purple-Colour;
-        border-top-left-radius: 9px;
-        border-bottom-left-radius: 9px;
       }
       .text-price-trash{
         background-color: $white-Colour;
@@ -92,7 +86,7 @@ $font-Weight-900: 900;
         
         h4{
           font-size: $font-size-h4-title;
-          font-weight: $font-Weight-700;
+          font-weight: $font-Weight-900;
         }
         p{
           font-size: $font-size-p;
@@ -123,5 +117,37 @@ $font-Weight-900: 900;
         }
       }
     }
+  }
+}
+
+.cart-course-price{
+  width: 400px;
+  height: 400px;
+  background-color: $white-Colour;
+  border: solid 1px $purple-Colour;
+  border-radius: 9px;
+  padding: 40px;
+
+  h5{
+    font-size: $font-size-h5-title;
+    font-weight: $font-Weight-700;
+    padding-bottom: 20px;
+  }
+
+  p{
+    font-size: $font-size-p-price;
+    font-weight: $font-Weight-900;
+    color: $red-Colour;
+  }
+
+  button{
+    padding: 18px 25%;
+    border: none;
+    border-radius: 50px;
+    background-color: $yellow-Colour;
+    font-size: $font-size-btn;
+    font-weight: $font-Weight-900;
+    margin: 150px 20px 0 20px;
+    cursor: pointer;
   }
 }
