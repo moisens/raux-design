@@ -6,6 +6,8 @@ $font-Weight-900: 900;
 $gray-Colour: #F5F5F5;
 $text-Colour: #000;
 $purple-Colour: #8B1F93;
+$yellow-Colour: #FACC50;
+$red-Colour: #CB2350;
 
 
 
@@ -19,7 +21,7 @@ $purple-Colour: #8B1F93;
   padding: 1px 10%;
   font-family: $font-family;
   font-size: $font-size;
-  font-weight: $font-Weight-700;
+  font-weight: $font-Weight-400;
   z-index: 10000;
   position: fixed;
 
@@ -40,13 +42,22 @@ $purple-Colour: #8B1F93;
       list-style-type: none;
       padding: 20px 0 20px 0;
 
+      
+
       a {
         //background-color: blue;
         padding: 20px 0 20px;
         text-decoration: none;
         cursor: pointer;
         color: $text-Colour;
+        
+        &.active{
+          color: $red-Colour;
+          border-bottom: solid 3px $red-Colour;
+        }
       }
+      
+      
     }
   }
 
