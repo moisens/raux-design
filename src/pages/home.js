@@ -6,7 +6,7 @@ import themes from '../components/themesSection/themes.js';
 import partners from '../components/partners/partners.js';
 import contact from '../components/contact/contact.js';
 import footer from '../components/footer/footer.js';
-
+import NavActive from '../components/nav/navActive.js';
 
 const Home = () => {
   header()
@@ -18,4 +18,6 @@ const Home = () => {
   footer();
 }
 Home();
+NavActive();
+
 
