@@ -1,10 +1,10 @@
 import './header.scss';
 import headerbigImg from '../../images/headerbigImg.jpg';
-import headersmallImg from '../../images/headersmallImg.jpg'
+import headersmallImg from '../../images/headersmallImg.jpg';
 import nav from '../nav/nav.js';
 
 
-const header = () => {
+const header = async () => {
   nav();
   const body = document.querySelector('body');
   const textImg = `
