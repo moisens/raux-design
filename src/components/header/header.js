@@ -15,7 +15,7 @@ const header = () => {
         <div class="titles-btns">
           <h1>IMAGINE AND DESIGN FOR HUMAN</h1>
           <h2>Research And Ux design conference</h2>
-          <button class="btn-booking">BOOKING</button>
+          <button class="btn-booking"><a href="/booking.html">BOOKING</a></button>
           <button class="btn-training">TRAINING</button>
         </div>
       </div>

@@ -17,6 +17,7 @@ const nav = () => {
       </div>
     <nav/>
   `;
+  
   return body.innerHTML += navigation;
 
 }
