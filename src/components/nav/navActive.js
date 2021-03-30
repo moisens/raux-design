@@ -1,7 +1,7 @@
 
 const NavActive = () => {
   const links = document.querySelectorAll('li a');
-  console.log(links);
+  //console.log(links);
  
   const handleActive = (e) => {
     links.forEach(link => {

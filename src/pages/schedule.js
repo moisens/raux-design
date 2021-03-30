@@ -5,10 +5,8 @@ import footer from '../components/footer/footer.js';
 import NavActive from '../components/nav/navActive.js';
 
 
-const Schedule = () => {
-  nav();
-  scheduling();
-  footer();
-}
-Schedule();
+
+nav();
+scheduling();
+footer();
 NavActive();
