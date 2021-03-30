@@ -67,7 +67,7 @@
   "themes": [
     {
       "id": 1,
-      "image": "../../images/conference.jpg",
+      "image": "./images/conference.jpg",
       "title" : "Usability testing",
       "body" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod."
 
