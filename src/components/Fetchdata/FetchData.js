@@ -3,7 +3,7 @@ const FetchData = async () => {
   const datas = res.json();
   console.log(datas);
 
-return datas;
+  return datas;
   
   
 }
