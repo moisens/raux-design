@@ -42,7 +42,6 @@ const themes = async () => {
 
   const card = document.querySelector('.all-themes-content');
   card.innerHTML = await Cards();
-  console.log('card', card);
 
 
 }

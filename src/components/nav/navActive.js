@@ -1,20 +1,28 @@
 
 const NavActive = () => {
-  const links = document.querySelectorAll('li a');
-  //console.log(links);
- 
-  const handleActive = (e) => {
-    links.forEach(link => {
-      link.classList.remove('active');
-    });
-    e.target.classList.add('active');
+  const links = document.querySelectorAll('ul li a');
+  console.log(links);
 
-  }
+  //const logo = document.querySelector('.logo');
+  //console.log(logo);
+  //logo.style.color = 'blue'
 
-
+   
+const handleActive = (e) => {
   links.forEach(link => {
-    link.addEventListener('click', handleActive);
+    link.classList.remove('active');
   });
+  e.target.classList.add('active');
+  
+  
+}
+
+
+links.forEach(link => {
+  link.addEventListener('click', handleActive);
+});
+ 
+  
 
 }
 export default NavActive;
