@@ -9,13 +9,15 @@ import footer from '../components/footer/footer.js';
 import NavActive from '../components/nav/navActive.js';
 
 
-header()
-about();
-speakers();
-themes();
-partners();
-contact();
-footer();
-NavActive();
+const home = async () => {
+  header()
+  about();
+  speakers();
+  await themes();
+  partners();
+  contact();
+  footer();
+  NavActive();
+}
 
-
+home();
