@@ -1,4 +1,5 @@
 import('./nav.scss');
+import NavActive from '../nav/navActive.js';
 
 const nav = () => {
   const body = document.querySelector('body');
@@ -18,7 +19,9 @@ const nav = () => {
     <nav/>
   `;
   
-  return body.innerHTML += navigation;
+  body.innerHTML += navigation;
+  NavActive();
+
 
 }
 export default nav;
