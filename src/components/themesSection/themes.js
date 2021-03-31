@@ -32,7 +32,7 @@ const themes = async () => {
     </div>
     <h2>Themes</h2>
     <div class="all-themes-content">
-      
+      <!--Code will be dynamically injected after being fetched-->
     </div>
   </section>
   `;
@@ -40,8 +40,6 @@ const themes = async () => {
   body.innerHTML += theme;
 
   const card = document.querySelector('.all-themes-content');
-  
-
   card.innerHTML = await Cards();
   console.log('card', card);
 
