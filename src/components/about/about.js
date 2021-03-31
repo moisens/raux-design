@@ -1,6 +1,7 @@
 import './about.scss';
 import headersmallImg from '../../images/headersmallImg.jpg';
 import cuvedForm from '../../images/cuvedForm.svg';
+import Countdown from './countdown.js';
 
 
 const about = () => {
@@ -29,7 +30,11 @@ const about = () => {
               last person we talked to said this would be ready code.
             </p>
             <div class="count-down">
-              <p>The conference will start in <span class="days">250 days 10h : 00 : 20</span></p>
+              <p class="count-message">The conference will start in 
+                <span class="days-container">
+                  <span class="left-days"></span> days <span class="left-hour">h</span> : <span class="left-minutes"></span> : <span class="left-seconds"></span>
+                </span>
+              </p>
             </div>
           </div>
         </div>
@@ -41,7 +46,10 @@ const about = () => {
       
     </section>
   `;
-  return body.innerHTML += about;
+  body.innerHTML += about;
+  Countdown();
+
+
 }
 export default about;
 
