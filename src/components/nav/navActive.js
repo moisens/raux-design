@@ -1,7 +1,7 @@
 
 const NavActive = () => {
   const links = document.querySelectorAll('ul li a');
-  console.log(links);
+  //console.log(links);
 
   //const logo = document.querySelector('.logo');
   //console.log(logo);
@@ -9,6 +9,7 @@ const NavActive = () => {
 
    
 const handleActive = (e) => {
+  e.preventDefault();
   links.forEach(link => {
     link.classList.remove('active');
   });
