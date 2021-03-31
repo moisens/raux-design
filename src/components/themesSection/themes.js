@@ -4,7 +4,8 @@ import FetchData from '../Fetchdata/FetchData.js';
 
 
 const Cards = async () => {
-  const themes = await FetchData();
+  const url = 'http://localhost:3001/themes';
+  const themes = await FetchData(url);
   
     const newThemes = themes.map(theme => {
       const { image, title, body } = theme;

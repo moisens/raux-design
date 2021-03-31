@@ -1,8 +1,6 @@
-const FetchData = async () => {
-  const res = await fetch('http://localhost:3001/themes');
+const FetchData = async (url) => {
+  const res = await fetch(url);
   const datas = res.json();
-  console.log(datas);
-
   return datas;
   
   
