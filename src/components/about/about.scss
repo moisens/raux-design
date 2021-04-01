@@ -93,6 +93,8 @@ $font-Weight-900: 900;
           .days-container{
             color: $red-Colour;
             font-weight: $font-Weight-900;
+            display: flex;
+            gap: 20px;
           }
         }
       }
