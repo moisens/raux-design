@@ -3,7 +3,7 @@ import displaySpeaker from './displaySpeakers.js'
 
 
 
-const speakers = async () => {
+const speakers = () => {
   const body = document.querySelector('body');
 
   let speaker = `
@@ -16,8 +16,16 @@ const speakers = async () => {
   `;
   body.innerHTML += speaker;
 
-  const allSpeakers = document.querySelector('.speaker-container');
-  allSpeakers.innerHTML += await displaySpeaker();
+  const init = async () => {
+    const allSpeakers = document.querySelector('.speaker-container');
+    allSpeakers.innerHTML += await displaySpeaker();
+  }
+
+  
+
+
+
+  window.addEventListener('load', init);
 
 
 

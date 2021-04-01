@@ -11,7 +11,7 @@ import footer from '../components/footer/footer.js';
 const home = async () => {
   header()
   about();
-  await speakers();
+  speakers();
   await themes();
   partners();
   contact();
