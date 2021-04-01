@@ -32,21 +32,21 @@ const about = () => {
             <div class="count-down">
               <p class="count-message">The conference will start in</p>
               <div class="days-container">
-                  <div>
-                    <p class="left-days"></p>
-                    <p>DAYS</p>
+                  <div class="left-days">
+                    <p></p>
+                    <h4>DAYS</h4>
                   </div>
-                  <div>
-                    <p class="left-hour"></p>
-                    <p>HOURS</p>
+                  <div class="left-hour">
+                    <p></p>
+                    <h4>HOURS</h4>
                   </div>
-                  <div>
-                    <p class="left-minutes"></p>
-                    <p>MINUTES</p>
+                  <div class="left-minutes">
+                    <p></p>
+                    <h4>MINUTES</h4>
                   </div>
-                  <div>
-                    <p class="left-seconds"></p>
-                    <p>SECONDS</p>
+                  <div class="left-seconds">
+                    <p></p>
+                    <h4>SECONDS</h4>
                   </div>
                   
                 </div>

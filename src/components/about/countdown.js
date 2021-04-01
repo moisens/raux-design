@@ -1,10 +1,8 @@
 const Countdown = () => {
-  const leftDays = document.querySelector('.left-days');
-  const leftHours = document.querySelector('.left-hour');
-  const leftMinutes = document.querySelector('.left-minutes');
-  const leftSeconds = document.querySelector('.left-seconds');
   const daysContainer = document.querySelector('.days-container');
   const countMessage = document.querySelector('.count-message');
+  const timeEl = document.querySelectorAll('.days-container div p');
+  
   
 
   const second = 1000;
@@ -23,17 +21,27 @@ const Countdown = () => {
   const minutes = Math.floor((daysBeforeEnd % hour) / minute);
   const seconds = Math.floor((daysBeforeEnd % minute) / second);
 
+  const values = [days, hours, minutes, seconds];
+  
+
+  const timeFormat = (timeEl) => {
+    if (timeEl < 10) {
+      return timeEl = `0${timeEl}`;
+    }
+    return timeEl;
+  }
+  
+
 
   if (daysBeforeEnd < 0) {
     countMessage.innerHTML = 'The conference has already started!';
     daysContainer.style.display = 'none';
-    clearInterval(countdownActive);
+    //clearInterval(countdownActive);
     
   } else {
-    leftDays.innerHTML = `${days}`
-    leftHours.innerHTML = `${hours}`;
-    leftMinutes.innerHTML = `${minutes}`;
-    leftSeconds.innerHTML = `${seconds}`;
+    timeEl.forEach((item, index) => {
+      item.innerHTML = timeFormat(values[index])
+    });
   }
 
 
