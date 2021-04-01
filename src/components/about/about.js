@@ -30,11 +30,26 @@ const about = () => {
               last person we talked to said this would be ready code.
             </p>
             <div class="count-down">
-              <p class="count-message">The conference will start in 
-                <span class="days-container">
-                  <span class="left-days"></span> days <span class="left-hour">h</span> : <span class="left-minutes"></span> : <span class="left-seconds"></span>
-                </span>
-              </p>
+              <p class="count-message">The conference will start in</p>
+              <div class="days-container">
+                  <div>
+                    <p class="left-days"></p>
+                    <p>DAYS</p>
+                  </div>
+                  <div>
+                    <p class="left-hour"></p>
+                    <p>HOURS</p>
+                  </div>
+                  <div>
+                    <p class="left-minutes"></p>
+                    <p>MINUTES</p>
+                  </div>
+                  <div>
+                    <p class="left-seconds"></p>
+                    <p>SECONDS</p>
+                  </div>
+                  
+                </div>
             </div>
           </div>
         </div>
@@ -47,6 +62,7 @@ const about = () => {
     </section>
   `;
   body.innerHTML += about;
+  let countdownActive = setInterval(Countdown,1000);
   Countdown();
 
 
