@@ -34,7 +34,7 @@ $font-Weight-900: 900;
   
 }
 
-.one-speaker-image-text{
+.one-speaker-image-text, .speaker-reverse{
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -46,6 +46,13 @@ $font-Weight-900: 900;
       width: 350px;
       height: 350px;
       background-color: blue;
+
+      img{
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        object-fit: cover;
+      }
     }
 
     .one-speaker-text{
