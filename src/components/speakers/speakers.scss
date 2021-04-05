@@ -28,7 +28,7 @@ $font-Weight-900: 900;
     color: $yellow-Colour;
     font-size: $font-size-h2-title;
     font-weight: $font-Weight-900;
-    padding-bottom: 60px;
+    padding-bottom: 160px;
   }
 
   
@@ -94,11 +94,16 @@ $font-Weight-900: 900;
 }
 
 .page{
-  //background-color: $yellow-Colour;
+  background-color: $yellow-Colour;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 30px;
+
+  .active-btn{
+    color: $red-Colour;
+    background-color: $dark-blue-Colour;
+  }
   
 
   button{

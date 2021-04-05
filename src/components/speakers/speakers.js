@@ -2,6 +2,7 @@ import './speakers.scss';
 import { fetchSpeakers } from '../Fetchdata/FetchData.js';
 import displaySpeaker from './displaySpeakers.js'
 import paginate from './paginate.js';
+import displayButton from './displayButtons.js';
 
 
 const speakers = () => {
@@ -11,7 +12,6 @@ const speakers = () => {
     <section class="speaker-container layout">
       <h2>Speakers</h2>
       <!--Speakers will be fetched and displayed dynamically-->
-
       <!--Button div will be added dynamically too-->
     </section>
   `;
@@ -22,13 +22,12 @@ const speakers = () => {
 
   const setupUi = () => {
     displaySpeaker(pages[index]);
+    const btnContainer = document.querySelector('.page');
+    displayButton(btnContainer, pages, index);
   }
 
   const init = async () => {
-    //const allSpeakers = document.querySelector('.speaker-container');
     const speakerList = await fetchSpeakers();
-    displaySpeaker('AA',speakerList)
-
     pages = paginate(speakerList);
     setupUi();
   }
