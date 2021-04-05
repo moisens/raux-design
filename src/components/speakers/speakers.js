@@ -1,4 +1,5 @@
 import './speakers.scss';
+import { fetchSpeakers } from '../Fetchdata/FetchData.js';
 import displaySpeaker from './displaySpeakers.js'
 import paginate from './paginate.js';
 
@@ -25,9 +26,8 @@ const speakers = () => {
 
   const init = async () => {
     //const allSpeakers = document.querySelector('.speaker-container');
-    const speakerList = await displaySpeaker();
-    console.log(speakerList);
-    //allSpeakers.innerHTML += speakerList;
+    const speakerList = await fetchSpeakers();
+    displaySpeaker('AA',speakerList)
 
     pages = paginate(speakerList);
     setupUi();

@@ -1,13 +1,7 @@
-import FetchData from '../Fetchdata/FetchData.js'
-
-
-
 const displaySpeaker = async (speakerList) => {
-  
-  //const url = 'http://localhost:3001/speakers';
-
-  speakerList = await FetchData();
+  console.log('speaker', speakerList);
   const newSpeakers = speakerList.map(speaker => {
+    
     const { title, subtitle, body, image } = speaker;
     return `
     <div class="one-speaker-image-text">
@@ -25,7 +19,7 @@ const displaySpeaker = async (speakerList) => {
     `;
   }).join('');
   const allSpeakers = document.querySelector('.speaker-container');
-  return allSpeakers.innerHTML += newSpeakers;
+  allSpeakers.innerHTML += newSpeakers;
   
 }
 export default displaySpeaker;

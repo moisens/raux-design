@@ -6,7 +6,7 @@ const paginate = (speakerList) => {
     const start = index * itemsPerPage;
     return speakerList.slice(start, start + itemsPerPage);
   });
-  console.log('nbrPage', numberOfSpeakerPerPage);
+ console.log(numberOfSpeakerPerPage);
   return numberOfSpeakerPerPage;
 
 }
