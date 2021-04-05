@@ -1,5 +1,5 @@
-const FetchData = async (url) => {
-  const res = await fetch(url);
+const FetchData = async () => {
+  const res = await fetch('http://localhost:3001/speakers');
   const datas = res.json();
   return datas;
   

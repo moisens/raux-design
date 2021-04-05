@@ -1,6 +1,6 @@
 import './speakers.scss';
 import displaySpeaker from './displaySpeakers.js'
-
+import paginate from './paginate.js';
 
 
 const speakers = () => {
@@ -16,14 +16,26 @@ const speakers = () => {
   `;
   body.innerHTML += speaker;
 
+  let index = 0;
+  let pages = [];
+
+  const setupUi = () => {
+    displaySpeaker(pages[index]);
+  }
+
   const init = async () => {
-    const allSpeakers = document.querySelector('.speaker-container');
-    allSpeakers.innerHTML += await displaySpeaker();
+    //const allSpeakers = document.querySelector('.speaker-container');
+    const speakerList = await displaySpeaker();
+    console.log(speakerList);
+    //allSpeakers.innerHTML += speakerList;
+
+    pages = paginate(speakerList);
+    setupUi();
   }
 
   
 
-
+  
 
   window.addEventListener('load', init);
 
