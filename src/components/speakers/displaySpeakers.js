@@ -1,12 +1,11 @@
-const displaySpeaker = async (speakerList) => {
-  console.log('speaker', speakerList);
+const displaySpeaker = (speakerList) => {
   const newSpeakers = speakerList.map(speaker => {
     
     const { title, subtitle, body, image } = speaker;
     return `
     <div class="one-speaker-image-text">
       <div class="one-speaker-image">
-        <img src="" alt="${title}" title="${title}">
+        <img src="" alt="${title}" title="${title}"/>
       </div>
       <div class="one-speaker-text">
         <h3>${title}</h3>
@@ -20,6 +19,11 @@ const displaySpeaker = async (speakerList) => {
   }).join('');
   const allSpeakers = document.querySelector('.speaker-container');
   allSpeakers.innerHTML += newSpeakers;
+  
+  allSpeakers.innerHTML += `
+    <div class="page">BTNS</div>
+  `;
+  
   
 }
 export default displaySpeaker;
