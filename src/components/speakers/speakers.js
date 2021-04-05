@@ -24,12 +24,15 @@ const speakers = () => {
     displaySpeaker(pages[index]);
     const btnContainer = document.querySelector('.page');
     displayButton(btnContainer, pages, index);
+    
+
   }
 
   const init = async () => {
     const speakerList = await fetchSpeakers();
     pages = paginate(speakerList);
     setupUi();
+    
   }
 
   
