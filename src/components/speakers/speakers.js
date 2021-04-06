@@ -11,8 +11,11 @@ const speakers = () => {
   let speaker = `
     <section class="speaker-container layout">
       <h2>Speakers</h2>
-      <!--Speakers will be fetched and displayed dynamically-->
+      <div class="all-speaker-content">
+        <!--Speakers will be fetched and displayed dynamically-->
+      </div>
       <!--Button div will be added dynamically too-->
+      <div class="page">BTNS</div>
     </section>
   `;
   body.innerHTML += speaker;
@@ -20,11 +23,9 @@ const speakers = () => {
   let index = 0;
   let pages = [];
   const btnContainer = document.querySelector('.page');
-  console.log('yyy',btnContainer);
 
   const setupUi = () => {
     displaySpeaker(pages[index]);
-    // const btnContainer = document.querySelector('.page');
     displayButton(btnContainer, pages, index);
     
 
@@ -37,6 +38,7 @@ const speakers = () => {
     
   }
 
+  
   
 
   
