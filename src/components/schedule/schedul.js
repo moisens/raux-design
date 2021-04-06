@@ -1,5 +1,5 @@
 import './schedul.scss';
-import displayMonday from './displayMonday.js';
+import { displayMonday, displayTuesday } from './displayDays.js';
 
 
 const scheduling = async () => {
@@ -30,41 +30,10 @@ const scheduling = async () => {
           </div>
           <article class="days-content-agenda">
             <!--Monday-->
-            <article class="day-content lundi active" id="monday"></article>  
+            <article class="day-content lundi " id="monday"></article>  
             <!--End Monday-->
             <!--Tuesday-->
-            <article class="day-content" id="monday">
-              <div class="d-day-agenda">
-                <div class="talk-day-img">
-                  <img src="" alt="">
-                </div>
-                <div class="about-talk">
-                  <h3>Stewie Griffin</h3>
-                  <h5>User research</h5>
-                  <p>
-                    Enough to wash your face low-hanging fruit, nor workflow ecosystem 
-                    yet show pony, yet commitment to the cause for high touch client. 
-                    Imagineer big picture and driving the initiative forward nor teams 
-                    were able to drive adoption and awareness pixel pushing.
-                  </p>
-                </div>
-              </div>
-              <div class="d-day-agenda">
-                <div class="talk-day-img">
-                  <img src="" alt="">
-                </div>
-                <div class="about-talk">
-                  <h3>Stewie Griffin</h3>
-                  <h5>User research</h5>
-                  <p>
-                    Enough to wash your face low-hanging fruit, nor workflow ecosystem 
-                    yet show pony, yet commitment to the cause for high touch client. 
-                    Imagineer big picture and driving the initiative forward nor teams 
-                    were able to drive adoption and awareness pixel pushing.
-                  </p>
-                </div>
-              </div>
-            </article>
+            <article class="day-content mardi active" id="monday"></article>
             <!--End Tuesday-->
           </article>
         </div>
@@ -75,7 +44,10 @@ const scheduling = async () => {
 
   const lundi = document.querySelector('.lundi');
   lundi.innerHTML = await displayMonday();
-  console.log(lundi);
+
+  const mardi = document.querySelector('.mardi');
+  mardi.innerHTML = await displayTuesday();
+
 }
 export default scheduling;
 
