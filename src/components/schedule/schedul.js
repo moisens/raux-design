@@ -1,7 +1,8 @@
 import './schedul.scss';
+import displayMonday from './displayMonday.js';
 
 
-const scheduling = () => {
+const scheduling = async () => {
   const body =  document.querySelector('body');
 
   let agenda = `
@@ -29,23 +30,7 @@ const scheduling = () => {
           </div>
           <article class="days-content-agenda">
             <!--Monday-->
-            <article class="day-content active" id="monday">
-              <div class="d-day-agenda ">
-                <div class="talk-day-img">
-                  <img src="" alt="">
-                </div>
-                <div class="about-talk">
-                  <h3>Leoplolde Ouellet</h3>
-                  <h5>Usability testing</h5>
-                  <p>
-                    Enough to wash your face low-hanging fruit, nor workflow ecosystem 
-                    yet show pony, yet commitment to the cause for high touch client. 
-                    Imagineer big picture and driving the initiative forward nor teams 
-                    were able to drive adoption and awareness pixel pushing.
-                  </p>
-                </div>
-              </div>
-            </article>  
+            <article class="day-content lundi active" id="monday"></article>  
             <!--End Monday-->
             <!--Tuesday-->
             <article class="day-content" id="monday">
@@ -86,7 +71,11 @@ const scheduling = () => {
       </div>
     </section>
   `;
-  return body.innerHTML += agenda;
+  body.innerHTML += agenda;
+
+  const lundi = document.querySelector('.lundi');
+  lundi.innerHTML = await displayMonday();
+  console.log(lundi);
 }
 export default scheduling;
 
