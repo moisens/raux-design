@@ -17,12 +17,8 @@ const displaySpeaker = (speakerList) => {
     </div>
     `;
   }).join('');
-  const allSpeakers = document.querySelector('.speaker-container');
-  allSpeakers.innerHTML += newSpeakers;
-  
-  //allSpeakers.innerHTML += `
-  //  <div class="page"></div>
-  //`;
+  const theSpeakers = document.querySelector('.all-speaker-content');
+  theSpeakers.innerHTML += newSpeakers;
   
   
 }
