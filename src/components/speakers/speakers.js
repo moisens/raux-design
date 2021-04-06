@@ -19,10 +19,12 @@ const speakers = () => {
 
   let index = 0;
   let pages = [];
+  const btnContainer = document.querySelector('.page');
+  console.log('yyy',btnContainer);
 
   const setupUi = () => {
     displaySpeaker(pages[index]);
-    const btnContainer = document.querySelector('.page');
+    // const btnContainer = document.querySelector('.page');
     displayButton(btnContainer, pages, index);
     
 

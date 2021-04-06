@@ -7,7 +7,7 @@ const displayButton = (contentBtn, pages, activeIndex) => {
     `;
   });
   btns.unshift('<button class="prev-btn">prev</button>');
-  btns.push('<button class="prev-btn">next</button>');
-  contentBtn.innerHTML = btns.join('')
+  btns.push('<button class="next-btn">next</button>');
+  //contentBtn.innerHTML = btns.join('')
 }
 export default displayButton;
