@@ -9,7 +9,7 @@ export const displayMonday = async () => {
     return `
       <div class="d-day-agenda">
         <div class="talk-day-img">
-          <img src="" alt="${title}" title="${title}">
+          <img src="" alt="${subtitle}" title="${subtitle}">
         </div>
         <div class="about-talk">
           <h3>${title}</h3>
@@ -33,7 +33,7 @@ export const displayTuesday = async () => {
     return `
       <div class="d-day-agenda">
         <div class="talk-day-img">
-          <img src="" alt="${title}" title="${title}">
+          <img src="" alt="${subtitle}" title="${subtitle}">
         </div>
         <div class="about-talk">
           <h3>${title}</h3>
@@ -45,4 +45,28 @@ export const displayTuesday = async () => {
     `;
   }).join('');
   return newMardiAgenda;
+}
+
+export const displayWednesday = async () => {
+  const url = 'http://localhost:3001/wednesday';
+  const wednesdayAgendas = await FetchData(url);
+
+  const newWednesdayAgenda = wednesdayAgendas.map(wednesday => {
+    const { image, title, subtitle, hour, body } = wednesday;
+    return `
+      <div class="d-day-agenda">
+        <div class="talk-day-img">
+          <img src="" alt="${subtitle}" title="${subtitle}">
+        </div>
+        <div class="about-talk">
+          <h3>${title}</h3>
+          <h5>${subtitle}</h5>
+          <h6>${hour}</h6>
+          <p>${body}</p>
+        </div>
+      </div>
+    `;
+  }).join('');
+  return newWednesdayAgenda;
+
 }
