@@ -20,9 +20,9 @@ const displaySpeaker = (speakerList) => {
   const allSpeakers = document.querySelector('.speaker-container');
   allSpeakers.innerHTML += newSpeakers;
   
-  allSpeakers.innerHTML += `
-    <div class="page">BTNS</div>
-  `;
+  //allSpeakers.innerHTML += `
+  //  <div class="page"></div>
+  //`;
   
   
 }
