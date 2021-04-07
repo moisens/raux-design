@@ -1,5 +1,5 @@
 import './schedul.scss';
-import { displayMonday, displayTuesday, displayWednesday, displayThursday } from './displayDays.js';
+import { displayMonday, displayTuesday, displayWednesday, displayThursday, displayFriday } from './displayDays.js';
 
 
 const scheduling = async () => {
@@ -39,13 +39,13 @@ const scheduling = async () => {
             <article class="day-content mercredi" id="wednesday"></article>
             <!--End Wednesday-->
             <!--Thursday-->
-            <article class="day-content jeudi active" id="thursday"></article>
+            <article class="day-content jeudi" id="thursday"></article>
             <!--End Thursday-->
             <!--Friday-->
-            <article class="day-content vendredi" id="friday"></article>
+            <article class="day-content vendredi active" id="friday"></article>
             <!--End Friday-->
             <!--Next Monday-->
-            <article class="day-content next-lundi active" id="nextMonday"></article>
+            <article class="day-content next-lundi" id="nextMonday"></article>
             <!--End Next Monday-->
           </article>
         </div>
@@ -65,6 +65,9 @@ const scheduling = async () => {
 
   const jeudi = document.querySelector('.jeudi');
   jeudi.innerHTML = await displayThursday();
+
+  const vendredi = document.querySelector('.vendredi');
+  vendredi.innerHTML = await displayFriday();
 
 }
 export default scheduling;
