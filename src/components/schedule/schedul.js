@@ -7,6 +7,7 @@ import {
   displayFriday ,
   displayNextMonday
 } from './displayDays.js';
+import agendaEvent from './agendaFunc.js';
 
 
 const scheduling = async () => {
@@ -37,7 +38,7 @@ const scheduling = async () => {
           </div>
           <article class="days-content-agenda">
             <!--Monday-->
-            <article class="day-content lundi " id="monday"></article>  
+            <article class="day-content lundi active" id="monday"></article>  
             <!--End Monday-->
             <!--Tuesday-->
             <article class="day-content mardi" id="tuesday"></article>
@@ -52,7 +53,7 @@ const scheduling = async () => {
             <article class="day-content vendredi" id="friday"></article>
             <!--End Friday-->
             <!--Next Monday-->
-            <article class="day-content next-lundi active" id="nextMonday"></article>
+            <article class="day-content next-lundi" id="nextMonday"></article>
             <!--End Next Monday-->
           </article>
         </div>
@@ -78,6 +79,8 @@ const scheduling = async () => {
 
   const nextLundi = document.querySelector('.next-lundi');
   nextLundi.innerHTML = await displayNextMonday();
+
+  agendaEvent();
 
 }
 export default scheduling;
