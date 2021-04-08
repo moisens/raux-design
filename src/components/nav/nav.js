@@ -20,8 +20,12 @@ const nav = () => {
   `;
   
   body.innerHTML += navigation;
-  NavActive();
 
+  const init = () => {
+    NavActive();
+  }
+  
 
+  window.addEventListener('load', init);
 }
 export default nav;

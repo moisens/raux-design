@@ -9,7 +9,7 @@ const NavActive = () => {
 
    
 const handleActive = (e) => {
-  e.preventDefault();
+  //e.preventDefault();
   links.forEach(link => {
     link.classList.remove('active');
   });
