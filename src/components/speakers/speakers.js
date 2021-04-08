@@ -49,15 +49,3 @@ const speakers = () => {
 
 }
 export default speakers;
-
-
-/*
-<!--pagination-->
-      <div class="page">
-        <button>PREV</button>
-        <p>1</p>
-        <p>2</p>
-        <p>3</p>
-        <button>NEXT</button>
-      </div>
-*/

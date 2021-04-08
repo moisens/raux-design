@@ -62,25 +62,32 @@ const scheduling = async () => {
   `;
   body.innerHTML += agenda;
 
-  const lundi = document.querySelector('.lundi');
-  lundi.innerHTML = await displayMonday();
+  const init = async () =>{
+    const lundi = document.querySelector('.lundi');
+    lundi.innerHTML = await displayMonday();
 
-  const mardi = document.querySelector('.mardi');
-  mardi.innerHTML = await displayTuesday();
+    const mardi = document.querySelector('.mardi');
+    mardi.innerHTML = await displayTuesday();
 
-  const mercredi = document.querySelector('.mercredi');
-  mercredi.innerHTML = await displayWednesday();
+    const mercredi = document.querySelector('.mercredi');
+    mercredi.innerHTML = await displayWednesday();
 
-  const jeudi = document.querySelector('.jeudi');
-  jeudi.innerHTML = await displayThursday();
+    const jeudi = document.querySelector('.jeudi');
+    jeudi.innerHTML = await displayThursday();
 
-  const vendredi = document.querySelector('.vendredi');
-  vendredi.innerHTML = await displayFriday();
+    const vendredi = document.querySelector('.vendredi');
+    vendredi.innerHTML = await displayFriday();
 
-  const nextLundi = document.querySelector('.next-lundi');
-  nextLundi.innerHTML = await displayNextMonday();
+    const nextLundi = document.querySelector('.next-lundi');
+    nextLundi.innerHTML = await displayNextMonday();
 
-  agendaEvent();
+    agendaEvent();
+  }
+
+  
+
+
+  window.addEventListener('load', init);
 
 }
 export default scheduling;
