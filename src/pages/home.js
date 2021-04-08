@@ -8,11 +8,11 @@ import contact from '../components/contact/contact.js';
 import footer from '../components/footer/footer.js';
 
 
-const home = async () => {
+const home = () => {
   header()
   about();
   speakers();
-  await themes();
+  themes();
   partners();
   contact();
   footer();
