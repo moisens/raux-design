@@ -1,6 +1,7 @@
 import './book.scss';
 import cuvedForm from '../../images/cuvedForm.svg';
 import displayBooking from './displayBooking.js';
+import handleFunctionalities from './bookFunc.js';
 
 const book = () => {
   const body = document.querySelector('body');
@@ -13,7 +14,7 @@ const book = () => {
       <div class="pass-image-content">
         <!--ticket container-->
         <div class="choose-pass">
-          
+          <!--Tickets will be rendered dynamically-->
         </div>
         <!--End ticket container-->
         <div class="image-pass">IMG</div>
@@ -44,6 +45,8 @@ const book = () => {
   const init = async () => {
     const pass = document.querySelector('.choose-pass');
     pass.innerHTML = await displayBooking();
+
+    handleFunctionalities();
   }
 
 
