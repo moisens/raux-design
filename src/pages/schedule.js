@@ -5,9 +5,9 @@ import footer from '../components/footer/footer.js';
 
 
 
-const schedule = async () => {
+const schedule = () => {
   nav();
-  await scheduling();
+  scheduling();
   footer();
 }
 schedule();
