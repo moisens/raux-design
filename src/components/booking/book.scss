@@ -70,6 +70,11 @@ $font-Weight-900: 900;
 .one-pass{
   //background-color: teal;
   display: flex;
+
+  &.ticket-active{
+    border: solid 5px $yellow-Colour;
+    border-radius: 14px;
+  }
   
   .pass-content{
     background-color: $regular-blue-Colour;
@@ -111,18 +116,16 @@ $font-Weight-900: 900;
     display: flex;
     justify-content: center;
     align-items: center;
+    border: none;
     border-top-right-radius: 9px;
     border-bottom-right-radius: 9px;
     cursor: pointer;
+    font-size: $font-size-btn;
+    font-weight: $font-Weight-900;
+    color: $white-Colour;
 
-    p{
-      font-size: $font-size-btn;
-      font-weight: $font-Weight-900;
-      color: $white-Colour;
-    }
-
-    
   }
+  
   
 }
 

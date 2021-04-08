@@ -18,9 +18,7 @@ const displayBooking = async () => {
           <p class="price-pass">${price}</p>
           <div class="purple"></div>
         </div>
-        <div class="buy">
-          <p>${buy}</p>
-        </div>
+        <button class="buy">${buy}</button>
       </div>
     `;
   }).join('');
