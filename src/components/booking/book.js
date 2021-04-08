@@ -1,6 +1,6 @@
 import './book.scss';
 import cuvedForm from '../../images/cuvedForm.svg';
-
+import displayBooking from './displayBooking.js';
 
 const book = () => {
   const body = document.querySelector('body');
@@ -11,86 +11,11 @@ const book = () => {
       <h4>Choose your pass…</h4>
       <!--container pass & images-->
       <div class="pass-image-content">
+        <!--ticket container-->
         <div class="choose-pass">
-          <div class="one-pass">
-            <div class="pass-content">
-              <div class="about-pass">
-                <h3>One day pass</h3>
-                <p class="pass-text">What about scaling component.</p>
-              </div>
-              <p class="price-pass">€100</p>
-              <div class="purple"></div>
-            </div>
-            <div class="buy">
-              <p>BUY</p>
-            </div>
-          </div>
-          <div class="one-pass">
-            <div class="pass-content">
-              <div class="about-pass">
-                <h3>Two days pass</h3>
-                <p class="pass-text">What about scaling component.</p>
-              </div>
-              <p class="price-pass">€100</p>
-              <div class="purple"></div>
-            </div>
-            <div class="buy">
-              <p>BUY</p>
-            </div>
-          </div>
-          <div class="one-pass">
-            <div class="pass-content">
-              <div class="about-pass">
-                <h3>Three days pass</h3>
-                <p class="pass-text">What about scaling component.</p>
-              </div>
-              <p class="price-pass">€100</p>
-              <div class="purple"></div>
-            </div>
-            <div class="buy">
-              <p>BUY</p>
-            </div>
-          </div>
-          <div class="one-pass">
-            <div class="pass-content">
-              <div class="about-pass">
-                <h3>Four days pass</h3>
-                <p class="pass-text">What about scaling component.</p>
-              </div>
-              <p class="price-pass">€100</p>
-              <div class="purple"></div>
-            </div>
-            <div class="buy">
-              <p>BUY</p>
-            </div>
-          </div>
-          <div class="one-pass">
-            <div class="pass-content">
-              <div class="about-pass">
-                <h3>Five days pass</h3>
-                <p class="pass-text">What about scaling component.</p>
-              </div>
-              <p class="price-pass">€100</p>
-              <div class="purple"></div>
-            </div>
-            <div class="buy">
-              <p>BUY</p>
-            </div>
-          </div>
-          <div class="one-pass">
-            <div class="pass-content">
-              <div class="about-pass">
-                <h3>Six days pass</h3>
-                <p class="pass-text">What about scaling component.</p>
-              </div>
-              <p class="price-pass">€100</p>
-              <div class="purple"></div>
-            </div>
-            <div class="buy">
-              <p>BUY</p>
-            </div>
-          </div>
+          
         </div>
+        <!--End ticket container-->
         <div class="image-pass">IMG</div>
       </div>
     <!--End container pass & images-->
@@ -114,6 +39,14 @@ const book = () => {
     </div>
     </section>
   `;
-  return body.innerHTML += newBooking;
+  body.innerHTML += newBooking;
+
+  const init = async () => {
+    const pass = document.querySelector('.choose-pass');
+    pass.innerHTML = await displayBooking();
+  }
+
+
+  window.addEventListener('load', init);
 }
 export default book;
