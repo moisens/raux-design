@@ -72,8 +72,8 @@ $font-Weight-900: 900;
   display: flex;
 
   &.ticket-active{
-    border: solid 5px $yellow-Colour;
-    border-radius: 14px;
+    border: solid 3px $yellow-Colour;
+    border-radius: 12px;
   }
   
   .pass-content{
@@ -123,8 +123,15 @@ $font-Weight-900: 900;
     font-size: $font-size-btn;
     font-weight: $font-Weight-900;
     color: $white-Colour;
+    outline: none;
+    
+    &.btn-active{
+      background-color: $yellow-Colour;
+    }
+    
 
   }
+  
   
   
 }

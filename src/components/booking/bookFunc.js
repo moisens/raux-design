@@ -3,18 +3,22 @@ const handleFunctionalities = () => {
   const ticketsPass = document.querySelectorAll('.one-pass');
 
   const handleTicketActive = (e) => {
-    if (e.target.classList.contains('one-pass')) return;
+    //handling btn active
     if (e.target.classList.contains('buy')) {
-      ticketsPass.forEach(ticket => {
-      ticket.classList.remove('ticket-active');
+      btns.forEach(ticket => {
+        ticket.classList.remove('btn-active');
       });
-      e.target.classList.add('ticket-active');
+      e.target.classList.add('btn-active');
+      console.log(e.target.value);
+      //handling pass active
+      ticketsPass.forEach(pass => {
+        pass.classList.remove('ticket-active');
+      });
+      e.target.parentElement.classList.add('ticket-active');
+      
     }
   }
 
-  
-
-  
   
   ticketsPass.forEach(ticket => {
     ticket.addEventListener('click', handleTicketActive);
