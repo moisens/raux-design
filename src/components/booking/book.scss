@@ -68,16 +68,17 @@ $font-Weight-900: 900;
 }
 
 .one-pass{
-  //background-color: teal;
+  background-color: $regular-blue-Colour;
+  border-radius: 9px;
   display: flex;
 
   &.ticket-active{
-    border: solid 3px $yellow-Colour;
     border-radius: 12px;
+    background-color: $red-Colour;
   }
   
   .pass-content{
-    background-color: $regular-blue-Colour;
+    
     border-top-left-radius: 9px;
     border-bottom-left-radius: 9px;
     position: relative;
@@ -90,13 +91,6 @@ $font-Weight-900: 900;
     .pass-text{
       padding: 0 20px 40px 10px;
       color: $white-Colour;
-    }
-
-    .purple{
-      height: 20px;
-      background-color: $purple-Colour;
-      border-bottom-left-radius: 9px;
-      
     }
 
     .price-pass{

@@ -1,6 +1,7 @@
 const handleFunctionalities = () => {
   const btns = document.querySelectorAll('.buy');
   const ticketsPass = document.querySelectorAll('.one-pass');
+  const prices = document.querySelector('price-pass');
 
   const handleTicketActive = (e) => {
     //handling btn active
@@ -15,7 +16,11 @@ const handleFunctionalities = () => {
         pass.classList.remove('ticket-active');
       });
       e.target.parentElement.classList.add('ticket-active');
+
       
+    }
+
+    if ('ticket-active') {
     }
   }
 
