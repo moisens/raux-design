@@ -166,7 +166,16 @@ $font-Weight-900: 900;
       font-size: $font-size-form;
       padding-left: 12px;
       color: $dark-blue-Colour;
+      outline: none;
 
+    }
+
+    input.valid{
+      border-color: rgb(14, 150, 14);
+    }
+    
+    input.invalid{
+      border-color: red;
     }
 
     button{
