@@ -18,11 +18,14 @@ const validate = () => {
 
   const validation = (field, regex) => {
     if (regex.test(field.value)) {
-      field.className = 'valid';
-      btn.disabled = false;
-      btn.style.backgroundColor = '#8B1F93'
+      field.classList = 'valid';
+      if (inputs[3].classList.contains('valid')) {
+        btn.disabled = false;
+        btn.style.backgroundColor = '#8B1F93';
+      }
+      
     } else {
-      field.className = 'invalid';
+      field.classList = 'invalid';
       
     }
   }
