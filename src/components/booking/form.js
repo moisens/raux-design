@@ -6,7 +6,7 @@ const validate = () => {
     firstname:  /^[A-Za-z\W]{2,20}$/,
     lastname: /^[A-Za-z]{2,20}$/,
     email: /^([A-Za-z0-9_\-\.]+)@([A-Za-z0-9_\-\.]+)\.([a-z]{2,5})$/,
-    date: /^([0-9]{2})\/([0-9]{2})\/([0-9]{4})$/
+    date: /^\d{4}\-\d{1,2}\-\d{1,2}$/
   }
 
   const validation = (field, regex) => {
@@ -24,5 +24,6 @@ const validate = () => {
   inputs.forEach(input => {
     input.addEventListener('keyup', handleInput);
   })
+  
 }
 export default validate;
