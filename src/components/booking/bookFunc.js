@@ -1,3 +1,5 @@
+import validate from './form.js';
+
 const handleFunctionalities = () => {
   const btns = document.querySelectorAll('.buy');
   const ticketsPass = document.querySelectorAll('.one-pass');
@@ -26,15 +28,8 @@ const handleFunctionalities = () => {
     ticket.addEventListener('click', handleTicketActive);
   });
 
-
-  const getPassData = () => {
-    btns.forEach(ticket => {
-      ticket.addEventListener('click', (e) => {
-        
-      });
-    })
-  }
-  getPassData();
+  //form validation
+  validate()
 
 }
 export default handleFunctionalities;
