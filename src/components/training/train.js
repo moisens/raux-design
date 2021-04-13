@@ -1,5 +1,6 @@
 import './train.scss';
-import curvedIlluReverse from '../../images/curvedIlluReverse.svg'
+import curvedIlluReverse from '../../images/curvedIlluReverse.svg';
+import displayTraining from './displayTraining.js';
 
 
 
@@ -32,210 +33,19 @@ const Training = () => {
       </div>
       <div class="training-courses">
         <h2>Courses</h2>
-        <div class="courses-container">
-          <!--Single course-->
-          <article class="one-course">
-            <!--course title-->
-            <div class="course-title">
-              <h4>Title of the course</h4>
-              <button type="button" class="course-btn">
-                <span class="plus-icon"><div>+</div></span>
-                <span class="minus-icon"><div>-</div></span>
-              </button>
-            </div>
-            <!--End course title-->
-            <!--Course text-->
-            <div class="course-content">
-              <div class="course-image">
-                <img src="" alt="image-course"/>
-              </div>
-              <div class="cont-price-rating">
-                <div class="content-price">
-                  <p>Content: 35hours</p>
-                  <p>Price: 130€</p>
-                </div>
-                <div class="content-rating">
-                  <p>4.7 <span class="star">★★★★☆</span></p>
-                </div>
-              </div>
-              <p>
-                Put your feelers out please submit the sop and uat files...<span class="read-more">Read more</span>
-              </p>
-              
-            </div>
-            <!--End Course text-->
-          </article>
-          <!--End Single course-->
-          <!--Single course-->
-          <article class="one-course">
-            <!--course title-->
-            <div class="course-title">
-              <h4>Title of the course</h4>
-              <button type="button" class="course-btn">
-                <span class="plus-icon"><div>+</div></span>
-                <span class="minus-icon"><div>-</div></span>
-              </button>
-            </div>
-            <!--End course title-->
-            <!--Course text-->
-            <div class="course-content">
-              <div class="course-image">
-                <img src="" alt="image-course"/>
-              </div>
-              <div class="cont-price-rating">
-                <div class="content-price">
-                  <p>Content: 35hours</p>
-                  <p>Price: 130€</p>
-                </div>
-                <div class="content-rating">
-                  <p>4.7 <span class="star">★★★★☆</span></p>
-                </div>
-              </div>
-              <p>
-                Put your feelers out please submit the sop and uat files...<span class="read-more">Read more</span>
-              </p>
-              
-            </div>
-            <!--End Course text-->
-          </article>
-          <!--End Single course-->
-          <!--Single course-->
-          <article class="one-course">
-            <!--course title-->
-            <div class="course-title">
-              <h4>Title of the course</h4>
-              <button type="button" class="course-btn">
-                <span class="plus-icon"><div>+</div></span>
-                <span class="minus-icon"><div>-</div></span>
-              </button>
-            </div>
-            <!--End course title-->
-            <!--Course text-->
-            <div class="course-content">
-              <div class="course-image">
-                <img src="" alt="image-course"/>
-              </div>
-              <div class="cont-price-rating">
-                <div class="content-price">
-                  <p>Content: 35hours</p>
-                  <p>Price: 130€</p>
-                </div>
-                <div class="content-rating">
-                  <p>4.7 <span class="star">★★★★☆</span></p>
-                </div>
-              </div>
-              <p>
-                Put your feelers out please submit the sop and uat files...<span class="read-more">Read more</span>
-              </p>
-              
-            </div>
-            <!--End Course text-->
-          </article>
-          <!--End Single course-->
-          <!--Single course-->
-          <article class="one-course">
-            <!--course title-->
-            <div class="course-title">
-              <h4>Title of the course</h4>
-              <button type="button" class="course-btn">
-                <span class="plus-icon"><div>+</div></span>
-                <span class="minus-icon"><div>-</div></span>
-              </button>
-            </div>
-            <!--End course title-->
-            <!--Course text-->
-            <div class="course-content">
-              <div class="course-image">
-                <img src="" alt="image-course"/>
-              </div>
-              <div class="cont-price-rating">
-                <div class="content-price">
-                  <p>Content: 35hours</p>
-                  <p>Price: 130€</p>
-                </div>
-                <div class="content-rating">
-                  <p>4.7 <span class="star">★★★★☆</span></p>
-                </div>
-              </div>
-              <p>
-                Put your feelers out please submit the sop and uat files...<span class="read-more">Read more</span>
-              </p>
-              
-            </div>
-            <!--End Course text-->
-          </article>
-          <!--End Single course-->
-          <!--Single course-->
-          <article class="one-course">
-            <!--course title-->
-            <div class="course-title">
-              <h4>Title of the course</h4>
-              <button type="button" class="course-btn">
-                <span class="plus-icon"><div>+</div></span>
-                <span class="minus-icon"><div>-</div></span>
-              </button>
-            </div>
-            <!--End course title-->
-            <!--Course text-->
-            <div class="course-content">
-              <div class="course-image">
-                <img src="" alt="image-course"/>
-              </div>
-              <div class="cont-price-rating">
-                <div class="content-price">
-                  <p>Content: 35hours</p>
-                  <p>Price: 130€</p>
-                </div>
-                <div class="content-rating">
-                  <p>4.7 <span class="star">★★★★☆</span></p>
-                </div>
-              </div>
-              <p>
-                Put your feelers out please submit the sop and uat files...<span class="read-more">Read more</span>
-              </p>
-              
-            </div>
-            <!--End Course text-->
-          </article>
-          <!--End Single course-->
-          <!--Single course-->
-          <article class="one-course">
-            <!--course title-->
-            <div class="course-title">
-              <h4>Title of the course</h4>
-              <button type="button" class="course-btn">
-                <span class="plus-icon"><div>+</div></span>
-                <span class="minus-icon"><div>-</div></span>
-              </button>
-            </div>
-            <!--End course title-->
-            <!--Course text-->
-            <div class="course-content">
-              <div class="course-image">
-                <img src="" alt="image-course"/>
-              </div>
-              <div class="cont-price-rating">
-                <div class="content-price">
-                  <p>Content: 35hours</p>
-                  <p>Price: 130€</p>
-                </div>
-                <div class="content-rating">
-                  <p>4.7 <span class="star">★★★★☆</span></p>
-                </div>
-              </div>
-              <p>
-                Put your feelers out please submit the sop and uat files...<span class="read-more">Read more</span>
-              </p>
-              
-            </div>
-            <!--End Course text-->
-          </article>
-          <!--End Single course-->
-        </div>
+        <div class="courses-container"></div>
         <hr>
       </div>
     </section>
   `;
-  return body.innerHTML += newTraining;
+  body.innerHTML += newTraining;
+
+  const init = async () => {
+    const courses = document.querySelector('.courses-container');
+    courses.innerHTML = await displayTraining();
+  }
+
+  
+  window.addEventListener('load', init);
 }
 export default Training;
