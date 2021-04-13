@@ -24,14 +24,14 @@ const book = () => {
     <!--Formulaire-->
     <div class="form-rdv-seat">
       <form>
-        <input type="text" class="name" name="firstname" placeholder="Firstname"/>
-        <input type="text" class="name" name="lastname" placeholder="Lastname"/>
-        <input type="email" class="email" name="email" placeholder="Your email"/>
-        <input type="date" class="date" name="date" placeholder="Choose a date"/>
+        <input type="text" name="firstname" placeholder="Firstname"/>
+        <input type="text" name="lastname" placeholder="Lastname"/>
+        <input type="email" name="email" placeholder="Your email"/>
+        <input type="date" name="date" placeholder="Choose a date"/>
         <button type="submit" class="form-btn">BOOK</button>
       </form>
       <div class="seat-left">
-        <p>80 seats left</p>
+        <p></p>
       </div>
     </div>
     <!--End Formulaire-->
