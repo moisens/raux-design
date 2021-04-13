@@ -1,6 +1,9 @@
 const validate = () => {
   const inputs = document.querySelectorAll('input');
   const btn = document.querySelector('.form-btn');
+  const leftSeats = document.querySelector('.seat-left p');
+  let seats = 200;
+  
   
   btn.disabled = true;
   if (btn.disabled === true) {
@@ -41,12 +44,12 @@ const validate = () => {
   
   const handleClickBook = (e) => {
     e.preventDefault();
-
-    
-
-    
-
+    seats--;
+    // /!\add pop up functionality for payment!
+     
+    leftSeats.innerHTML = `${seats} seats left`
   }
+  leftSeats.innerHTML = `${seats} seats left`
 
   btn.addEventListener('click', handleClickBook);
 
