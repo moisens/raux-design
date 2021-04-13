@@ -110,17 +110,22 @@ $font-Weight-900: 900;
   gap: 20px;
 }
 
-//.one-course{
-  //background-color: $white-Colour;
-//
+.one-course{
+  background-color: $white-Colour;
+  height: auto;
+  border-radius: 9px;
+  box-shadow: 2px 2px 2px 0px rgba(74, 74, 74, 0.304);
+}
+  
+
 
 .course-title{
-  background-color: $white-Colour;
+  background-color: transparent;
   display: flex;
   justify-content: space-between;
   padding: 18px;
-  border-radius: 9px;
-  box-shadow: 2px 2px 2px 0px rgba(74, 74, 74, 0.304);
+  //border-radius: 9px;
+  //box-shadow: 2px 2px 2px 0px rgba(74, 74, 74, 0.304);
 
   h4{
     font-size: $font-size-h4-title;
@@ -200,6 +205,10 @@ $font-Weight-900: 900;
   }
 
   display: none;
+}
+
+.show-text .course-content {
+  display: block;
 }
 
 hr{

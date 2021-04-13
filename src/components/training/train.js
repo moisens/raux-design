@@ -43,6 +43,13 @@ const Training = () => {
   const init = async () => {
     const courses = document.querySelector('.courses-container');
     courses.innerHTML = await displayTraining();
+
+    const allcourses = document.querySelectorAll('.one-course');
+    const btns = document.querySelector('.course-btn');
+    
+    
+
+
   }
 
   
