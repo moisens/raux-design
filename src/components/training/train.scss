@@ -106,7 +106,7 @@ $font-Weight-900: 900;
   padding: 80px 120px 160px;
   //background-color: $red-Colour;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+  //grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
   gap: 20px;
 }
 
@@ -146,9 +146,7 @@ $font-Weight-900: 900;
       cursor: pointer;
     }
 
-    .minus-icon{
-      display: none;
-    }
+    
   }
 }
 
@@ -209,6 +207,18 @@ $font-Weight-900: 900;
 
 .show-text .course-content {
   display: block;
+}
+
+  .minus-icon{
+    display: none;
+  }
+
+.show-text .minus-icon{
+  display: inline;
+}
+
+.show-text .plus-icon{
+  display: none;
 }
 
 hr{

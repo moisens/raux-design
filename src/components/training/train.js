@@ -45,9 +45,19 @@ const Training = () => {
     courses.innerHTML = await displayTraining();
 
     const allcourses = document.querySelectorAll('.one-course');
-    const btns = document.querySelector('.course-btn');
     
-    
+
+    allcourses.forEach(lesson => {
+      const btns = lesson.querySelector('.course-btn');
+      btns.addEventListener('click', () => {
+        allcourses.forEach(course => {
+          if (course !== lesson) {
+            course.classList.remove('show-text');
+          }
+        });
+        lesson.classList.toggle('show-text');
+      });
+    });
 
 
   }
