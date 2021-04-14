@@ -153,6 +153,8 @@ $font-Weight-900: 900;
 .course-content{
   background-color: $white-Colour;
   padding: 18px;
+  border-bottom-left-radius: 9px;
+  border-bottom-right-radius: 9px;
 
   .course-image{
     width: 100%;
@@ -170,7 +172,6 @@ $font-Weight-900: 900;
 
   .cont-price-rating{
     padding: 10px 0 ;
-    //background-color: #fff;
     display: flex;
     justify-content: space-between;
 
@@ -194,6 +195,7 @@ $font-Weight-900: 900;
   p{
     font-size: $font-size-p;
     line-height: 1.5;
+    margin-bottom: 20px;
 
     .read-more{
       color: $yellow-Colour;
@@ -201,6 +203,18 @@ $font-Weight-900: 900;
       cursor: pointer;
     }
   }
+
+  .add-cart{
+    background-color: $yellow-Colour;
+    color: $white-Colour;
+    padding: 15px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: $font-size-btn;
+    font-weight: $font-Weight-700;
+  }
+
 
   display: none;
 }
