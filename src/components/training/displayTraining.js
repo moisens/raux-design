@@ -9,6 +9,7 @@ const displayTraining = async () => {
 
   const newTraining = training.map(course => {
     const { id, title, image, soustitle, rating, price, body } = course;
+    
     return `
       <!--Single course-->
       <article class="one-course" id="${id}">
@@ -35,7 +36,7 @@ const displayTraining = async () => {
               <p>${rating} <span class="star">★★★★☆</span></p>
             </div>
           </div>
-          <p>${body}.. <span class="read-more">READ MORE</span></p>
+          <p>${body}.. <span class="read-more"><a href="/details.html?id=${course.id}">READ MORE</a></span></p>
           <button class="add-cart">ADD TO CART</button>
 
         </div>

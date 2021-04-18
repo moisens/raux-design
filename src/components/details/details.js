@@ -105,6 +105,6 @@ const Details = () => {
       </div>
     </section>
   `;
-  return body.innerHTML += details;
+  body.innerHTML += details;
 }
 export default Details;
